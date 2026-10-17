@@ -1,0 +1,10 @@
+{
+  "url": "https://docs.comfy.org/tutorials/controlnet/depth-controlnet/",
+  "file": "tutorials/controlnet/depth-controlnet.md",
+  "title": "Depth ControlNet Workflow Example - ComfyUI",
+  "method": "scrapling+scrapegraph",
+  "fetched_at": "2026-10-17T10:51:18.595087+00:00",
+  "html_len": 485703,
+  "md_len": 7074,
+  "depth": 0
+}
