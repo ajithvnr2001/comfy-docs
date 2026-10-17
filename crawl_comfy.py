@@ -265,7 +265,7 @@ async def crawl4ai_fetch(url):
         wait_until="domcontentloaded",
         page_timeout=45000,
     )
-    res = await crawler.arun(url=url, config=cfg)
+    res = await asyncio.wait_for(crawler.arun(url=url, config=cfg), timeout=75)  # browser-level watchdog: hang -> exception -> httpx fallback
     if not res or not res.success:
         raise RuntimeError(f"crawl4ai failed: {getattr(res, 'error_message', 'unknown')}")
     html = res.html or ""
