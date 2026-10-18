@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/installation/desktop/usage/instance-management/
 title: Instance Management - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:58.018314+00:00
+fetched_at: 2026-10-18T12:01:24.680588+00:00
 ---
 
 # Instance Management - ComfyUI
@@ -15,7 +15,7 @@ fetched_at: 2026-10-17T10:50:58.018314+00:00
   * Creating a New Instance
   * Tracking an Existing Installation
     * Detecting Your Installation
-    * Setting Paths
+    * Confirming the Detected Installation
     * Track vs Standalone
   * Launching, Stopping, and Restarting an Instance
     * Launching an Instance
@@ -23,7 +23,7 @@ fetched_at: 2026-10-17T10:50:58.018314+00:00
     * Stopping an Instance
     * Restarting After a Crash
   * Uninstalling an Instance
-  * Copying an Installation
+  * Duplicating an Instance
   * Editing an Instance
   * Error State
 
@@ -47,27 +47,27 @@ Comfy Desktop lets you manage multiple ComfyUI instances from the Chooser view.
 
 Instance Types
 
-Comfy Desktop supports four types of instances. Each type displays a distinct icon on its card and in the title bar.
+Comfy Desktop supports four types of instances. Each type appears on its card and in the title bar; **Tracked** instances share the **Standalone** icon.
 
 Type| Icon| Description  
 ---|---|---  
 **Standalone**|  💻| A self-contained ComfyUI instance created by Comfy Desktop. Includes bundled Python, automatic updates, and full snapshot support. This is the default when you click **New Instance**.  
 **Cloud**|  ☁️| A Comfy Cloud instance. Requires a Comfy Cloud account. Cloud instances run on Comfy’s servers and are billed separately.  
 **Remote**|  🌐| Connects to a ComfyUI instance running on another machine on your network. Configure the remote host and port during setup.  
-**Tracked**|  —| Tracks an existing ComfyUI installation (Git clone or portable). Uses the same icon as **Standalone** — there is no separate icon for tracked instances. You manage updates manually. See Tracking an Existing Installation.  
+**Tracked**|  💻| Tracks an existing ComfyUI installation (Git clone or portable). Uses the same icon as **Standalone**. You manage updates manually. See Tracking an Existing Installation.  
   
-The image below labels the key actions available for each instance card: ![Instance card ⋮ menu: Manage, Duplicate, Show in Folder, Export/Restore Snapshot, Uninstall](https://mintcdn.com/dripart/N4LZwJLSpBN0lv19/images/desktop/interface/interface_instance_menu.png?fit=max&auto=format&n=N4LZwJLSpBN0lv19&q=85&s=eabc491b33905fbe3b187b15191b7ecb)
+The image below labels the key actions available for each instance card: ![Instance card ⋮ menu: Manage, Duplicate Instance, Show in Finder, Export Snapshot, Restore Snapshot, Uninstall](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/interface/interface_instance_menu.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=9395eb35befa7bbeb03a0c6433877be4)
 
   1. **New Instance** : Create a brand new ComfyUI instance. See Creating a New Instance. You can also [create an instance from a snapshot file](https://docs.comfy.org/installation/desktop/usage/snapshots#create-an-instance-from-a-snapshot-file).
-  2. **⋮ Menu** : Click the three-dot icon to open the action menu for an instance.
+  2. **⋮ Menu** : Click the three-dot icon to open the action menu for an instance. Right-clicking the card opens the same menu.
   3. **Manage** : Open the Manage panel to configure the instance (path, launch args, model directories, environment variables). See the [Manage](https://docs.comfy.org/installation/desktop/usage/manage) page.
-  4. **Restore Snapshot** : Revert the instance to a previous snapshot. See the [Snapshots](https://docs.comfy.org/installation/desktop/usage/snapshots) page.
-  5. **Share** : Export a snapshot of the instance to share with others.
-  6. **Copy Installation** : Duplicate an existing standalone installation with its own Python environment and custom nodes. See Copying an Installation.
-  7. **Forget** : Remove the instance from the Chooser without deleting its files (equivalent to Untrack).
-  8. **Uninstall** : Permanently delete the instance and all its files from disk. See Uninstalling an Instance for details on Forget and Uninstall.
+  4. **Duplicate Instance** : Copy a standalone installation, with its own Python environment and custom nodes. See Duplicating an Instance.
+  5. **Show in Finder** , **Show in Explorer** , or **Show in Folder** : Open the installation folder in your file manager. The name follows your operating system.
+  6. **Export Snapshot** : Export the instance’s newest snapshot to a file you can share. See [Share a Snapshot](https://docs.comfy.org/installation/desktop/usage/snapshots#share-a-snapshot).
+  7. **Restore Snapshot** : Revert the instance to a previous snapshot. See the [Snapshots](https://docs.comfy.org/installation/desktop/usage/snapshots) page.
+  8. **Uninstall** : Permanently delete the instance and all its files from disk. See Uninstalling an Instance.
 
-
+The menu also lists actions that only appear in certain states: **Stop** while the instance is running, **Update** when a new ComfyUI version is available, **Migrate to Standalone** for an installation you can migrate, and **Create Build** for a local instance you can publish to a workspace. **Forget** is not part of this menu; it sits in the Manage panel, see Uninstalling an Instance.
 
 ## 
 
@@ -92,7 +92,7 @@ Create a New Instance
 
 ![The Create a New Instance wizard on Windows, annotating the name \(1\), build mode \(2\), release channel \(3\), hardware \(4\) and install location \(5\)](https://mintcdn.com/dripart/cAVuyhdaebQHS2CS/images/desktop/usage/new_install_01_settings_windows.png?fit=max&auto=format&n=cAVuyhdaebQHS2CS&q=85&s=f293743f357c88ea7639667b957053de)
 
-![The Configure Comfy Desktop wizard on macOS, annotating the name \(1\), the Browse button \(2\), Advanced options \(3\), Standalone \(4\) and Remote Connection \(5\)](https://mintcdn.com/dripart/0w1gtsOzv5mNaeqr/images/desktop/usage/new_install_01_settings_mac.png?fit=max&auto=format&n=0w1gtsOzv5mNaeqr&q=85&s=d8228761665dace0b77d19ca2ce57a8c)
+![The Create a New Instance wizard on macOS, annotating the name \(1\), the install method \(2\), the release channel \(3\), the hardware \(4\) and the install location \(5\)](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/usage/new_install_01_settings_mac.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=35d09bf1850663e456bf8fd2c5bea8a9)
 
 ![Create a New Instance wizard on Linux: name, Public Builds, release, hardware \(AMD/NVIDIA/Intel Arc\), and install location with free space](https://mintcdn.com/dripart/N4LZwJLSpBN0lv19/images/desktop/usage/new_install_01_settings_linux.png?fit=max&auto=format&n=N4LZwJLSpBN0lv19&q=85&s=03b4201e96f77d5ecac7d8920268992e)
 
@@ -114,7 +114,7 @@ Installing
 
 Choose a Template
 
-![Choose a starter workflow step with Video/Image/3D/Audio tabs before install finishes](https://mintcdn.com/dripart/N4LZwJLSpBN0lv19/images/desktop/usage/new_install_03_interface_template.png?fit=max&auto=format&n=N4LZwJLSpBN0lv19&q=85&s=c02ae0bffd0167cecf0fea20418cba79)Once the installation is complete, Comfy Desktop opens the template library where you can pick a workflow template to get started.Templates that download models need enough free space for those files. If the drive cannot hold a template’s models, the wizard blocks that choice — pick a lighter template or free space. On very small disks, the template step may be skipped entirely.
+![Choose a starter workflow step with Video/Image/3D/Audio tabs before install finishes](https://mintcdn.com/dripart/N4LZwJLSpBN0lv19/images/desktop/usage/new_install_03_interface_template.png?fit=max&auto=format&n=N4LZwJLSpBN0lv19&q=85&s=c02ae0bffd0167cecf0fea20418cba79)Once the installation is complete, Comfy Desktop opens the template library where you can pick a workflow template to get started.Templates that download models need enough free space for those files. If the drive cannot hold a template’s models, the wizard blocks that choice. Pick a lighter template or free space. On very small disks, the template step may be skipped entirely.
 
 ## 
 
@@ -122,10 +122,10 @@ Choose a Template
 
 Tracking an Existing Installation
 
-If you already have a ComfyUI installation (either manually set up from the Git repository or downloaded as a portable version), you can add it to Comfy Desktop without creating a new one. Click **New Instance** on the Dashboard to open the installation menu, then select **Add Existing Instance**. ![Add Existing Instance](https://mintcdn.com/dripart/nieA_of_7hwqPqsM/images/desktop/usage/track_instance_01.png?fit=max&auto=format&n=nieA_of_7hwqPqsM&q=85&s=e46a37b75bfe364219e28b259001ae57)
+If you already have a ComfyUI installation (either manually set up from the Git repository or downloaded as a portable version), you can add it to Comfy Desktop without creating a new one. Open the ☰ menu in the title bar and select **Add Existing Instance**. ![The ☰ menu open on the Dashboard, with Add Existing Instance marked \(2\)](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/usage/track_instance_01.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=ed2de80f860384790b02f387c51dbea2)
 
-  1. Click **New Instance** to open the installation options.
-  2. Select **Add Existing Instance** to open the tracking dialog.
+  1. The **☰** menu button in the top-left corner of the title bar.
+  2. **Add Existing Instance** : Opens the dialog that tracks an existing ComfyUI installation.
 
 
 
@@ -135,33 +135,30 @@ If you already have a ComfyUI installation (either manually set up from the Git 
 
 Detecting Your Installation
 
-In the tracking dialog, click **Browse** to select a ComfyUI directory. Comfy Desktop probes the folder and automatically detects the installation type. For a **Windows portable** install, the probe looks for:
+In the dialog, click **Browse…** and select the installation folder. Comfy Desktop probes the folder and fills in the rest of the dialog. The **Detected type** dropdown lists what it found:
 
-  * `standalone-env` directory — the bundled Python environment
-  * `ComfyUI/main.py` — the ComfyUI entry point
+  * **Standalone** : A Comfy Desktop installation. The probe looks for a `standalone-env` directory and `ComfyUI/main.py`.
+  * **Portable** : A Windows portable build. The probe looks for `python_embeded`, either in the folder you selected or in a folder directly inside it.
+  * **Git Clone** : A clone of the ComfyUI repository. The probe looks for a `.git` directory.
+  * **Legacy Desktop** : An installation of the older ComfyUI Desktop app, recognized by its `models/`, `user/`, and `.venv` directories. See [Migrate from Legacy Desktop](https://docs.comfy.org/installation/desktop/usage/migrate).
 
-For a **manually cloned git repo** , the probe looks for:
-
-  * `models/` and `user/` directories — signs of a configured ComfyUI
-  * `.venv` directory — a Python virtual environment
-
-
+If the probe finds nothing, the dropdown reads **No known install detected**. Select the folder that holds the installation itself, not a parent or unrelated folder.
 
 ### 
 
 ​
 
-Setting Paths
+Confirming the Detected Installation
 
-After selecting the directory, the dialog shows the detected paths. You can adjust them if needed. ![ComfyUI directory and Python environment](https://mintcdn.com/dripart/nieA_of_7hwqPqsM/images/desktop/usage/track_instance_02.png?fit=max&auto=format&n=nieA_of_7hwqPqsM&q=85&s=1cc5306a7db7b481082b3734f39212c3)
+After the probe finishes, the dialog shows what it found. Check the paths before you track the installation. ![The Add Existing Instance dialog with a Git clone detected: install location, version, repository, branch, and virtual environment](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/usage/track_instance_02.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=31d0cf73acacd599468859e6b1f6af66)
 
-  1. **ComfyUI Directory** : The path to the ComfyUI folder containing `main.py`. For portable installations, this is typically the folder _inside_ the portable package. 
-     * Portable example: `D:\ComfyUI_windows_portable\ComfyUI`
-  2. **Python Environment** : The path to the Python environment folder. Comfy Desktop detects this automatically and lets you override it if needed. 
-     * Portable example: `D:\ComfyUI_windows_portable\python_embeded`
-     * Git repo example: `<ComfyUI_dir>/.venv`
+  * **Install location** : The folder you selected. Click the path to open it, or **Browse…** to pick another one. For a portable build, point at the folder that contains `python_embeded`.
+  * **Name** : How the instance is listed in the Chooser. The dialog suggests a name.
+  * **Detected type** : Which kind of installation the folder holds.
+  * **Version** , **Repository** , and **Branch** : Shown for a Git clone.
+  * **Virtual Environment** : Shown for a Git clone when Comfy Desktop finds one, in `.venv`, `venv`, `.env`, or `env` with a `pyvenv.cfg` file inside. **Browse…** points the instance at a different environment.
 
-
+Click **Track Install** to add the instance. No files are moved or copied.
 
 ### 
 
@@ -173,13 +170,13 @@ The key difference between a **Tracked** (Add Existing Instance) installation an
 
 Aspect| Tracked (Existing)| Standalone  
 ---|---|---  
-**Updates**|  No automatic updates — manage ComfyUI version manually via Git| Built-in automatic updates  
+**Updates**|  No automatic updates: in a Git clone you pull and reinstall yourself, and a portable build is replaced by a newer one| Built-in automatic updates  
 **Python**|  Uses an existing Python environment (`.venv`, `python_embeded`, etc.)| Bundled Python, automatic dependency management  
 **Isolation**|  Shares the existing path and environment| Fully self-contained, isolated installation  
 **Snapshots**|  Not supported| Snapshot support available  
 **Use case**|  Already have ComfyUI set up and customized| Fresh install from scratch  
   
-> **Note:** Tracked installations use `launchMode: 'external'`. Comfy Desktop launches the existing ComfyUI process without managing it internally. Snapshots are currently supported for Standalone instances only.
+> **Note:** Comfy Desktop runs a tracked installation with its existing Python environment and does not reinstall ComfyUI or manage its packages. Snapshot capture runs only for Standalone instances.
 
 ## 
 
@@ -242,26 +239,26 @@ On Windows, a crash can report a memory access violation and note that some Micr
 
 Uninstalling an Instance
 
-↩ Back to overview When you want to remove an instance, the three-dot menu offers two options depending on whether you want to keep the files or delete everything. ![Forget vs Uninstall](https://mintcdn.com/dripart/nieA_of_7hwqPqsM/images/desktop/usage/instance_uninstall.png?fit=max&auto=format&n=nieA_of_7hwqPqsM&q=85&s=eb59cb4e1ee479602cecf8847b94b6e1)
+↩ Back to overview When you want to remove an instance, two actions decide whether its files stay on disk. ![Forget and Uninstall in the Manage panel's More menu](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/usage/instance_uninstall.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=7f118067f5fdd3ab3d1f7ed9267c0de1)
 
-  1. **Forget / Untrack** : Removes the instance from the Chooser list without deleting any files. The installation folder and all its data remain on disk. Use this when you just want to clean up the list but might need the instance again later.
-  2. **Uninstall / Delete** : Permanently removes the installation and all its files from disk. Model files in shared directories are not affected.
+  1. **Forget** : Removes the instance from the app without deleting anything. The installation folder and all its data stay on disk. Use this when you only want to clean up the list but might need the instance again later.
+  2. **Uninstall** : Permanently removes the installation and all its files from disk. Model files in shared directories are not affected.
 
-The name you see in the menu depends on the instance type: **Forget** appears for standalone installations (untrack doesn’t apply because standalone installs are local), while **Untrack** appears for installations that were adopted or added manually. Both do the same thing: remove the instance from the list without deleting its files.
+**Uninstall** is also on the instance card’s ⋮ menu. **Forget** is not part of that menu; you find it in the Manage panel, in the **More** menu at the bottom of the panel. An installation Comfy Desktop adopted, such as one migrated from Legacy Desktop, has no **Forget** action.
 
 ## 
 
 ​
 
-Copying an Installation
+Duplicating an Instance
 
-↩ Back to overview You can duplicate an existing standalone installation by right-clicking its card and selecting **Copy Installation**. This creates a copy with:
+↩ Back to overview You can duplicate an existing standalone installation. Open the card’s ⋮ menu and select **Duplicate Instance** , or use **Duplicate Instance** in the Manage panel’s **More** menu. The copy gets:
 
   * A new Python environment
   * The same ComfyUI version
   * Its own custom node setup
 
-You’ll be prompted to enter a name for the new installation before the copy starts.
+Enter a name for the duplicate when prompted. The copy is created next to the original. Cloud, remote, and tracked installations cannot be duplicated.
 
 ## 
 
@@ -276,7 +273,7 @@ Editing an Instance
   * Modify model directories
   * Update environment variables
 
-Open the **Manage** panel by right-clicking the instance card and selecting **Manage**.
+Open the **Manage** panel by right-clicking the instance card (or selecting **Manage** in its ⋮ menu).
 
 ## 
 
@@ -284,7 +281,7 @@ Open the **Manage** panel by right-clicking the instance card and selecting **Ma
 
 Error State
 
-If an installation encounters a problem, a warning indicator appears on its card. Right-click the card and select **Dismiss Error** to clear the error state. If the issue persists, check the logs at the [Data Locations](https://docs.comfy.org/installation/desktop/usage/settings#data-locations).
+If an installation encounters a problem, an **Error** badge appears on its card. Select the badge to read the details: the message, the exit code or signal when Comfy Desktop has one, and the last lines of error output. Launching or restarting the instance clears the badge. If the problem comes back, check the logs at the [Data Locations](https://docs.comfy.org/installation/desktop/usage/settings#data-locations).
 
 Was this page helpful?
 

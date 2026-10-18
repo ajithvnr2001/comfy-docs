@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/image-edit-restore/code/
 title: Use Image Edit Restore with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:55.197668+00:00
+fetched_at: 2026-10-18T12:01:25.719190+00:00
 ---
 
 # Use Image Edit Restore with Comfy Router - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/3d/hunyuan3D-2/
 title: ComfyUI Hunyuan3D-2 Examples - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:15.908526+00:00
+fetched_at: 2026-10-18T12:01:23.895638+00:00
 ---
 
 # ComfyUI Hunyuan3D-2 Examples - ComfyUI
@@ -27,6 +27,10 @@ fetched_at: 2026-10-17T10:51:15.908526+00:00
     * 1\. Workflow
     * 2\. Manual Model Installation
     * 3\. Steps to Run the Workflow
+  * Hunyuan3D 2.1 Single View Workflow
+    * HY 3D 2.1
+    * 1\. Manual Model Installation
+    * 2\. Steps to Run the Workflow
   * Community Resources
   * Hunyuan3D 2.0 Open-Source Model Series
 
@@ -38,7 +42,7 @@ fetched_at: 2026-10-17T10:51:15.908526+00:00
 
 Copy pageCopy page
 
-Hunyuan3D 2.0 in ComfyUI: generate textured 3D models from text or images with Tencent’s open-source two-stage model, geometry first, then textures.
+Hunyuan3D 2.0 and 2.1 in ComfyUI: generate 3D meshes from one image or several views with Tencent’s open-source 3D models.
 
 Copy pageCopy page
 
@@ -59,11 +63,12 @@ Hunyuan3D 2.0 Introduction
   * **Diverse Usage Methods** : Provides code calls, Blender plugins, Gradio applications, and online experience through the official website, suitable for different user needs.
   * **Lightweight and Compatibility** : The Hunyuan3D-2mini model requires only 5GB VRAM, the standard version needs 6GB VRAM for shape generation, and the complete process (shape + texture) requires only 12GB VRAM.
 
-Recently (March 18, 2025), Hunyuan3D 2.0 also introduced a multi-view shape generation model (Hunyuan3D-2mv), which supports generating more detailed geometric structures from inputs at different angles. This example includes three workflows:
+Recently (March 18, 2025), Hunyuan3D 2.0 also introduced a multi-view shape generation model (Hunyuan3D-2mv), which supports generating more detailed geometric structures from inputs at different angles. This example includes four workflows:
 
   * Using Hunyuan3D-2mv with multiple view inputs to generate 3D models
   * Using Hunyuan3D-2mv-turbo with multiple view inputs to generate 3D models
   * Using Hunyuan3D-2 with a single view input to generate 3D models
+  * Using Hunyuan3D 2.1 with a single view input to generate 3D models
 
 
 
@@ -340,6 +345,69 @@ Download the model below and save it to the corresponding ComfyUI folder
 
 ​
 
+Hunyuan3D 2.1 Single View Workflow
+
+Hunyuan3D 2.1 is Tencent’s follow-up shape model, released in June 2025. It refines the geometry quality of Hunyuan3D 2.0, and the ComfyUI checkpoint repackages the shape pipeline into a single file, so this workflow needs one model download instead of separate DiT and VAE files. Like the other workflows on this page, it outputs an untextured mesh.
+
+### 
+
+​
+
+HY 3D 2.1
+
+Generate a 3D mesh from a single image using Hunyuan3D 2.1. ![HY 3D 2.1 workflow preview](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/main/templates/3d_hunyuan3d-v2.1-1.webp)
+
+## Run on Comfy Cloud
+
+Run this workflow instantly on Comfy Cloud
+
+## Download Workflow
+
+Download JSON or search “HY 3D 2.1” in Template Library
+
+**Input materials** Upload this file to the matching `LoadImage` node:
+
+## 3d_hunyuan3d-v2.1_input_image.png
+
+`LoadImage` node 2 · `3d_hunyuan3d-v2.1_input_image.png`
+
+### 
+
+​
+
+1\. Manual Model Installation
+
+Download the checkpoint below and save it to the `checkpoints` folder:
+
+## hunyuan_3d_v2.1.safetensors
+
+Place in `ComfyUI/models/checkpoints/`
+    
+    
+    📂 ComfyUI/
+    ├── 📂 models/
+    │   └── 📂 checkpoints/
+    │       └── hunyuan_3d_v2.1.safetensors
+    
+
+The file is about 7.4 GB.
+
+### 
+
+​
+
+2\. Steps to Run the Workflow
+
+  1. Ensure that the `Image Only Checkpoint Loader(img2vid model)` node has loaded `hunyuan_3d_v2.1.safetensors`
+  2. Load your reference image in the `Load Image` node
+  3. Click the `Queue` button, or use the shortcut `Ctrl(cmd) + Enter` to run the workflow
+
+The generated `.glb` mesh is saved to `ComfyUI/output/mesh/`.
+
+## 
+
+​
+
 Community Resources
 
 Below are ComfyUI community resources related to Hunyuan3D-2
@@ -384,7 +452,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/3d/hunyuan3D-2.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/3d/hunyuan3D-2)
 
-[TripoSplat Image to Gaussian Splat ComfyUI Workflow ExamplePrevious](https://docs.comfy.org/tutorials/3d/triposplat)[Pixal3D Image to 3D Model ComfyUI Workflow ExampleNext](https://docs.comfy.org/tutorials/3d/pixal3d)
+[TripoSplat Image to Gaussian Splat ComfyUI Workflow ExamplePrevious](https://docs.comfy.org/tutorials/3d/triposplat)[Gemma 4 ComfyUI workflow exampleNext](https://docs.comfy.org/tutorials/llm/gemma4/gemma4)
 
 ⌘I
 

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/BriaRemoveVideoBackground/
 title: BriaRemoveVideoBackground - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:26.194187+00:00
+fetched_at: 2026-10-18T12:01:28.148805+00:00
 ---
 
 # BriaRemoveVideoBackground - ComfyUI Built-in Node Documentation - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/AudioMerge/
 title: AudioMerge - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:21.699414+00:00
+fetched_at: 2026-10-18T12:01:27.209308+00:00
 ---
 
 # AudioMerge - ComfyUI Built-in Node Documentation - ComfyUI

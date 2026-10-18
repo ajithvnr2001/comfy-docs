@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/EndLoop/
 title: EndLoop - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:54.407388+00:00
+fetched_at: 2026-10-18T12:01:28.501202+00:00
 ---
 
 # EndLoop - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Looping
 
 Copy pageCopy page
 
-End Loop marks the end of a loop block.
+End Loop marks the end of a loop block. It collects the value produced by the last node in the loop body and returns either only the final iteration or every
 
 Copy pageCopy page
 

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/EmptyImage/
 title: EmptyImage - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:53.209256+00:00
+fetched_at: 2026-10-18T12:01:26.906448+00:00
 ---
 
 # EmptyImage - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Image
 
 Copy pageCopy page
 
-Documentation for EmptyImage node.
+The EmptyImage node is used to create blank images with specified dimensions and colors.
 
 Copy pageCopy page
 

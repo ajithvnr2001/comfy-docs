@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MarkdownNote/
 title: MarkdownNote - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:29.168052+00:00
+fetched_at: 2026-10-18T12:01:27.710632+00:00
 ---
 
 # MarkdownNote - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Utils
 
 Copy pageCopy page
 
-Node to add annotations to a workflow.
+Node to add annotations to a workflow. It supports text formatting using Markdown syntax.
 
 Copy pageCopy page
 

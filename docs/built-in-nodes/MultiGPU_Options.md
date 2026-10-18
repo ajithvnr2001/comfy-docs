@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MultiGPU_Options/
 title: MultiGPU_Options - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:37.945384+00:00
+fetched_at: 2026-10-18T12:01:27.273669+00:00
 ---
 
 # MultiGPU_Options - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Multigpu
 
 Copy pageCopy page
 
-Documentation for MultiGPUOptions node.
+This node allows you to specify the relative performance of each GPU when using multiple graphics cards with different speeds.
 
 Copy pageCopy page
 

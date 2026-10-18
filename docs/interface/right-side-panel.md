@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/interface/right-side-panel/
 title: Right Side Panel: Node Properties and Errors - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:02.055858+00:00
+fetched_at: 2026-10-18T12:01:26.062776+00:00
 ---
 
 # Right Side Panel: Node Properties and Errors - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/tencent/hunyuan-3d-smart-topology/code/
 title: Use Hunyuan 3D Smart Topology with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:40.177234+00:00
+fetched_at: 2026-10-18T12:01:26.546403+00:00
 ---
 
 # Use Hunyuan 3D Smart Topology with Comfy Router - ComfyUI

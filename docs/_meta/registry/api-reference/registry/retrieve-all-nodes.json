@@ -3,8 +3,5 @@
   "file": "registry/api-reference/registry/retrieve-all-nodes.md",
   "title": "Retrieve all nodes - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:09.369702+00:00",
-  "html_len": 553407,
-  "md_len": 13304,
-  "depth": 0
+  "fetched_at": "2026-10-18T12:01:22.865425+00:00"
 }

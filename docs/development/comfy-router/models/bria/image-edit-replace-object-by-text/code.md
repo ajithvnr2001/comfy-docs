@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/image-edit-replace-object-by-text/code/
 title: Use Image Edit Replace Object By Text with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:54.964512+00:00
+fetched_at: 2026-10-18T12:01:26.211893+00:00
 ---
 
 # Use Image Edit Replace Object By Text with Comfy Router - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LTXVSeparateGeneratedKeyframes/
 title: LTXVSeparateGeneratedKeyframes - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:19.487183+00:00
+fetched_at: 2026-10-18T12:01:27.905949+00:00
 ---
 
 # LTXVSeparateGeneratedKeyframes - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Ltxv
 
 Copy pageCopy page
 
-Documentation for LTXVSeparateGeneratedKeyframes node.
+The LTXV Separate Generated Keyframes node splits the generated keyframes added by LTXV Add Generated Keyframes back out of a sampled latent and removes them
 
 Copy pageCopy page
 

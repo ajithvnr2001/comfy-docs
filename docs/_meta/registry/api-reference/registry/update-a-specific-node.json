@@ -3,8 +3,5 @@
   "file": "registry/api-reference/registry/update-a-specific-node.md",
   "title": "Update a specific node - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:12.148712+00:00",
-  "html_len": 750192,
-  "md_len": 48494,
-  "depth": 0
+  "fetched_at": "2026-10-18T12:01:22.390255+00:00"
 }

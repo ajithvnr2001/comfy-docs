@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/installation/desktop/usage/migrate/
 title: Migrate from Legacy Desktop - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:58.131925+00:00
+fetched_at: 2026-10-18T12:01:23.756072+00:00
 ---
 
 # Migrate from Legacy Desktop - ComfyUI
@@ -99,7 +99,7 @@ Download and install Comfy Desktop from the [official download page](https://com
 
 Start Comfy Desktop
 
-When you first open Comfy Desktop, the first-run setup detects any Legacy Desktop installation on your system. Choose **Local** , and the setup shows **Migrate existing instance** , already selected, so your existing setup is brought over when you continue.
+When you first open Comfy Desktop, the first-run setup detects any Legacy Desktop installation on your system. Choose **Local** , and the setup shows **Migrate existing instance** , already selected, so your existing setup is brought over when you continue.![First-run setup with Local selected and Migrate existing instance checked](https://mintcdn.com/dripart/Fvwq2bstPeiMyOy0/images/desktop/usage/migrate_01_first_run.png?fit=max&auto=format&n=Fvwq2bstPeiMyOy0&q=85&s=b0c9d1ef081cb46b5d7732ea15e9e27a)
 
 3
 
@@ -137,9 +137,9 @@ Migrate from the Chooser
 
 If you have already finished the first-run setup, or the Legacy Desktop installation is already listed in the Chooser, start the migration from the instance card:
 
-  1. Find the Legacy Desktop instance card. It carries a **Migrate** pill.
-  2. Click the pill, or open the card’s **⋮** menu and select **Migrate to Standalone**.
-  3. Review the confirmation, then select **Start Migration**.
+  1. Find the Legacy Desktop instance card. It carries a **Migrate** pill. ![Legacy Desktop instance card in the Chooser with the Migrate pill](https://mintcdn.com/dripart/Fvwq2bstPeiMyOy0/images/desktop/usage/migrate_02_pill.png?fit=max&auto=format&n=Fvwq2bstPeiMyOy0&q=85&s=4702c975020e33915ace8d2e436bf4da)
+  2. Click the pill, or open the card’s **⋮** menu and select **Migrate to Standalone**. ![Instance card menu with Migrate to Standalone](https://mintcdn.com/dripart/Fvwq2bstPeiMyOy0/images/desktop/usage/migrate_03_menu.png?fit=max&auto=format&n=Fvwq2bstPeiMyOy0&q=85&s=e0f6be51b85de1e36568c2f28355d698)
+  3. Review the confirmation, then select **Start Migration**. ![Migrate Legacy Desktop to Standalone confirmation with Start Migration](https://mintcdn.com/dripart/Fvwq2bstPeiMyOy0/images/desktop/usage/migrate_04_confirm.png?fit=max&auto=format&n=Fvwq2bstPeiMyOy0&q=85&s=360a2ea369225b102b438a04aafc4b71)
 
 A Legacy Desktop install is adopted in place, so the instance that appears is your existing setup under Comfy Desktop management. Migrating a tracked Git or portable install instead creates a new Standalone instance and leaves the tracked install in place. In both cases the model files are not copied, they are read from where they already are. A pending update takes priority on those cards: they show the update pill instead of **Migrate**.
 

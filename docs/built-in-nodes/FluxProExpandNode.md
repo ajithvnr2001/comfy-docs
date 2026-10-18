@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/FluxProExpandNode/
 title: FluxProExpandNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:57.366687+00:00
+fetched_at: 2026-10-18T12:01:27.631471+00:00
 ---
 
 # FluxProExpandNode - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ BFL
 
 Copy pageCopy page
 
-Outpaints image based on prompt.
+Outpaints image based on prompt. This node expands an image by adding pixels to the top, bottom, left
 
 Copy pageCopy page
 

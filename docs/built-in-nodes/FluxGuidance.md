@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/FluxGuidance/
 title: FluxGuidance - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:56.683440+00:00
+fetched_at: 2026-10-18T12:01:28.118388+00:00
 ---
 
 # FluxGuidance - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ FLUX
 
 Copy pageCopy page
 
-Documentation for FluxGuidance node.
+Complete documentation for the FluxGuidance node in ComfyUI. Learn its inputs, outputs, parameters and usage.
 
 Copy pageCopy page
 

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ByteDanceImageReferenceNode/
 title: ByteDanceImageReferenceNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:29.661966+00:00
+fetched_at: 2026-10-18T12:01:27.562151+00:00
 ---
 
 # ByteDanceImageReferenceNode - ComfyUI Built-in Node Documentation - ComfyUI

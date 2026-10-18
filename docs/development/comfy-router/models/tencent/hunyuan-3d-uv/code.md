@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/tencent/hunyuan-3d-uv/code/
 title: Use Hunyuan 3D Uv with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:41.497601+00:00
+fetched_at: 2026-10-18T12:01:24.539138+00:00
 ---
 
 # Use Hunyuan 3D Uv with Comfy Router - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/image-edit-relight/code/
 title: Use Image Edit Relight with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:54.057605+00:00
+fetched_at: 2026-10-18T12:01:24.766676+00:00
 ---
 
 # Use Image Edit Relight with Comfy Router - ComfyUI

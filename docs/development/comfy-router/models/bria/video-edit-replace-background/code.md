@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/video-edit-replace-background/code/
 title: Use Video Edit Replace Background with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:56.432624+00:00
+fetched_at: 2026-10-18T12:01:25.804034+00:00
 ---
 
 # Use Video Edit Replace Background with Comfy Router - ComfyUI

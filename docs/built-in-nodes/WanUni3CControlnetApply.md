@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/WanUni3CControlnetApply/
 title: WanUni3CControlnetApply - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:26.226786+00:00
+fetched_at: 2026-10-18T12:01:27.089954+00:00
 ---
 
 # WanUni3CControlnetApply - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Wan
 
 Copy pageCopy page
 
-Documentation for WanUni3CControlnetApply node.
+This node applies a Uni3C ControlNet to a Wan video diffusion model, using a rendered guidance video (e.g.
 
 Copy pageCopy page
 

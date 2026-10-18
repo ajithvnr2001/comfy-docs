@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/registry/api-reference/registry/unpublish-delete-a-specific-version-of-a-node/
 title: Unpublish (delete) a specific version of a node - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:10.988224+00:00
+fetched_at: 2026-10-18T12:01:22.122607+00:00
 ---
 
 # Unpublish (delete) a specific version of a node - ComfyUI

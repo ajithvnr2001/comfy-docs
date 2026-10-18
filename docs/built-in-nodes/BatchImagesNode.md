@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/BatchImagesNode/
 title: BatchImagesNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:23.333682+00:00
+fetched_at: 2026-10-18T12:01:27.770334+00:00
 ---
 
 # BatchImagesNode - ComfyUI Built-in Node Documentation - ComfyUI

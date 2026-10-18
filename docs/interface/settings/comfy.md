@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/interface/settings/comfy/
 title: Comfy Settings - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:02.673536+00:00
+fetched_at: 2026-10-18T12:01:26.868704+00:00
 ---
 
 # Comfy Settings - ComfyUI

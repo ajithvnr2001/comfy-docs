@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MultiGPU_WorkUnits/
 title: MultiGPU_WorkUnits - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:38.537864+00:00
+fetched_at: 2026-10-18T12:01:28.469993+00:00
 ---
 
 # MultiGPU_WorkUnits - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Multigpu
 
 Copy pageCopy page
 
-Documentation for MultiGPUWorkUnits node.
+The MultiGPU CFG Split Node allows diffusion processing to occur using multiple GPUs installed in the same system.
 
 Copy pageCopy page
 

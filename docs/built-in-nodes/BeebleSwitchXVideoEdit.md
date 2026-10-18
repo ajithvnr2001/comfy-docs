@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/BeebleSwitchXVideoEdit/
 title: BeebleSwitchXVideoEdit - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:24.255602+00:00
+fetched_at: 2026-10-18T12:01:26.991788+00:00
 ---
 
 # BeebleSwitchXVideoEdit - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Beeble
 
 Copy pageCopy page
 
-Edit a video with Beeble SwitchX.
+Edit a video with Beeble SwitchX. This node can switch anything in the scene (background, lighting
 
 Copy pageCopy page
 

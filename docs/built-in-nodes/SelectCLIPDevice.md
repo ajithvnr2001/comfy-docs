@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SelectCLIPDevice/
 title: SelectCLIPDevice - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:01.073767+00:00
+fetched_at: 2026-10-18T12:01:28.398370+00:00
 ---
 
 # SelectCLIPDevice - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Multigpu
 
 Copy pageCopy page
 
-Documentation for SelectCLIPDevice node.
+The Select CLIP Device node lets you choose which device (CPU or a specific GPU) the CLIP text encoder runs on.
 
 Copy pageCopy page
 

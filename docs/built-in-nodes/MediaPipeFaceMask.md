@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MediaPipeFaceMask/
 title: MediaPipeFaceMask - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:30.022678+00:00
+fetched_at: 2026-10-18T12:01:28.298816+00:00
 ---
 
 # MediaPipeFaceMask - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Detection
 
 Copy pageCopy page
 
-Documentation for MediaPipeFaceMask node.
+This node creates a binary mask (a black and white image) based on face landmarks detected by MediaPipe.
 
 Copy pageCopy page
 

@@ -2171,3 +2171,5 @@
 {"url": "https://blog.comfy.org/profile/133047089-tom/", "file": "_subdomains/blog.comfy.org/profile/133047089-tom.md", "title": "ComfyUI Newsletter | Robin | Substack", "method": "crawl4ai+scrapegraph (scrapling: scrapling status 404)"}
 {"url": "https://blog.comfy.org/profile/87086295-bdvd/", "file": "_subdomains/blog.comfy.org/profile/87086295-bdvd.md", "title": "ComfyUI Newsletter | Robin | Substack", "method": "crawl4ai+scrapegraph (scrapling: scrapling status 404)"}
 {"url": "https://docs.comfy.org/built-in-nodes/ClipTextEncodeFLUX/", "file": "built-in-nodes/ClipTextEncodeFLUX.md", "title": "Page Not Found", "method": "crawl4ai+scrapegraph (scrapling: scrapling status 404)"}
+{"url": "https://docs.comfy.org/built-in-nodes/MOSSImageLayoutPrompt/", "file": "built-in-nodes/MOSSImageLayoutPrompt.md", "title": "MOSSImageLayoutPrompt - ComfyUI Built-in Node Documentation - ComfyUI", "method": "scrapling+scrapegraph"}
+{"url": "https://docs.comfy.org/tutorials/image/moss-image/moss-image/", "file": "tutorials/image/moss-image/moss-image.md", "title": "MOSS-Image in ComfyUI: Text-to-Image and Layout Workflows - ComfyUI", "method": "scrapling+scrapegraph"}

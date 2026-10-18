@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/TextEncodeMageFlowEdit/
 title: TextEncodeMageFlowEdit - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:08.878427+00:00
+fetched_at: 2026-10-18T12:01:26.949826+00:00
 ---
 
 # TextEncodeMageFlowEdit - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Mage
 
 Copy pageCopy page
 
-Documentation for TextEncodeMageFlowEdit node.
+This node encodes an edit instruction (prompt) along with one or more reference images for the Mage-Flow-Edit model.
 
 Copy pageCopy page
 

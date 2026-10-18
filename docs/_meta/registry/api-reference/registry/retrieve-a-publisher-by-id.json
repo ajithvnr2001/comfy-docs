@@ -3,8 +3,5 @@
   "file": "registry/api-reference/registry/retrieve-a-publisher-by-id.md",
   "title": "Retrieve a publisher by ID - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:08.900091+00:00",
-  "html_len": 512056,
-  "md_len": 8236,
-  "depth": 0
+  "fetched_at": "2026-10-18T12:01:23.667434+00:00"
 }

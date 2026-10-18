@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MediaPipeFaceMeshVisualize/
 title: MediaPipeFaceMeshVisualize - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:30.412900+00:00
+fetched_at: 2026-10-18T12:01:27.960475+00:00
 ---
 
 # MediaPipeFaceMeshVisualize - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Detection
 
 Copy pageCopy page
 
-Documentation for MediaPipeFaceMeshVisualize node.
+Draws face landmark points and connection lines (a face mesh) on top of an input image.
 
 Copy pageCopy page
 

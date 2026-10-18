@@ -3,8 +3,5 @@
   "file": "registry/api-reference/registry/get-information-about-the-calling-user.md",
   "title": "Get information about the calling user. - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:06.975465+00:00",
-  "html_len": 481281,
-  "md_len": 7793,
-  "depth": 0
+  "fetched_at": "2026-10-18T12:01:23.477704+00:00"
 }

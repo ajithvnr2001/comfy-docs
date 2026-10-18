@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MediaPipeFaceLandmarker/
 title: MediaPipeFaceLandmarker - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:30.315537+00:00
+fetched_at: 2026-10-18T12:01:28.082743+00:00
 ---
 
 # MediaPipeFaceLandmarker - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Detection
 
 Copy pageCopy page
 
-Documentation for MediaPipeFaceLandmarker node.
+Detects faces in an image and identifies 468 facial landmarks (key points) on each face using MediaPipe’s BlazeFace and FaceMesh models.
 
 Copy pageCopy page
 

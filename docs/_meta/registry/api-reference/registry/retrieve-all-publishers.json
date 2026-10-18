@@ -3,8 +3,5 @@
   "file": "registry/api-reference/registry/retrieve-all-publishers.md",
   "title": "Retrieve all publishers - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:10.245785+00:00",
-  "html_len": 509236,
-  "md_len": 8059,
-  "depth": 0
+  "fetched_at": "2026-10-18T12:01:23.378195+00:00"
 }

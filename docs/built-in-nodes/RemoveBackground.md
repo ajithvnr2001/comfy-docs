@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/RemoveBackground/
 title: RemoveBackground - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:50.145843+00:00
+fetched_at: 2026-10-18T12:01:28.430520+00:00
 ---
 
 # RemoveBackground - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Background Removal
 
 Copy pageCopy page
 
-Documentation for RemoveBackground node.
+The Remove Background node generates a foreground mask that separates the main subject from the background of an input image.
 
 Copy pageCopy page
 

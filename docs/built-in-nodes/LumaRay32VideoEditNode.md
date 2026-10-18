@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LumaRay32VideoEditNode/
 title: LumaRay32VideoEditNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:28.018855+00:00
+fetched_at: 2026-10-18T12:01:27.126029+00:00
 ---
 
 # LumaRay32VideoEditNode - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Luma
 
 Copy pageCopy page
 
-Documentation for LumaRay32VideoEditNode node.
+This node re-renders an existing video under a new prompt using Luma Ray 3.2, allowing you to restyle, relight, add
 
 Copy pageCopy page
 

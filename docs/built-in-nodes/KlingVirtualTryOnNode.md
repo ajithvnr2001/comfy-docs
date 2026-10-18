@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/KlingVirtualTryOnNode/
 title: KlingVirtualTryOnNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:16.679643+00:00
+fetched_at: 2026-10-18T12:01:27.524963+00:00
 ---
 
 # KlingVirtualTryOnNode - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Advanced
 
 Copy pageCopy page
 
-Kling Virtual Try On Node.
+Kling Virtual Try On Node. Input a human image and a cloth image to try on the cloth on the human.
 
 Copy pageCopy page
 

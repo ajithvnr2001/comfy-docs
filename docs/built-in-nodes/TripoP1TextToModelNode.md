@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/TripoP1TextToModelNode/
 title: TripoP1TextToModelNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:13.110233+00:00
+fetched_at: 2026-10-18T12:01:27.859541+00:00
 ---
 
 # TripoP1TextToModelNode - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Tripo
 
 Copy pageCopy page
 
-Tripo P1 text-to-3D.
+Tripo P1 text-to-3D. This node generates a 3D model from a text description using the Tripo P1 API.
 
 Copy pageCopy page
 

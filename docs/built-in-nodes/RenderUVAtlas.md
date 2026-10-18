@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/RenderUVAtlas/
 title: RenderUVAtlas - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:50.617431+00:00
+fetched_at: 2026-10-18T12:01:27.021780+00:00
 ---
 
 # RenderUVAtlas - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Texturing
 
 Copy pageCopy page
 
-Renders a mesh’s UV layout as an image.
+Renders a mesh’s UV layout as an image. Each connected UV region (chart) is filled with a distinct color
 
 Copy pageCopy page
 

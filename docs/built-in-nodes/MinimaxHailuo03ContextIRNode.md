@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MinimaxHailuo03ContextIRNode/
 title: MinimaxHailuo03ContextIRNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:33.023310+00:00
+fetched_at: 2026-10-18T12:01:28.774878+00:00
 ---
 
 # MinimaxHailuo03ContextIRNode - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Minimax
 
 Copy pageCopy page
 
-Documentation for MinimaxHailuo03ContextIRNode node.
+This node uses MiniMax H3 Context IR to analyze your text description and any attached media, then produces a stronger, structured video prompt.
 
 Copy pageCopy page
 

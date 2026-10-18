@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/BatchImagesMasksLatentsNode/
 title: BatchImagesMasksLatentsNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:23.514008+00:00
+fetched_at: 2026-10-18T12:01:28.046989+00:00
 ---
 
 # BatchImagesMasksLatentsNode - ComfyUI Built-in Node Documentation - ComfyUI

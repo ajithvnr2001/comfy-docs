@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/AutogrowNamesTestNode/
 title: AutogrowNamesTestNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:21.985037+00:00
+fetched_at: 2026-10-18T12:01:27.453471+00:00
 ---
 
 # AutogrowNamesTestNode - ComfyUI Built-in Node Documentation - ComfyUI

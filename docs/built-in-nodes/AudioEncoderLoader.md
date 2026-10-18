@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/AudioEncoderLoader/
 title: AudioEncoderLoader - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:21.013448+00:00
+fetched_at: 2026-10-18T12:01:27.055928+00:00
 ---
 
 # AudioEncoderLoader - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Loaders
 
 Copy pageCopy page
 
-Documentation for AudioEncoderLoader node.
+The AudioEncoderLoader node loads an audio encoder model from a file stored in your audioencoders folder.
 
 Copy pageCopy page
 
