@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/tencent/hunyuan-3d-texture-edit/code/
 title: Use Hunyuan 3D Texture Edit with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-18T12:01:26.012644+00:00
+fetched_at: 2026-10-19T14:35:02.000111+00:00
 ---
 
 # Use Hunyuan 3D Texture Edit with Comfy Router - ComfyUI

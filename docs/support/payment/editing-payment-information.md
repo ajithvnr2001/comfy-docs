@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/support/payment/editing-payment-information/
 title: Edit Comfy Cloud payment information - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:14.569235+00:00
+fetched_at: 2026-10-19T14:35:05.899804+00:00
 ---
 
 # Edit Comfy Cloud payment information - ComfyUI
@@ -43,7 +43,7 @@ How to edit Comfy Cloud payment information
   4. Click **Update information** and edit your billing or payment details.
   5. Save your changes in Stripe.
 
-If a payment failed, you can also click **Update payment** on the **Payment failed** banner. That opens the same Stripe portal.
+![Stripe billing portal with the Update information button](https://mintcdn.com/dripart/-4dXqBBjO7AVe0YV/images/support/payment/billing-3-update-ingformation.png?fit=max&auto=format&n=-4dXqBBjO7AVe0YV&q=85&s=7e23190c02b7f49b25b928924585446d) If a payment failed, you can also click **Update payment** on the **Payment failed** banner. That opens the same Stripe portal.
 
 ## 
 

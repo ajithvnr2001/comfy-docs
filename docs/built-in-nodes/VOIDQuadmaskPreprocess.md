@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/VOIDQuadmaskPreprocess/
 title: VOIDQuadmaskPreprocess - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:17.926754+00:00
+fetched_at: 2026-10-19T14:35:07.574290+00:00
 ---
 
 # VOIDQuadmaskPreprocess - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Mask
 
 Copy pageCopy page
 
-Documentation for VOIDQuadmaskPreprocess node.
+The VOIDQuadmaskPreprocess node prepares a mask for VOID inpainting by converting it into a special four-level “quadmask.” It takes an input mask
 
 Copy pageCopy page
 

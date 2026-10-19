@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/registry/cicd/
 title: Custom Node CI/CD - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:12.323134+00:00
+fetched_at: 2026-10-19T14:35:06.507492+00:00
 ---
 
 # Custom Node CI/CD - ComfyUI
@@ -14,6 +14,7 @@ fetched_at: 2026-10-17T10:51:12.323134+00:00
   * Introduction
     * Run Comfy Workflows using Github Actions
     * Results
+    * Publish versions from GitHub Actions
 
 
 
@@ -50,6 +51,39 @@ Run Comfy Workflows using Github Actions
 Results
 
 Output files are uploaded to the [CI/CD Dashboard](https://ci.comfy.org/) and can be viewed as a last step before committing new changes or publishing new versions of the custom node. ![ComfyCI](https://mintcdn.com/dripart/Rig0_LOInmwVbVSB/images/comfyci.png?fit=max&auto=format&n=Rig0_LOInmwVbVSB&q=85&s=443608968123247168b89b026ed2ae0e)
+
+### 
+
+​
+
+Publish versions from GitHub Actions
+
+[Publish Node Action](https://github.com/Comfy-Org/node-publish-action) publishes the version in your `pyproject.toml` to the Registry, so bumping the version is all it takes to release. Add your Registry access token as a repository secret named `REGISTRY_ACCESS_TOKEN` in **Settings** > **Secrets and variables** > **Actions** , then add this workflow:
+    
+    
+    name: Publish to Comfy registry
+    on:
+      workflow_dispatch:
+      push:
+        branches:
+          - main
+        paths:
+          - "pyproject.toml"
+    
+    jobs:
+      publish-node:
+        name: Publish Custom Node to registry
+        runs-on: ubuntu-latest
+        steps:
+          - name: Check out code
+            uses: actions/checkout@v4
+          - name: Publish Custom Node
+            uses: Comfy-Org/publish-node-action@main
+            with:
+              personal_access_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
+    
+
+The published version is the `version` field in `pyproject.toml`. Update it before the workflow runs.
 
 Was this page helpful?
 

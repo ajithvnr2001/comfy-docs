@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/video/ltx/ltx-2/
-title: LTX-2.0 ComfyUI Workflow Examples - ComfyUI
+title: LTX-2 in ComfyUI: Synchronized Audio-Video Workflows - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:43.651327+00:00
+fetched_at: 2026-10-19T14:35:07.347506+00:00
 ---
 
-# LTX-2.0 ComfyUI Workflow Examples - ComfyUI
+# LTX-2 in ComfyUI: Synchronized Audio-Video Workflows - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/video/ltx/ltx-2/
 
@@ -25,11 +25,11 @@ fetched_at: 2026-10-17T10:51:43.651327+00:00
 
 LTX
 
-# LTX-2.0 ComfyUI Workflow Examples
+# LTX-2 in ComfyUI: Synchronized Audio-Video Workflows
 
 Copy pageCopy page
 
-Learn how to use LTX-2 in ComfyUI for synchronized audio-video generation
+Generate synchronized video and audio in ComfyUI with LTX-2: text-to-video, image-to-video, video-to-video control, keyframe interpolation, and 2x upscalers.
 
 Copy pageCopy page
 
@@ -274,7 +274,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/video/ltx/ltx-2.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/video/ltx/ltx-2)
 
-[LTX-Video 0.9.5 in ComfyUI: T2V, I2V, Multi-Frame ControlPrevious](https://docs.comfy.org/tutorials/video/ltxv)[LTX-2.3: ComfyUI Workflow ExamplesNext](https://docs.comfy.org/tutorials/video/ltx/ltx-2-3)
+[LTX-2.3: ComfyUI Workflow ExamplesPrevious](https://docs.comfy.org/tutorials/video/ltx/ltx-2-3)[LTX-Video 0.9.5 in ComfyUI: T2V, I2V, Multi-Frame ControlNext](https://docs.comfy.org/tutorials/video/ltxv)
 
 ⌘I
 

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/video-edit-remove-background/code/
 title: Use Video Edit Remove Background with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-18T12:01:25.555043+00:00
+fetched_at: 2026-10-19T14:35:00.006399+00:00
 ---
 
 # Use Video Edit Remove Background with Comfy Router - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/deploy/cloud-usage/
 title: Usage and Limits - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:55.266061+00:00
+fetched_at: 2026-10-19T14:35:06.336393+00:00
 ---
 
 # Usage and Limits - ComfyUI
@@ -13,6 +13,7 @@ fetched_at: 2026-10-17T10:50:55.266061+00:00
 
   * Credits and usage
   * Concurrent jobs
+  * Runtime and queue limits
   * Existing v1 integrations
   * Next steps
 
@@ -44,9 +45,33 @@ API requests draw from the same monthly credit allocation as the Comfy Cloud web
 
 Concurrent jobs
 
-You can submit multiple workflows without waiting for previous jobs to complete. Jobs run in parallel up to your subscription tier’s limit. Check [platform.comfy.org](https://platform.comfy.org) for your current concurrency limit. Additional jobs queue and run as slots become available. If the queue is full, the SDKs retry within a bounded budget before raising `QueueFull`.
+You can submit multiple workflows without waiting for previous jobs to complete. Jobs run in parallel up to your subscription tier’s limit:
+
+Plan| Concurrent workflows  
+---|---  
+Standard| 1  
+Creator| 3  
+Pro| 5  
+  
+Team plans run more concurrent workflows per member than Pro. Check [platform.comfy.org](https://platform.comfy.org) for the concurrency on your account. Additional jobs queue and run as slots become available. If the queue is full, the SDKs retry within a bounded budget before raising `QueueFull`.
 
 Parallel execution is available through the API. See the [pricing plans](https://www.comfy.org/cloud/pricing?utm_source=docs&utm_campaign=cloud-api) for subscription details.
+
+## 
+
+​
+
+Runtime and queue limits
+
+Every Cloud workflow has a maximum runtime. A job that runs past the limit is cancelled automatically:
+
+Plan| Maximum runtime  
+---|---  
+Standard| 30 minutes  
+Creator| 30 minutes  
+Pro| 1 hour  
+  
+You can have up to 100 workflows queued at once. To raise a Team concurrency limit, [contact support](https://support.comfy.org/).
 
 ## 
 

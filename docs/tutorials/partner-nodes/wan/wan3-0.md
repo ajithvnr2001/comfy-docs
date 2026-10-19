@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/partner-nodes/wan/wan3-0/
-title: Wan 3.0 Video Generation in ComfyUI - ComfyUI
+title: Wan 3.0 in ComfyUI: Video Generation with Synchronized Audio - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:40.444591+00:00
+fetched_at: 2026-10-19T14:35:06.591965+00:00
 ---
 
-# Wan 3.0 Video Generation in ComfyUI - ComfyUI
+# Wan 3.0 in ComfyUI: Video Generation with Synchronized Audio - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/partner-nodes/wan/wan3-0/
 
@@ -26,11 +26,11 @@ fetched_at: 2026-10-17T10:51:40.444591+00:00
 
 Wan
 
-# Wan 3.0 Video Generation in ComfyUI
+# Wan 3.0 in ComfyUI: Video Generation with Synchronized Audio
 
 Copy pageCopy page
 
-Learn how to use Wan 3.0 via Partner Nodes in ComfyUI for text-to-video, image-to-video, and reference-to-video generation with synchronized audio
+Generate up to 30 seconds of video with synchronized audio in ComfyUI using Wan 3.0 Partner Nodes, from text prompts, first-frame images, or reference media.
 
 Copy pageCopy page
 
@@ -221,7 +221,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/partner-nodes/wan/wan3-0.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/partner-nodes/wan/wan3-0)
 
-[Vidu Q4 Preview in ComfyUI: Image and Reference to VideoPrevious](https://docs.comfy.org/tutorials/partner-nodes/vidu/vidu-q4-preview)[Wan2.7 Video Generation in ComfyUINext](https://docs.comfy.org/tutorials/partner-nodes/wan/wan2-7)
+[Vidu Q4 Preview in ComfyUI: Image and Reference to VideoPrevious](https://docs.comfy.org/tutorials/partner-nodes/vidu/vidu-q4-preview)[Wan2.7 in ComfyUI: T2V, I2V, R2V, and Video EditingNext](https://docs.comfy.org/tutorials/partner-nodes/wan/wan2-7)
 
 ⌘I
 

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/support/payment/payment-history/
 title: View Comfy Cloud payment history - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:14.713332+00:00
+fetched_at: 2026-10-19T14:35:05.871806+00:00
 ---
 
 # View Comfy Cloud payment history - ComfyUI
@@ -27,7 +27,7 @@ Open Plan & Credits on Comfy Cloud, then Billing & invoices. Invoice history and
 
 Copy pageCopy page
 
-You can review Comfy Cloud invoices from **Plan & Credits**. **Billing & invoices** opens the Stripe billing portal, where the invoice list and PDF downloads live.
+You can review Comfy Cloud invoices from **Plan & Credits**. **Billing & invoices** opens the Stripe billing portal, where the invoice list and PDF downloads live. ![Invoice history in the Stripe billing portal](https://mintcdn.com/dripart/-4dXqBBjO7AVe0YV/images/support/payment/billing-4-history.jpg?fit=max&auto=format&n=-4dXqBBjO7AVe0YV&q=85&s=9cfb803d2910a5eefbf006fea5d33495)
 
 ## 
 
@@ -40,7 +40,7 @@ Accessing Comfy Cloud payment history
   3. In **Plan & Credits**, click **Billing & invoices**. This opens the Stripe billing portal.
   4. Open an invoice in Stripe to view details or download the PDF.
 
-Make sure your billing details are correct before new invoices are generated. Update them from [Edit Comfy Cloud payment information](https://docs.comfy.org/support/payment/editing-payment-information).
+![Paid invoice page with the Download invoice and Download receipt buttons](https://mintcdn.com/dripart/-4dXqBBjO7AVe0YV/images/support/payment/billing-5-download-invoice.jpg?fit=max&auto=format&n=-4dXqBBjO7AVe0YV&q=85&s=dd229361d56c7696a963964d8a172098) Make sure your billing details are correct before new invoices are generated. Update them from [Edit Comfy Cloud payment information](https://docs.comfy.org/support/payment/editing-payment-information).
 
 ## 
 

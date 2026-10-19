@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-2/
-title: OpenAI GPT-Image-2 Node - ComfyUI
+title: OpenAI GPT-Image-2 in ComfyUI: Reasoning Image Generation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:35.986288+00:00
+fetched_at: 2026-10-19T14:35:07.092402+00:00
 ---
 
-# OpenAI GPT-Image-2 Node - ComfyUI
+# OpenAI GPT-Image-2 in ComfyUI: Reasoning Image Generation - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-2/
 
@@ -26,11 +26,11 @@ fetched_at: 2026-10-17T10:51:35.986288+00:00
 
 OpenAI
 
-# OpenAI GPT-Image-2 Node
+# OpenAI GPT-Image-2 in ComfyUI: Reasoning Image Generation
 
 Copy pageCopy page
 
-Learn how to use the OpenAI GPT-Image-2 Partner node to generate images in ComfyUI
+Use OpenAI GPT-Image-2 in ComfyUI for reasoning-driven image generation: dense text and UI rendering, 2K image editing, and up to eight consistent images.
 
 Copy pageCopy page
 
@@ -179,7 +179,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/partner-nodes/openai/gpt-image-2.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/partner-nodes/openai/gpt-image-2)
 
-[OpenAI GPT Image 2.5 Node: Flare and Sunburst WorkflowsPrevious](https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-2-5)[OpenAI GPT-Image-1 NodeNext](https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-1)
+[OpenAI GPT Image 2.5 Node: Flare and Sunburst WorkflowsPrevious](https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-2-5)[OpenAI GPT-Image-1 in ComfyUI: Text-to-Image and InpaintingNext](https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-1)
 
 ⌘I
 

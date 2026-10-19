@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/agent-tools/in-app-agent/
 title: Comfy Agent - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:46:14.463534+00:00
+fetched_at: 2026-10-19T14:35:05.844618+00:00
 ---
 
 # Comfy Agent - ComfyUI
@@ -20,9 +20,11 @@ fetched_at: 2026-10-17T10:46:14.463534+00:00
   * Build and edit workflows
   * Validate before running
   * Work with media
+  * Reference nodes, workflows, and assets
   * Run permissions
   * What the Agent can use
   * Stop or cancel
+  * Chat history
   * Next steps
   * Feedback
 
@@ -40,7 +42,7 @@ Copy pageCopy page
 
 **Comfy Agent is generally available in Comfy Cloud**. Agent inside Comfy Desktop on local is coming soon. [Join the waitlist](https://links.comfy.org/agentalpha) to get notified.
 
-Describe what you want right inside ComfyUI. It plans, builds, and runs workflows. Editing the canvas while you work, it crafts side by side with you.
+Describe what you want right inside ComfyUI. It plans, builds, and runs workflows. Editing the canvas while you work, it crafts side by side with you. If it’s your first time, select the info icon beside the Comfy Agent title to take a short tour.
 
 ## 
 
@@ -142,7 +144,7 @@ The Agent checks node connections, model names, required values, and output node
 
 Work with media
 
-The Agent can inspect the visible contents and dimensions of a still image. For video, it can read the duration, dimensions, frame rate, and format. For audio, it can read the duration, format, and audio tracks. Use **Attach a file** in the message box to add an image or file. You can also drag media into the conversation.
+The Agent can inspect the visible contents and dimensions of a still image. For video, it can read the duration, dimensions, frame rate, and format. For audio, it can read the duration, format, and audio tracks. Use **Upload images or files** in the Add to prompt menu, drag files into the conversation, or drag an asset in from the asset panel. Images, video, audio, 3D models, and text files can all be added. Everything you add appears in the asset tray at the top of the message box. Hover an item to see the file name, and for images, video, and audio a larger preview. Use the × to remove an item. An asset in the tray is sent with your message even when you do not reference it in the text.
 
 Add to the conversation| Ask| Result  
 ---|---|---  
@@ -157,6 +159,20 @@ Media editing requires the media tools to be available in your installation. In 
 
 ​
 
+Reference nodes, workflows, and assets
+
+Type `@` in the message box to reference something by name instead of describing it:
+
+  * **Nodes** : pick a node from the list, or choose **Nodes** from the Add to prompt menu and click one or more nodes on the canvas. The Agent reads the referenced nodes as part of your message.
+  * **Workflows** : pick another open or saved workflow to let the Agent read it for comparison or reuse. It does not load that workflow into your current tab.
+  * **Assets** : pick an asset from the tray to reference it by name. You can reference the same asset as many times as you like.
+
+The target workflow follows the tab you are viewing until you choose a target, reference nodes, or send a message. Referencing nodes pins that workflow for the rest of the chat.
+
+## 
+
+​
+
 Run permissions
 
 Choose a run permission next to the message box:
@@ -164,7 +180,7 @@ Choose a run permission next to the message box:
   * **Ask** requests approval before each workflow run.
   * **Auto** runs workflows without asking for each run.
 
-Select **Save changes** to apply your choice. In Ask mode, select **Run** in the approval message to start the workflow, or **Cancel** to decline that run. Ask and Auto control workflow runs. The Agent can edit the selected workflow in either mode.
+Your choice takes effect as soon as you select it. In Ask mode, select **Run** in the approval message to start the workflow, or **Cancel** to decline that run. Ask and Auto control workflow runs. The Agent can edit the selected workflow in either mode.
 
 ## 
 
@@ -181,6 +197,19 @@ Normally in a chat session, the Agent uses your message, selected workflow, sele
 Stop or cancel
 
 Select **Stop** in the message box to stop the Agent’s current response. Workflow execution has separate controls in the [run and queue area](https://docs.comfy.org/interface/overview); use those to manage a workflow that has already been submitted.
+
+## 
+
+​
+
+Chat history
+
+Conversations are saved, so you can return to an earlier one at any time.
+
+  * **New chat** in the panel header starts a new conversation.
+  * **Show chat history** opens the list of saved conversations, grouped into Current, Today, Yesterday, and Earlier. Select a conversation to reopen it, or use the options on a conversation to rename, copy, or delete it.
+
+Where conversations are stored depends on your setup. See [Chat history and sync](https://docs.comfy.org/agent-tools/in-app-agent-data-privacy#chat-history-and-sync).
 
 ## 
 

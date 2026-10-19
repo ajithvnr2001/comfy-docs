@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/video/wan/wan-video/
-title: ComfyUI Wan2.1 Video Examples - ComfyUI
+title: Wan2.1 in ComfyUI: Text-to-Video and Image-to-Video Workflows - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:47.469681+00:00
+fetched_at: 2026-10-19T14:35:05.384184+00:00
 ---
 
-# ComfyUI Wan2.1 Video Examples - ComfyUI
+# Wan2.1 in ComfyUI: Text-to-Video and Image-to-Video Workflows - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/video/wan/wan-video/
 
@@ -30,11 +30,11 @@ fetched_at: 2026-10-17T10:51:47.469681+00:00
 
 Wan2.1
 
-# ComfyUI Wan2.1 Video Examples
+# Wan2.1 in ComfyUI: Text-to-Video and Image-to-Video Workflows
 
 Copy pageCopy page
 
-Run Wan2.1 video workflows in ComfyUI: text-to-video with the 1.3B model and image-to-video with the 14B model, including model installation.
+Run the 1.3B text-to-video model and the 14B image-to-video model, with model file installation and the native ComfyUI workflows for both.
 
 Copy pageCopy page
 
@@ -299,7 +299,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/video/wan/wan-video.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/video/wan/wan-video)
 
-[Wan2.2 Fun Camera Control in ComfyUI: Camera Motion VideoPrevious](https://docs.comfy.org/tutorials/video/wan/wan2-2-fun-camera)[Causal Forcing I2V ComfyUI Workflow ExampleNext](https://docs.comfy.org/tutorials/video/wan/wan-causal-forcing)
+[Wan2.2 Fun Camera Control in ComfyUI: Camera Motion VideoPrevious](https://docs.comfy.org/tutorials/video/wan/wan2-2-fun-camera)[ComfyUI Wan2.1 InfiniteTalk Workflow ExampleNext](https://docs.comfy.org/tutorials/video/wan/wan-infinitetalk)
 
 ⌘I
 

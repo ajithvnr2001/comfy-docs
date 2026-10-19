@@ -3,8 +3,5 @@
   "file": "support/payment/unsuccessful-payments.md",
   "title": "Fix a failed Comfy Cloud payment - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:14.831326+00:00",
-  "html_len": 389951,
-  "md_len": 5306,
-  "depth": 0
+  "fetched_at": "2026-10-19T14:35:06.539866+00:00"
 }

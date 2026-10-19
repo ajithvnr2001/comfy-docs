@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1-5/
-title: ComfyUI ACE-Step 1.5 Music Generation Guide - ComfyUI
+title: ACE-Step 1.5 in ComfyUI: Local AI Music Generation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:16.694969+00:00
+fetched_at: 2026-10-19T14:35:06.421273+00:00
 ---
 
-# ComfyUI ACE-Step 1.5 Music Generation Guide - ComfyUI
+# ACE-Step 1.5 in ComfyUI: Local AI Music Generation - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1-5/
 
@@ -27,11 +27,11 @@ fetched_at: 2026-10-17T10:51:16.694969+00:00
 
 ACE-Step
 
-# ComfyUI ACE-Step 1.5 Music Generation Guide
+# ACE-Step 1.5 in ComfyUI: Local AI Music Generation
 
 Copy pageCopy page
 
-Learn how to use ACE-Step 1.5 for AI music generation in ComfyUI. Complete guide with workflows, model downloads, and setup instructions for ComfyUI.
+Generate complete songs locally in ComfyUI with ACE-Step 1.5, an open-source music model that turns a text description and optional lyrics into audio.
 
 Copy pageCopy page
 

@@ -1,10 +1,7 @@
 {
   "url": "https://docs.comfy.org/tutorials/basic/lora/",
   "file": "tutorials/basic/lora.md",
-  "title": "ComfyUI LoRA Example - ComfyUI",
+  "title": "LoRA Models in ComfyUI: Install, Load, and Apply Styles - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:17.801543+00:00",
-  "html_len": 493698,
-  "md_len": 6886,
-  "depth": 0
+  "fetched_at": "2026-10-19T14:35:05.258107+00:00"
 }

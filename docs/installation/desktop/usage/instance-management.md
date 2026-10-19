@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/installation/desktop/usage/instance-management/
 title: Instance Management - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-18T12:01:24.680588+00:00
+fetched_at: 2026-10-19T14:35:06.253343+00:00
 ---
 
 # Instance Management - ComfyUI
@@ -56,7 +56,7 @@ Type| Icon| Description
 **Remote**|  🌐| Connects to a ComfyUI instance running on another machine on your network. Configure the remote host and port during setup.  
 **Tracked**|  💻| Tracks an existing ComfyUI installation (Git clone or portable). Uses the same icon as **Standalone**. You manage updates manually. See Tracking an Existing Installation.  
   
-The image below labels the key actions available for each instance card: ![Instance card ⋮ menu: Manage, Duplicate Instance, Show in Finder, Export Snapshot, Restore Snapshot, Uninstall](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/interface/interface_instance_menu.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=9395eb35befa7bbeb03a0c6433877be4)
+The image below labels the key actions available for each instance card: ![Instance card ⋮ menu: Manage, Duplicate Instance, Show in Finder, Export Snapshot, Restore Snapshot, Uninstall](https://mintcdn.com/dripart/PBKxxhs8nJtECa3d/images/desktop/interface/interface_instance_menu.png?fit=max&auto=format&n=PBKxxhs8nJtECa3d&q=85&s=0b9bb65143494b31d90c57470cb4b584)
 
   1. **New Instance** : Create a brand new ComfyUI instance. See Creating a New Instance. You can also [create an instance from a snapshot file](https://docs.comfy.org/installation/desktop/usage/snapshots#create-an-instance-from-a-snapshot-file).
   2. **⋮ Menu** : Click the three-dot icon to open the action menu for an instance. Right-clicking the card opens the same menu.
@@ -92,7 +92,7 @@ Create a New Instance
 
 ![The Create a New Instance wizard on Windows, annotating the name \(1\), build mode \(2\), release channel \(3\), hardware \(4\) and install location \(5\)](https://mintcdn.com/dripart/cAVuyhdaebQHS2CS/images/desktop/usage/new_install_01_settings_windows.png?fit=max&auto=format&n=cAVuyhdaebQHS2CS&q=85&s=f293743f357c88ea7639667b957053de)
 
-![The Create a New Instance wizard on macOS, annotating the name \(1\), the install method \(2\), the release channel \(3\), the hardware \(4\) and the install location \(5\)](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/usage/new_install_01_settings_mac.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=35d09bf1850663e456bf8fd2c5bea8a9)
+![The Create a New Instance wizard on macOS, annotating the name \(1\), the install method \(2\), the release channel \(3\), the hardware \(4\) and the install location \(5\)](https://mintcdn.com/dripart/PBKxxhs8nJtECa3d/images/desktop/usage/new_install_01_settings_mac.png?fit=max&auto=format&n=PBKxxhs8nJtECa3d&q=85&s=3574ee56cd34b97aadfeb9a84df1aaf8)
 
 ![Create a New Instance wizard on Linux: name, Public Builds, release, hardware \(AMD/NVIDIA/Intel Arc\), and install location with free space](https://mintcdn.com/dripart/N4LZwJLSpBN0lv19/images/desktop/usage/new_install_01_settings_linux.png?fit=max&auto=format&n=N4LZwJLSpBN0lv19&q=85&s=03b4201e96f77d5ecac7d8920268992e)
 
@@ -122,7 +122,7 @@ Choose a Template
 
 Tracking an Existing Installation
 
-If you already have a ComfyUI installation (either manually set up from the Git repository or downloaded as a portable version), you can add it to Comfy Desktop without creating a new one. Open the ☰ menu in the title bar and select **Add Existing Instance**. ![The ☰ menu open on the Dashboard, with Add Existing Instance marked \(2\)](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/usage/track_instance_01.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=ed2de80f860384790b02f387c51dbea2)
+If you already have a ComfyUI installation (either manually set up from the Git repository or downloaded as a portable version), you can add it to Comfy Desktop without creating a new one. Open the ☰ menu in the title bar and select **Add Existing Instance**. ![The ☰ menu open on the Dashboard, with Add Existing Instance marked \(2\)](https://mintcdn.com/dripart/PBKxxhs8nJtECa3d/images/desktop/usage/track_instance_01.png?fit=max&auto=format&n=PBKxxhs8nJtECa3d&q=85&s=843fefad1f2629325238092d45240b4e)
 
   1. The **☰** menu button in the top-left corner of the title bar.
   2. **Add Existing Instance** : Opens the dialog that tracks an existing ComfyUI installation.
@@ -150,7 +150,7 @@ If the probe finds nothing, the dropdown reads **No known install detected**. Se
 
 Confirming the Detected Installation
 
-After the probe finishes, the dialog shows what it found. Check the paths before you track the installation. ![The Add Existing Instance dialog with a Git clone detected: install location, version, repository, branch, and virtual environment](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/usage/track_instance_02.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=31d0cf73acacd599468859e6b1f6af66)
+After the probe finishes, the dialog shows what it found. Check the paths before you track the installation. ![The Add Existing Instance dialog with a Git clone detected: install location, version, repository, branch, and virtual environment](https://mintcdn.com/dripart/PBKxxhs8nJtECa3d/images/desktop/usage/track_instance_02.png?fit=max&auto=format&n=PBKxxhs8nJtECa3d&q=85&s=49d1202e57fd41b6f4ca412b990c77cf)
 
   * **Install location** : The folder you selected. Click the path to open it, or **Browse…** to pick another one. For a portable build, point at the folder that contains `python_embeded`.
   * **Name** : How the instance is listed in the Chooser. The dialog suggests a name.
@@ -239,7 +239,7 @@ On Windows, a crash can report a memory access violation and note that some Micr
 
 Uninstalling an Instance
 
-↩ Back to overview When you want to remove an instance, two actions decide whether its files stay on disk. ![Forget and Uninstall in the Manage panel's More menu](https://mintcdn.com/dripart/m8KhB5z3lBz0gFlk/images/desktop/usage/instance_uninstall.png?fit=max&auto=format&n=m8KhB5z3lBz0gFlk&q=85&s=7f118067f5fdd3ab3d1f7ed9267c0de1)
+↩ Back to overview When you want to remove an instance, two actions decide whether its files stay on disk. ![Forget and Uninstall in the Manage panel's More menu](https://mintcdn.com/dripart/PBKxxhs8nJtECa3d/images/desktop/usage/instance_uninstall.png?fit=max&auto=format&n=PBKxxhs8nJtECa3d&q=85&s=620dca5ad4180a25c2deb1d8165ff3fb)
 
   1. **Forget** : Removes the instance from the app without deleting anything. The installation folder and all its data stay on disk. Use this when you only want to clean up the list but might need the instance again later.
   2. **Uninstall** : Permanently removes the installation and all its files from disk. Model files in shared directories are not affected.

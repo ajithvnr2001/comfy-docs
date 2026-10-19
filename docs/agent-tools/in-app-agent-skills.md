@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/agent-tools/in-app-agent-skills/
 title: Comfy Agent Skills - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:46:14.538390+00:00
+fetched_at: 2026-10-19T14:35:05.671891+00:00
 ---
 
 # Comfy Agent Skills - ComfyUI

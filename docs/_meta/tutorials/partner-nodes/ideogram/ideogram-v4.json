@@ -1,10 +1,7 @@
 {
   "url": "https://docs.comfy.org/tutorials/partner-nodes/ideogram/ideogram-v4/",
   "file": "tutorials/partner-nodes/ideogram/ideogram-v4.md",
-  "title": "ComfyUI Ideogram 4.0 Partner Node Tutorial - ComfyUI",
+  "title": "Ideogram 4.0 in ComfyUI: Text-to-Image with JSON Prompts - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:32.451362+00:00",
-  "html_len": 520310,
-  "md_len": 8152,
-  "depth": 0
+  "fetched_at": "2026-10-19T14:35:06.698225+00:00"
 }

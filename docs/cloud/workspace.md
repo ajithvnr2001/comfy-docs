@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/cloud/workspace/
 title: Comfy Cloud workspaces: teams and members - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:34.659939+00:00
+fetched_at: 2026-10-19T14:35:05.796617+00:00
 ---
 
 # Comfy Cloud workspaces: teams and members - ComfyUI
@@ -116,7 +116,7 @@ To open your workspace list directly, add `?create_workspace=1` to the Comfy Clo
 
 Invite members
 
-Only workspace owners can invite members. Team plans include a seat for each member, and the **Members** tab shows how many seats are in use, for example `3 of 20 members`. Pending invitations count toward that limit. ![The Members section of workspace settings, with the Invite button](https://mintcdn.com/dripart/_STmcLe16Xze8EdG/images/cloud/workspace/workspace-members.png?fit=max&auto=format&n=_STmcLe16Xze8EdG&q=85&s=3873c85c8a37fd3a019da1f944b2e995) To invite members:
+Only workspace owners can invite members. Team plans include a seat for each member, and the **Members** tab shows how many seats are in use, for example `3 of 20 members`. Pending invitations count toward that limit. A workspace can hold up to 50 members today; if you need more, [contact support](https://support.comfy.org/). ![The Members section of workspace settings, with the Invite button](https://mintcdn.com/dripart/_STmcLe16Xze8EdG/images/cloud/workspace/workspace-members.png?fit=max&auto=format&n=_STmcLe16Xze8EdG&q=85&s=3873c85c8a37fd3a019da1f944b2e995) To invite members:
 
 1
 
@@ -248,6 +248,14 @@ Yes. You can own up to 10 workspaces in total, including your Personal workspace
 Do I need my own subscription to join a team workspace?
 
 No. Members are not billed individually: runs in the workspace use the workspace’s credits, which the workspace owner manages.
+
+What carries over when I upgrade my workspace to a Team plan?
+
+Everything does. The upgrade applies to the workspace itself, so its workflows, models, run history, and top-up credits stay attached. The exception is unused monthly plan credits, which expire at the end of the current billing cycle because the workspace moves to a new credit allowance. Top-up credits carry over.
+
+How do members hand work off to each other?
+
+A Team plan shares one credit pool, one bill, and one set of owners. Sharing workflows and assets inside a workspace is still in development. Until it ships, hand work over by sharing the workflow link, exporting the workflow JSON, or dropping a Comfy-generated asset into the other member’s canvas.
 
 The invitation email never arrived. What now?
 

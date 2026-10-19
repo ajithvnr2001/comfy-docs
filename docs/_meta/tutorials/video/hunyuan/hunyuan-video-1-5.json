@@ -1,10 +1,7 @@
 {
   "url": "https://docs.comfy.org/tutorials/video/hunyuan/hunyuan-video-1-5/",
   "file": "tutorials/video/hunyuan/hunyuan-video-1-5.md",
-  "title": "HunyuanVideo 1.5 - ComfyUI",
+  "title": "HunyuanVideo 1.5 in ComfyUI: T2V and I2V on Consumer GPUs - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:42.659336+00:00",
-  "html_len": 552279,
-  "md_len": 9969,
-  "depth": 0
+  "fetched_at": "2026-10-19T14:35:07.214228+00:00"
 }

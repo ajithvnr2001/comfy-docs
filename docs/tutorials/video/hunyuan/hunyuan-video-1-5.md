@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/video/hunyuan/hunyuan-video-1-5/
-title: HunyuanVideo 1.5 - ComfyUI
+title: HunyuanVideo 1.5 in ComfyUI: T2V and I2V on Consumer GPUs - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:42.659065+00:00
+fetched_at: 2026-10-19T14:35:07.213749+00:00
 ---
 
-# HunyuanVideo 1.5 - ComfyUI
+# HunyuanVideo 1.5 in ComfyUI: T2V and I2V on Consumer GPUs - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/video/hunyuan/hunyuan-video-1-5/
 
@@ -28,11 +28,11 @@ fetched_at: 2026-10-17T10:51:42.659065+00:00
 
 Hunyuan
 
-# HunyuanVideo 1.5
+# HunyuanVideo 1.5 in ComfyUI: T2V and I2V on Consumer GPUs
 
 Copy pageCopy page
 
-Learn how to use HunyuanVideo 1.5, a lightweight 8.3B parameter model for high-quality video generation on consumer GPUs
+Run HunyuanVideo 1.5 in ComfyUI on a 24GB GPU: 8.3B text-to-video and image-to-video at 720p, plus a super-resolution upscaler for 1080p.
 
 Copy pageCopy page
 

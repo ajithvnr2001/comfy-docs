@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/partner-nodes/ideogram/ideogram-v4/
-title: ComfyUI Ideogram 4.0 Partner Node Tutorial - ComfyUI
+title: Ideogram 4.0 in ComfyUI: Text-to-Image with JSON Prompts - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:32.451029+00:00
+fetched_at: 2026-10-19T14:35:06.697846+00:00
 ---
 
-# ComfyUI Ideogram 4.0 Partner Node Tutorial - ComfyUI
+# Ideogram 4.0 in ComfyUI: Text-to-Image with JSON Prompts - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/partner-nodes/ideogram/ideogram-v4/
 
@@ -25,11 +25,11 @@ fetched_at: 2026-10-17T10:51:32.451029+00:00
 
 Ideogram
 
-# ComfyUI Ideogram 4.0 Partner Node Tutorial
+# Ideogram 4.0 in ComfyUI: Text-to-Image with JSON Prompts
 
 Copy pageCopy page
 
-Learn how to use the Ideogram 4.0 API Partner node in ComfyUI
+Generate images with Ideogram 4.0 in ComfyUI from plain language or structured JSON prompts, with control over layout, color palettes, and rendered text.
 
 Copy pageCopy page
 
@@ -184,7 +184,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/partner-nodes/ideogram/ideogram-v4.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/partner-nodes/ideogram/ideogram-v4)
 
-[Grok Imagine Image Quality in ComfyUI: AI Image GenerationPrevious](https://docs.comfy.org/tutorials/partner-nodes/grok/grok-image-quality)[Ideogram 4.5 in ComfyUI: Text to Image and EditNext](https://docs.comfy.org/tutorials/partner-nodes/ideogram/ideogram-4-5)
+[Ideogram P-Image - fast text-to-imagePrevious](https://docs.comfy.org/tutorials/partner-nodes/ideogram/ideogram-p-image)[Krea 3 in ComfyUI: Text to Image and Image EditingNext](https://docs.comfy.org/tutorials/partner-nodes/krea/krea-3)
 
 ⌘I
 

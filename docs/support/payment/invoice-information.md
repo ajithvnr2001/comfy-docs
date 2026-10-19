@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/support/payment/invoice-information/
 title: Comfy Cloud invoice information - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:14.505223+00:00
+fetched_at: 2026-10-19T14:35:05.521749+00:00
 ---
 
 # Comfy Cloud invoice information - ComfyUI
@@ -12,6 +12,7 @@ fetched_at: 2026-10-17T10:51:14.505223+00:00
 ## On this page
 
   * Why invoices come from Stripe
+  * See your next invoice
   * Important notes
 
 
@@ -39,6 +40,14 @@ Learn how to update your billing details and payment information
 Why invoices come from Stripe
 
 Comfy Cloud subscriptions and credit purchases are processed by Stripe, so invoices and receipts are issued through the Stripe billing portal rather than by Comfy directly. To find or download a past invoice, see [View Comfy Cloud payment history](https://docs.comfy.org/support/payment/payment-history).
+
+## 
+
+​
+
+See your next invoice
+
+The **Invoices** tab in **Plan & Credits** shows the **Next invoice** amount in USD for your current plan. Open it from the profile menu: **Manage plan** → **Plan & Credits** → **Invoices**. ![Invoices tab in Plan & Credits with the next invoice amount and the full invoice history link](https://mintcdn.com/dripart/svxMC8DHZXobTT5E/images/interface/setting/plan-credits-cloud-invoices.jpg?fit=max&auto=format&n=svxMC8DHZXobTT5E&q=85&s=e0be92b9353ebb9f2418ffc494ec50a4) While the subscription is paused there is no upcoming charge, so the amount is hidden and only the history link remains. If the billing data fails to load, the tab offers a retry. Invoice history and per-invoice downloads live in the Stripe billing portal. Click **Full invoice history** to open it. Only workspace members who can manage billing see the **Invoices** tab.
 
 ## 
 

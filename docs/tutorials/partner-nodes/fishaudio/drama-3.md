@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/partner-nodes/fishaudio/drama-3/
 title: Fish Audio Drama 3: directions, word tags, and templates - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:28.625359+00:00
+fetched_at: 2026-10-19T14:35:06.651208+00:00
 ---
 
 # Fish Audio Drama 3: directions, word tags, and templates - ComfyUI
@@ -35,7 +35,7 @@ Fish Audio
 
 Copy pageCopy page
 
-Run the Fish Audio Drama 3 model in ComfyUI: direct a performance with plain-language directions and paired word tags, and use the ready-made Drama 3 workflow templates.
+Run Fish Audio Drama 3 in ComfyUI: direct a performance with plain-language directions and paired word tags, then use the ready-made Drama 3 templates.
 
 Copy pageCopy page
 

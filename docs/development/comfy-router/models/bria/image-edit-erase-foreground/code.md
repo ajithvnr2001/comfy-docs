@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/image-edit-erase-foreground/code/
 title: Use Image Edit Erase Foreground with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-18T12:01:25.384191+00:00
+fetched_at: 2026-10-19T14:35:00.434357+00:00
 ---
 
 # Use Image Edit Erase Foreground with Comfy Router - ComfyUI

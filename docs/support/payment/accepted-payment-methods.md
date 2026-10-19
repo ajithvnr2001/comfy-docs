@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/support/payment/accepted-payment-methods/
 title: Comfy Cloud accepted payment methods - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:14.642365+00:00
+fetched_at: 2026-10-19T14:35:05.701568+00:00
 ---
 
 # Comfy Cloud accepted payment methods - ComfyUI
@@ -79,7 +79,7 @@ WeChat Pay and Alipay are only available in specific regions. Check the `Busines
 
 
 
-To use Alipay or WeChat Pay, choose **USD** as the payment currency at checkout. Then those options appear in the payment method list when they are available in your region.
+To use Alipay or WeChat Pay, choose **USD** as the payment currency at checkout. Then those options appear in the payment method list when they are available in your region. ![Checkout with USD selected, where the Alipay and WeChat Pay options appear](https://mintcdn.com/dripart/-4dXqBBjO7AVe0YV/images/support/payment/active-wechat-and-alipay.jpg?fit=max&auto=format&n=-4dXqBBjO7AVe0YV&q=85&s=d43ddcb60a99cb5d33822e900003c997)
 
 ## 
 

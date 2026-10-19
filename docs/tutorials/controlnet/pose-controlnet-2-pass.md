@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/controlnet/pose-controlnet-2-pass/
-title: ComfyUI Pose ControlNet Usage Example - ComfyUI
+title: Pose ControlNet in ComfyUI: OpenPose and Two-Pass Workflows - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:19.092754+00:00
+fetched_at: 2026-10-19T14:35:05.204429+00:00
 ---
 
-# ComfyUI Pose ControlNet Usage Example - ComfyUI
+# Pose ControlNet in ComfyUI: OpenPose and Two-Pass Workflows - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/controlnet/pose-controlnet-2-pass/
 
@@ -25,11 +25,11 @@ fetched_at: 2026-10-17T10:51:19.092754+00:00
 
 ControlNet
 
-# ComfyUI Pose ControlNet Usage Example
+# Pose ControlNet in ComfyUI: OpenPose and Two-Pass Workflows
 
 Copy pageCopy page
 
-Learn Pose ControlNet in ComfyUI. Use OpenPose skeletons to control character posture and generate large images with a two-pass workflow.
+Use OpenPose skeletons to control character posture, then sharpen detail with a two-pass workflow for large images.
 
 Copy pageCopy page
 
@@ -173,7 +173,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/controlnet/pose-controlnet-2-pass.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/controlnet/pose-controlnet-2-pass)
 
-[ControlNet in ComfyUI: Preprocessors, Models, and WorkflowsPrevious](https://docs.comfy.org/tutorials/controlnet/controlnet)[Depth ControlNet Workflow ExampleNext](https://docs.comfy.org/tutorials/controlnet/depth-controlnet)
+[ControlNet in ComfyUI: Preprocessors, Models, and WorkflowsPrevious](https://docs.comfy.org/tutorials/controlnet/controlnet)[Depth ControlNet in ComfyUI: Control Scene StructureNext](https://docs.comfy.org/tutorials/controlnet/depth-controlnet)
 
 ⌘I
 

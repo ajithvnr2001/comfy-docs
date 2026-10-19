@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/support/payment/payment-currency/
 title: Comfy Cloud payment currency - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:15.066342+00:00
+fetched_at: 2026-10-19T14:35:05.555193+00:00
 ---
 
 # Comfy Cloud payment currency - ComfyUI
@@ -65,7 +65,7 @@ Your payment currency is typically determined by:
   * Your billing address
   * Your payment method’s default currency
 
-At checkout, choose **USD** if you want Alipay or WeChat Pay to appear.
+At checkout, choose **USD** if you want Alipay or WeChat Pay to appear. ![Currency selector at checkout with USD chosen](https://mintcdn.com/dripart/-4dXqBBjO7AVe0YV/images/support/payment/active-wechat-and-alipay.jpg?fit=max&auto=format&n=-4dXqBBjO7AVe0YV&q=85&s=d43ddcb60a99cb5d33822e900003c997)
 
 ## 
 

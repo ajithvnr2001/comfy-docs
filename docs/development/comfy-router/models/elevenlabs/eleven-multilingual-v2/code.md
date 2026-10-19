@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/elevenlabs/eleven-multilingual-v2/code/
 title: Use Eleven Multilingual V2 with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:02.774763+00:00
+fetched_at: 2026-10-19T14:35:02.080656+00:00
 ---
 
 # Use Eleven Multilingual V2 with Comfy Router - ComfyUI

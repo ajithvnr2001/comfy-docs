@@ -1,10 +1,7 @@
 {
   "url": "https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-2/",
   "file": "tutorials/partner-nodes/openai/gpt-image-2.md",
-  "title": "OpenAI GPT-Image-2 Node - ComfyUI",
+  "title": "OpenAI GPT-Image-2 in ComfyUI: Reasoning Image Generation - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:35.986618+00:00",
-  "html_len": 545115,
-  "md_len": 8682,
-  "depth": 0
+  "fetched_at": "2026-10-19T14:35:07.092741+00:00"
 }

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/support/subscription/subscribing/
 title: Subscribe to Comfy Cloud - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:15.278646+00:00
+fetched_at: 2026-10-19T14:35:06.466121+00:00
 ---
 
 # Subscribe to Comfy Cloud - ComfyUI
@@ -41,7 +41,7 @@ You can browse Comfy Cloud without a subscription. You need a paid plan to run w
 Yearly billing usually costs less per month than monthly.
 
   1. Visit [cloud.comfy.org](https://cloud.comfy.org/?utm_source=docs) and log in.
-  2. Open the profile menu and click **Plans & pricing**, or click **Subscribe** / **Subscribe Now**.
+  2. Open the profile menu and click **Plans & pricing**, or click **Subscribe**.
   3. In **Choose a Plan** , choose **For Personal** or **For Teams**.
 
 

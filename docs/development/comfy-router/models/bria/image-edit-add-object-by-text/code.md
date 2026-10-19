@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/image-edit-add-object-by-text/code/
 title: Use Image Edit Add Object By Text with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-18T12:01:24.953710+00:00
+fetched_at: 2026-10-19T14:35:00.864854+00:00
 ---
 
 # Use Image Edit Add Object By Text with Comfy Router - ComfyUI

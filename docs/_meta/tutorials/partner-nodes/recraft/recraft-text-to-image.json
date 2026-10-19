@@ -1,10 +1,7 @@
 {
   "url": "https://docs.comfy.org/tutorials/partner-nodes/recraft/recraft-text-to-image/",
   "file": "tutorials/partner-nodes/recraft/recraft-text-to-image.md",
-  "title": "Recraft Text to Image Partner Nodes ComfyUI Official Example - ComfyUI",
+  "title": "Recraft Text to Image in ComfyUI: Images with Preset Styles - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:37.282030+00:00",
-  "html_len": 499772,
-  "md_len": 6486,
-  "depth": 0
+  "fetched_at": "2026-10-19T14:35:07.044721+00:00"
 }

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/interface/credits/
 title: Plan & Credits - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-18T12:01:26.129728+00:00
+fetched_at: 2026-10-19T14:35:02.563398+00:00
 ---
 
 # Plan & Credits - ComfyUI

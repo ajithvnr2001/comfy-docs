@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/basic/outpaint/
-title: Outpainting Workflow Example - ComfyUI
+title: Outpainting in ComfyUI: Extend an Image Beyond Its Borders - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:18.083296+00:00
+fetched_at: 2026-10-19T14:35:05.475827+00:00
 ---
 
-# Outpainting Workflow Example - ComfyUI
+# Outpainting in ComfyUI: Extend an Image Beyond Its Borders - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/basic/outpaint/
 
@@ -27,11 +27,11 @@ fetched_at: 2026-10-17T10:51:18.083296+00:00
 
 Basic Examples
 
-# Outpainting Workflow Example
+# Outpainting in ComfyUI: Extend an Image Beyond Its Borders
 
 Copy pageCopy page
 
-Outpainting workflow in ComfyUI: extend an image beyond its borders using the Pad Image for Outpainting node and inpainting-model techniques.
+Use the Pad Image for Outpainting node with an inpainting model to grow the canvas, keeping the new edges consistent with the original image.
 
 Copy pageCopy page
 

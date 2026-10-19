@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/controlnet/depth-controlnet/
-title: Depth ControlNet Workflow Example - ComfyUI
+title: Depth ControlNet in ComfyUI: Control Scene Structure - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:18.594830+00:00
+fetched_at: 2026-10-19T14:35:05.142131+00:00
 ---
 
-# Depth ControlNet Workflow Example - ComfyUI
+# Depth ControlNet in ComfyUI: Control Scene Structure - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/controlnet/depth-controlnet/
 
@@ -23,11 +23,11 @@ fetched_at: 2026-10-17T10:51:18.594830+00:00
 
 ControlNet
 
-# Depth ControlNet Workflow Example
+# Depth ControlNet in ComfyUI: Control Scene Structure
 
 Copy pageCopy page
 
-Depth ControlNet workflow in ComfyUI: how depth maps encode distance, and how to use one to control scene structure during image generation.
+Read a depth map, wire it into ControlNet, and keep architecture, portraits, and product shots in the spatial layout you specify.
 
 Copy pageCopy page
 
@@ -128,7 +128,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/controlnet/depth-controlnet.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/controlnet/depth-controlnet)
 
-[ComfyUI Pose ControlNet Usage ExamplePrevious](https://docs.comfy.org/tutorials/controlnet/pose-controlnet-2-pass)[Depth T2I Adapter in ComfyUI: Depth-Map Image ControlNext](https://docs.comfy.org/tutorials/controlnet/depth-t2i-adapter)
+[Pose ControlNet in ComfyUI: OpenPose and Two-Pass WorkflowsPrevious](https://docs.comfy.org/tutorials/controlnet/pose-controlnet-2-pass)[Depth T2I Adapter in ComfyUI: Depth-Map Image ControlNext](https://docs.comfy.org/tutorials/controlnet/depth-t2i-adapter)
 
 ⌘I
 

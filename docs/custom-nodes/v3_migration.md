@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/custom-nodes/v3_migration/
 title: V3 Migration - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:41.553681+00:00
+fetched_at: 2026-10-19T14:35:06.176085+00:00
 ---
 
 # V3 Migration - ComfyUI

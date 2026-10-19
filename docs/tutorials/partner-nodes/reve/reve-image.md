@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/partner-nodes/reve/reve-image/
-title: Reve Image Create, Edit, and Remix in ComfyUI - ComfyUI
+title: Reve Image in ComfyUI: Retired Partner Node Reference - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:37.835094+00:00
+fetched_at: 2026-10-19T14:35:07.419125+00:00
 ---
 
-# Reve Image Create, Edit, and Remix in ComfyUI - ComfyUI
+# Reve Image in ComfyUI: Retired Partner Node Reference - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/partner-nodes/reve/reve-image/
 
@@ -26,11 +26,11 @@ fetched_at: 2026-10-17T10:51:37.835094+00:00
 
 Reve
 
-# Reve Image Create, Edit, and Remix in ComfyUI
+# Reve Image in ComfyUI: Retired Partner Node Reference
 
 Copy pageCopy page
 
-Learn how to use Reve Partner nodes in ComfyUI for high-quality image generation, editing, and remixing at up to 4K resolution
+Reve discontinued its image service, so these Partner Nodes no longer run. This page keeps the archived text-to-image, edit, and remix workflows as reference.
 
 Copy pageCopy page
 
@@ -262,7 +262,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/partner-nodes/reve/reve-image.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/partner-nodes/reve/reve-image)
 
-[Recraft Text to Image Partner Nodes ComfyUI Official ExamplePrevious](https://docs.comfy.org/tutorials/partner-nodes/recraft/recraft-text-to-image)[Runway Image Generation in ComfyUI: Text-to-Image and Reference ImagesNext](https://docs.comfy.org/tutorials/partner-nodes/runway/image-generation)
+[Recraft Text to Image in ComfyUI: Images with Preset StylesPrevious](https://docs.comfy.org/tutorials/partner-nodes/recraft/recraft-text-to-image)[Runway Image Generation in ComfyUI: Text-to-Image and Reference ImagesNext](https://docs.comfy.org/tutorials/partner-nodes/runway/image-generation)
 
 ⌘I
 

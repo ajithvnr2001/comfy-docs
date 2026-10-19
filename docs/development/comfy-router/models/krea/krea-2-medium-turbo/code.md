@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/krea/krea-2-medium-turbo/code/
 title: Use Krea 2 Medium Turbo with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:16.545690+00:00
+fetched_at: 2026-10-19T14:35:02.168435+00:00
 ---
 
 # Use Krea 2 Medium Turbo with Comfy Router - ComfyUI

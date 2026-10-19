@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/video-edit-erase/code/
 title: Use Video Edit Erase with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-18T12:01:25.170839+00:00
+fetched_at: 2026-10-19T14:35:01.250679+00:00
 ---
 
 # Use Video Edit Erase with Comfy Router - ComfyUI

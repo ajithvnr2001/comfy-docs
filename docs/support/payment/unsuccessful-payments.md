@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/support/payment/unsuccessful-payments/
 title: Fix a failed Comfy Cloud payment - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:14.831001+00:00
+fetched_at: 2026-10-19T14:35:06.539508+00:00
 ---
 
 # Fix a failed Comfy Cloud payment - ComfyUI
@@ -35,7 +35,7 @@ If a Comfy Cloud payment fails, update your payment method from Plan & Credits o
 
 Copy pageCopy page
 
-If a Comfy Cloud payment fails, the workspace shows a **Payment failed** banner. Update your payment method so the subscription does not pause.
+If a Comfy Cloud payment fails, the workspace shows a **Payment failed** banner. Pay the unpaid invoice or update your payment method so the subscription does not pause.
 
 ## 
 
@@ -43,7 +43,7 @@ If a Comfy Cloud payment fails, the workspace shows a **Payment failed** banner.
 
 What happens when a Comfy Cloud payment fails
 
-  1. Comfy Cloud shows **Payment failed**. Your payment failed to process. Update payment to avoid a pause.
+  1. Comfy Cloud shows **Payment failed** with the amount due. Pay the invoice or update payment to avoid a pause.
   2. If the charge still cannot be collected, the subscription can pause. The banner then says **Subscription paused**. Update payment to resume.
   3. Workspace members who cannot manage billing should ask the workspace owner to restore the subscription.
 
@@ -56,7 +56,7 @@ What happens when a Comfy Cloud payment fails
 How to update payment after a failure
 
   1. Visit [cloud.comfy.org](https://cloud.comfy.org/?utm_source=docs) and log in.
-  2. Click **Update payment** on the banner, or open the profile menu, click **Manage plan** , then in **Plan & Credits** click **Billing & invoices**. Either path opens the Stripe billing portal.
+  2. Click **Pay invoice** on the banner to pay the unpaid invoice, or **Update payment** to change the card. You can also open the profile menu, click **Manage plan** , then in **Plan & Credits** click **Billing & invoices**.
   3. Update the payment method in Stripe and save.
 
 See [Edit Comfy Cloud payment information](https://docs.comfy.org/support/payment/editing-payment-information).

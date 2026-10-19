@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/partner-nodes/krea/krea-3/
 title: Krea 3 in ComfyUI: Text to Image and Image Editing - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:33.433079+00:00
+fetched_at: 2026-10-19T14:35:06.918787+00:00
 ---
 
 # Krea 3 in ComfyUI: Text to Image and Image Editing - ComfyUI
@@ -25,7 +25,7 @@ Krea
 
 Copy pageCopy page
 
-Run Krea 3 in ComfyUI through Partner Nodes: generate an image from a text prompt, or edit a photo with plain-language instructions and up to 8 reference images.
+Run Krea 3 in ComfyUI through Partner Nodes: generate an image from text, or edit a photo from plain-language instructions and up to 8 reference images.
 
 Copy pageCopy page
 
@@ -164,7 +164,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/partner-nodes/krea/krea-3.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/partner-nodes/krea/krea-3)
 
-[Krea 2 in ComfyUI: Text-to-Image with Style ReferencesPrevious](https://docs.comfy.org/tutorials/partner-nodes/krea/krea-2-t2i)[Luma Uni-1 GuideNext](https://docs.comfy.org/tutorials/partner-nodes/luma/luma-uni-1)
+[Ideogram 4.0 in ComfyUI: Text-to-Image with JSON PromptsPrevious](https://docs.comfy.org/tutorials/partner-nodes/ideogram/ideogram-v4)[Krea 2 in ComfyUI: Text-to-Image with Style ReferencesNext](https://docs.comfy.org/tutorials/partner-nodes/krea/krea-2-t2i)
 
 ⌘I
 

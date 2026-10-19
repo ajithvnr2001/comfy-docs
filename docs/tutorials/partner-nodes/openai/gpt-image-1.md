@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-1/
-title: OpenAI GPT-Image-1 Node - ComfyUI
+title: OpenAI GPT-Image-1 in ComfyUI: Text-to-Image and Inpainting - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:35.528423+00:00
+fetched_at: 2026-10-19T14:35:06.778765+00:00
 ---
 
-# OpenAI GPT-Image-1 Node - ComfyUI
+# OpenAI GPT-Image-1 in ComfyUI: Text-to-Image and Inpainting - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-1/
 
@@ -28,11 +28,11 @@ fetched_at: 2026-10-17T10:51:35.528423+00:00
 
 OpenAI
 
-# OpenAI GPT-Image-1 Node
+# OpenAI GPT-Image-1 in ComfyUI: Text-to-Image and Inpainting
 
 Copy pageCopy page
 
-Learn how to use the OpenAI GPT-Image-1 Partner node to generate images in ComfyUI
+Generate and edit images with OpenAI GPT-Image-1 in ComfyUI: text-to-image, image-to-image from a reference, masked inpainting, and multiple image inputs.
 
 Copy pageCopy page
 
@@ -259,7 +259,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/partner-nodes/openai/gpt-image-1.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/partner-nodes/openai/gpt-image-1)
 
-[OpenAI GPT-Image-2 NodePrevious](https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-2)[Qwen Image 3.0 Pro - Advanced AI Image GenerationNext](https://docs.comfy.org/tutorials/partner-nodes/qwen/qwen-image-3-0-pro)
+[OpenAI GPT-Image-2 in ComfyUI: Reasoning Image GenerationPrevious](https://docs.comfy.org/tutorials/partner-nodes/openai/gpt-image-2)[Qwen Image 3.0 Pro - Advanced AI Image GenerationNext](https://docs.comfy.org/tutorials/partner-nodes/qwen/qwen-image-3-0-pro)
 
 ⌘I
 

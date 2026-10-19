@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/audio/yue2/yue2/
 title: ComfyUI YuE2 Music Generation Guide - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:17.501362+00:00
+fetched_at: 2026-10-19T14:35:05.436754+00:00
 ---
 
 # ComfyUI YuE2 Music Generation Guide - ComfyUI
@@ -61,6 +61,8 @@ Workflows in this guide can be found in the [Workflow Templates](https://docs.co
   * [Cloud](https://cloud.comfy.org) will update after ComfyUI stable release.
 
 So, if you find any core node missing in this document, it might be because the new core nodes have not yet been released in the latest stable version. Please wait for the next stable release.
+
+YuE2 is not available on Comfy Cloud yet. Both workflows on this page run in a local ComfyUI installation, so there is no Cloud template to open for them.
 
 ## 
 

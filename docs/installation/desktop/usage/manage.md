@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/installation/desktop/usage/manage/
 title: Managing Installations - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:57.718153+00:00
+fetched_at: 2026-10-19T14:35:02.392980+00:00
 ---
 
 # Managing Installations - ComfyUI

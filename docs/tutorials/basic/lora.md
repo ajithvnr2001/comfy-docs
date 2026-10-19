@@ -1,11 +1,11 @@
 ---
 url: https://docs.comfy.org/tutorials/basic/lora/
-title: ComfyUI LoRA Example - ComfyUI
+title: LoRA Models in ComfyUI: Install, Load, and Apply Styles - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:17.801236+00:00
+fetched_at: 2026-10-19T14:35:05.257759+00:00
 ---
 
-# ComfyUI LoRA Example - ComfyUI
+# LoRA Models in ComfyUI: Install, Load, and Apply Styles - ComfyUI
 
 > Source: https://docs.comfy.org/tutorials/basic/lora/
 
@@ -23,11 +23,11 @@ fetched_at: 2026-10-17T10:51:17.801236+00:00
 
 Basic Examples
 
-# ComfyUI LoRA Example
+# LoRA Models in ComfyUI: Install, Load, and Apply Styles
 
 Copy pageCopy page
 
-Use LoRA models in ComfyUI: install a LoRA, load it with the Load LoRA node, and run a workflow that applies its style on top of a checkpoint.
+Install a LoRA file, load it with the Load LoRA node, and run a workflow that blends its style on top of a base checkpoint.
 
 Copy pageCopy page
 

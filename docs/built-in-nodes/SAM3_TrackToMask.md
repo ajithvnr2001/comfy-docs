@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SAM3_TrackToMask/
 title: SAM3_TrackToMask - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:54.524614+00:00
+fetched_at: 2026-10-19T14:35:07.540802+00:00
 ---
 
 # SAM3_TrackToMask - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Detection
 
 Copy pageCopy page
 
-Documentation for SAM3TrackToMask node.
+Selects specific tracked objects from a SAM3 tracking session by their index numbers and combines them into a single output mask.
 
 Copy pageCopy page
 

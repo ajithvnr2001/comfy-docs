@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/interface/overview/
 title: Interface Overview - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:01.862059+00:00
+fetched_at: 2026-10-19T14:34:59.239244+00:00
 ---
 
 # Interface Overview - ComfyUI
@@ -16,6 +16,7 @@ fetched_at: 2026-10-17T10:51:01.862059+00:00
     * Left sidebar
     * Right side panel
     * Canvas
+    * Run bar
     * Bottom and help
   * Feature components
   * Settings
@@ -50,7 +51,7 @@ ComfyUI supports English, Chinese, Russian, French, Japanese, and Korean. Open *
 
 Workspace map
 
-![ComfyUI Workspace with numbered regions 1–6](https://mintcdn.com/dripart/svxMC8DHZXobTT5E/images/interface/overview/comfyui-new-interface-main.png?fit=max&auto=format&n=svxMC8DHZXobTT5E&q=85&s=6982fc75dedc493b140fe44816557e5e) Numbers in the screenshot match the regions below:
+![ComfyUI Workspace with numbered regions 1–6](https://mintcdn.com/dripart/Bf4DeDZgTg4kdJMV/images/interface/overview/comfyui-new-interface-main.png?fit=max&auto=format&n=Bf4DeDZgTg4kdJMV&q=85&s=a9b74b0809cce523bf37bfcefbfd68b5) Numbers in the screenshot match the regions below:
 
 #| Area| What it is  
 ---|---|---  
@@ -117,6 +118,23 @@ Minimap, links, canvas info, zoom, fit, Focus Mode
 
 Node chrome, headers, and selection behavior
 
+### 
+
+​
+
+Run bar
+
+The floating run bar sits at the top of the canvas and holds everything needed to start and supervise a run: batch count, Run, queue mode, cancel, and the active job count. ![Run bar: 1 drag handle, 2 batch count, 3 Run, 4 queue mode, 5 cancel, 6 active jobs](https://mintcdn.com/dripart/eWJdujtoaBSEH32O/images/interface/overview/run_bar.png?fit=max&auto=format&n=eWJdujtoaBSEH32O&q=85&s=a667c6a1008fdb6963c8c84fdfe5faa6)
+
+#| Control| What it does  
+---|---|---  
+**1**| **Drag handle**|  Move the bar anywhere on the canvas. While you drag, a **Dock to top** zone appears to pin it back to the top edge.  
+**2**| **Batch count**|  How many times the workflow is queued per run (default `1`). Type a value or use the up and down arrows.  
+**3**| **Run**|  Queue the workflow. Hold `Shift` to queue it at the front of the queue instead of the end.  
+**4**| **Queue mode menu**|  Choose when the workflow queues itself: **Run** (only when you click), **Run (On Change)** (queues again whenever the workflow changes), or **Run (Instant)** (queues again as soon as the current run finishes).  
+**5**| **Cancel**|  Stop the run that is executing now. Disabled while the queue is idle.  
+**6**| **Active jobs**|  Number of queued and running jobs. Click to open the queue, right-click to clear it.  
+  
 ### 
 
 ​
