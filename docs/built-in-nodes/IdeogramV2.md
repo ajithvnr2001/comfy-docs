@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/IdeogramV2/
 title: IdeogramV2 - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:06.549554+00:00
+fetched_at: 2026-10-20T12:40:29.082689+00:00
 ---
 
 # IdeogramV2 - ComfyUI Built-in Node Documentation - ComfyUI

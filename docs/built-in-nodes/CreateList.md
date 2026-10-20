@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/CreateList/
 title: CreateList - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:48.100859+00:00
+fetched_at: 2026-10-20T12:40:28.095469+00:00
 ---
 
 # CreateList - ComfyUI Built-in Node Documentation - ComfyUI

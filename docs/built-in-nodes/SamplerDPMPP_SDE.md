@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SamplerDPMPP_SDE/
 title: SamplerDPMPP_SDE - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:56.607419+00:00
+fetched_at: 2026-10-20T12:40:27.487888+00:00
 ---
 
 # SamplerDPMPP_SDE - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Samplers
 
 Copy pageCopy page
 
-Documentation for SamplerDPMPPSDE node.
+SamplerDPMPPSDE creates a DPM++ SDE (Stochastic Differential Equation) sampler for use in the sampling process.
 
 Copy pageCopy page
 

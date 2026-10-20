@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/assets/existence-check-for-a-blob-by-blake3-hash/
 title: Existence check for a blob by blake3 hash - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:14.087991+00:00
+fetched_at: 2026-10-20T12:40:26.548209+00:00
 ---
 
 # Existence check for a blob by blake3 hash - ComfyUI
@@ -119,6 +119,33 @@ cURL
 429
 
 500
+
+503
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
+      }
+    }
     
     
     {
@@ -366,6 +393,33 @@ cURL
 429
 
 500
+
+503
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
+      }
+    }
     
     
     {

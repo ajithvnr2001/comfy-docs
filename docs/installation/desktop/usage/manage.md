@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/installation/desktop/usage/manage/
 title: Managing Installations - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:35:02.392980+00:00
+fetched_at: 2026-10-20T12:40:22.633230+00:00
 ---
 
 # Managing Installations - ComfyUI
@@ -18,6 +18,8 @@ fetched_at: 2026-10-19T14:35:02.392980+00:00
     * Storage Tab
     * Terminal Tab
     * About Tab
+    * Rename an Instance
+    * Change a Remote Connection’s URL
   * Installation Actions
 
 
@@ -60,6 +62,7 @@ Update Tab
   * **Update Channel** : Choose the update channel from the dropdown: 
     * **Stable** : Tested releases, recommended for most users. Default option.
     * **Latest on GitHub** : Newest commits from the master branch.
+  * **PyTorch** : The installed PyTorch build. **Change PyTorch** switches to an official stack tested with this install type (CUDA, ROCm, Intel XPU, CPU, or Apple MPS). The rest of the environment is kept. Nightly builds are marked unstable.
 
 
 
@@ -153,16 +156,30 @@ Terminal Tab
 
 About Tab
 
-![Manage About tab with instance paths and version details](https://mintcdn.com/dripart/N4LZwJLSpBN0lv19/images/desktop/usage/instance_settings_05_about.png?fit=max&auto=format&n=N4LZwJLSpBN0lv19&q=85&s=f3fd05eb228275ec4d03685c7922e83e) View installation details: ComfyUI version, hardware, Python and PyTorch versions, disk path, and usage.
+![Manage About tab: the editable instance name, the instance facts, and the installation path](https://mintcdn.com/dripart/3_f2FbRYqX1I3CM-/images/desktop/usage/instance_settings_05_about.png?fit=max&auto=format&n=3_f2FbRYqX1I3CM-&q=85&s=6c609261816eb72a277d6e8118f36fe1) The About tab collects what Comfy Desktop knows about the instance. A path opens in your file manager when you click it, and the copy button beside it copies the path. The facts are grouped, and a group only appears when it has something to show:
 
-  * **Current Version** : The installed ComfyUI version.
-  * **Hardware** : Detected hardware (e.g. `Apple Silicon (MPS)`).
-  * **Python** : Bundled Python version.
-  * **PyTorch** : The installed PyTorch build. **Change PyTorch** switches to an official stack tested with this install type (CUDA, ROCm, Intel XPU, CPU, or Apple MPS). The rest of the environment is kept. Nightly builds are marked unstable.
-  * **Location** : The full installation path on disk. Click the copy button to copy it.
-  * **Disk Usage** : How much disk space the installation uses.
+  * **Instance details** : ComfyUI version, hardware, and the Python and PyTorch versions. For a Remote Connection this group holds the connection URL and the date the connection was added.
+  * **Running details** : the port ComfyUI is listening on. It appears while the instance is running.
+  * **Location & storage**: the full installation path on disk and how much space the installation uses. Only a local installation keeps files on this machine, so Cloud and Remote Connections have no such group.
+  * **Lineage** : the instance this one was copied from, and when. It appears on an instance that came from **Duplicate Instance** , from a copy that changed its version or PyTorch, from a Legacy Desktop migration, or from an in-place adoption.
 
 
+
+#### 
+
+​
+
+Rename an Instance
+
+![About tab with the instance name and the pencil it reveals on hover outlined](https://mintcdn.com/dripart/3_f2FbRYqX1I3CM-/images/desktop/usage/instance_settings_06_rename.png?fit=max&auto=format&n=3_f2FbRYqX1I3CM-&q=85&s=660d658fc7f0a1dd396751d9315fb488) Click the instance name at the top of the About tab, type the new name, then press Enter or click anywhere else. Hovering the name reveals a pencil that puts the cursor in the same field. Esc cancels the edit and keeps the old name, and an empty name, or the name the instance already has, changes nothing. The Manage panel’s **More** menu carries the same action as **Rename** , which opens a **Rename Instance** dialog with a **Name** field. Comfy Desktop rejects a name that another instance already uses, and the message asks you to pick a different one. A Comfy Cloud entry keeps its name and has no pencil; local, remote, and tracked instances can be renamed.
+
+#### 
+
+​
+
+Change a Remote Connection’s URL
+
+![About tab of a Remote Connection with the connection URL and its pencil outlined](https://mintcdn.com/dripart/3_f2FbRYqX1I3CM-/images/desktop/usage/instance_settings_07_remote_url.png?fit=max&auto=format&n=3_f2FbRYqX1I3CM-&q=85&s=9a51f2e8850f6b8abfd74d0668cd2aa6) A Remote Connection’s address is the **URL** row in the About tab. Click the URL, or the pencil beside it, type the new address, and press Enter or click anywhere else. An address without a scheme is read as `http://`, and a trailing slash is dropped when the address is saved. While the instance is connected, an edited URL takes effect on the next launch: the row shows **Restart to apply** until you restart the instance, and the running session keeps the old address. An address Comfy Desktop cannot read is not saved, and the row returns to the previous value.
 
 ## 
 

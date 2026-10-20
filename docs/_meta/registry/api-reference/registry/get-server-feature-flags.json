@@ -3,8 +3,5 @@
   "file": "registry/api-reference/registry/get-server-feature-flags.md",
   "title": "Get server feature flags - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:07.077472+00:00",
-  "html_len": 456529,
-  "md_len": 6253,
-  "depth": 0
+  "fetched_at": "2026-10-20T12:40:26.269919+00:00"
 }

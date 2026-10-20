@@ -3,8 +3,5 @@
   "file": "registry/api-reference/registry/update-changelog-and-deprecation-status-of-a-node-version.md",
   "title": "Update changelog and deprecation status of a node version - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:11.396077+00:00",
-  "html_len": 573981,
-  "md_len": 14214,
-  "depth": 0
+  "fetched_at": "2026-10-20T12:40:27.219063+00:00"
 }

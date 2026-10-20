@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ImageHistogram/
 title: ImageHistogram - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:12.597359+00:00
+fetched_at: 2026-10-20T12:40:28.443651+00:00
 ---
 
 # ImageHistogram - ComfyUI Built-in Node Documentation - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ByteDanceSeedreamNode/
 title: ByteDanceSeedreamNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:31.290107+00:00
+fetched_at: 2026-10-20T12:40:28.576263+00:00
 ---
 
 # ByteDanceSeedreamNode - ComfyUI Built-in Node Documentation - ComfyUI

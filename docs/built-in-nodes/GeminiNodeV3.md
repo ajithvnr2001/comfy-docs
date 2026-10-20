@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/GeminiNodeV3/
 title: GeminiNodeV3 - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:59.916155+00:00
+fetched_at: 2026-10-20T12:40:27.634147+00:00
 ---
 
 # GeminiNodeV3 - ComfyUI Built-in Node Documentation - ComfyUI

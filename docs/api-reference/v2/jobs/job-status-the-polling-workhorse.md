@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/jobs/job-status-the-polling-workhorse/
 title: Job status (the polling workhorse) - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:14.952716+00:00
+fetched_at: 2026-10-20T12:40:25.578796+00:00
 ---
 
 # Job status (the polling workhorse) - ComfyUI
@@ -123,6 +123,8 @@ cURL
 429
 
 500
+
+503
     
     
     {
@@ -191,6 +193,31 @@ cURL
       "release_version": 3,
       "metadata": {
         "client": "acme"
+      }
+    }
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
       }
     }
     
@@ -465,6 +492,8 @@ cURL
 429
 
 500
+
+503
     
     
     {
@@ -533,6 +562,31 @@ cURL
       "release_version": 3,
       "metadata": {
         "client": "acme"
+      }
+    }
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
       }
     }
     

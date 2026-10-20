@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/
 title: Comfy Router models - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:34:59.707331+00:00
+fetched_at: 2026-10-20T12:40:25.162408+00:00
 ---
 
 # Comfy Router models - ComfyUI
@@ -67,7 +67,7 @@ Every model below is served by the same route, `POST /v2/models/{provider}/{mode
 
 Find by output
 
-Video (69)
+Video (70)
 
   * [SwitchX](https://docs.comfy.org/development/comfy-router/models/beeble/switchx/code): `beeble/switchx`
   * [FLUX 3 Video](https://docs.comfy.org/development/comfy-router/models/black-forest-labs/flux-3-video/code): `bfl/flux-3-video`
@@ -84,6 +84,7 @@ Video (69)
   * [Seedance 1.0 Pro 250528](https://docs.comfy.org/development/comfy-router/models/byteplus/seedance-1-0-pro-250528/code): `byteplus/seedance-1-0-pro-250528`
   * [Seedance 1.0 Pro Fast 251015](https://docs.comfy.org/development/comfy-router/models/byteplus/seedance-1-0-pro-fast-251015/code): `byteplus/seedance-1-0-pro-fast-251015`
   * [Seedance 1.5 Pro 251215](https://docs.comfy.org/development/comfy-router/models/byteplus/seedance-1-5-pro-251215/code): `byteplus/seedance-1-5-pro-251215`
+  * [Crystal Video Upscaler](https://docs.comfy.org/development/comfy-router/models/fal/crystal-video-upscaler/code): `fal/crystal-video-upscaler`
   * [H3 Max Turbo](https://docs.comfy.org/development/comfy-router/models/fal/h3-max-turbo/code): `fal/h3-max-turbo`
   * [H3 Max](https://docs.comfy.org/development/comfy-router/models/fal/h3-max/code): `fal/h3-max`
   * [Higgsfield Genjutsu Motion Transfer V1.0](https://docs.comfy.org/development/comfy-router/models/higgsfield/higgsfield-genjutsu-motion-transfer-v1-0/code): `higgsfield/higgsfield-genjutsu-motion-transfer-v1.0`
@@ -470,6 +471,7 @@ fal
 Model| ID| Input| Output  
 ---|---|---|---  
 [Crystal Upscaler](https://docs.comfy.org/development/comfy-router/models/fal/crystal-upscaler/code)| `fal/crystal-upscaler`| Image| Image  
+[Crystal Video Upscaler](https://docs.comfy.org/development/comfy-router/models/fal/crystal-video-upscaler/code)| `fal/crystal-video-upscaler`| Video| Video  
 [H3 Max Turbo](https://docs.comfy.org/development/comfy-router/models/fal/h3-max-turbo/code)| `fal/h3-max-turbo`| Text, Image| Video + Audio  
 [H3 Max](https://docs.comfy.org/development/comfy-router/models/fal/h3-max/code)| `fal/h3-max`| Text, Image, Video, Audio| Video + Audio  
 [Patina](https://docs.comfy.org/development/comfy-router/models/fal/patina/code)| `fal/patina`| Image| Image  

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/jobs/list-jobs-newest-first/
 title: List jobs, newest first - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:15.237796+00:00
+fetched_at: 2026-10-20T12:40:26.057325+00:00
 ---
 
 # List jobs, newest first - ComfyUI
@@ -129,6 +129,8 @@ cURL
 500
 
 501
+
+503
     
     
     {
@@ -145,6 +147,31 @@ cURL
         }
       ],
       "next_cursor": "<string>"
+    }
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
+      }
     }
     
     
@@ -503,6 +530,8 @@ cURL
 500
 
 501
+
+503
     
     
     {
@@ -519,6 +548,31 @@ cURL
         }
       ],
       "next_cursor": "<string>"
+    }
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
+      }
     }
     
     

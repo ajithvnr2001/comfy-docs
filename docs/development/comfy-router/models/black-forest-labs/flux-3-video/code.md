@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/black-forest-labs/flux-3-video/code/
 title: Use FLUX 3 Video with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:50.818033+00:00
+fetched_at: 2026-10-20T12:40:24.928940+00:00
 ---
 
 # Use FLUX 3 Video with Comfy Router - ComfyUI
@@ -283,7 +283,7 @@ resolution
 
 string
 
-Video resolution class: hd, or fhd for a higher-resolution result finished by the video upsampler. Defaults to hd for t2v, i2v and v2v, and to fhd for draft_enhance. Exact dimensions vary with the aspect ratio.Possible values: `hd`, `fhd`
+Video resolution class: hd (720p), or fhd (1080p), qhd (2K) or uhd (4K) for a higher-resolution result finished by the video upsampler. Defaults to hd for t2v, i2v and v2v, and to fhd for draft_enhance. Exact dimensions vary with the aspect ratio.Possible values: `hd`, `fhd`, `qhd`, `uhd`
 
 ​
 

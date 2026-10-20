@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/FluxVideoEditNode/
 title: FluxVideoEditNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:57.634428+00:00
+fetched_at: 2026-10-20T12:40:27.523903+00:00
 ---
 
 # FluxVideoEditNode - ComfyUI Built-in Node Documentation - ComfyUI

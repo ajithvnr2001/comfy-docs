@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/jobs/live-event-stream-sse/
 title: Live event stream (SSE) - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:15.920324+00:00
+fetched_at: 2026-10-20T12:40:25.263882+00:00
 ---
 
 # Live event stream (SSE) - ComfyUI
@@ -125,9 +125,36 @@ cURL
 500
 
 501
+
+503
     
     
     <string>
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
+      }
+    }
     
     
     {
@@ -433,9 +460,36 @@ cURL
 500
 
 501
+
+503
     
     
     <string>
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
+      }
+    }
     
     
     {

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/jobs/the-workflow-behind-a-job-—-authoring-version-if-pinned-executed-graph-otherwise/
 title: The workflow behind a job \u2014 authoring version if pinned, executed graph otherwise - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:16.750352+00:00
+fetched_at: 2026-10-20T12:40:25.460046+00:00
 ---
 
 # The workflow behind a job — authoring version if pinned, executed graph otherwise - ComfyUI
@@ -123,11 +123,38 @@ cURL
 429
 
 500
+
+503
     
     
     {
       "workflow": {},
       "format": "save"
+    }
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
+      }
     }
     
     
@@ -420,11 +447,38 @@ cURL
 429
 
 500
+
+503
     
     
     {
       "workflow": {},
       "format": "save"
+    }
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
+      }
     }
     
     

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/llm/gemma4/gemma4/
 title: Gemma 4 ComfyUI workflow example - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:24.416462+00:00
+fetched_at: 2026-10-20T12:40:25.203478+00:00
 ---
 
 # Gemma 4 ComfyUI workflow example - ComfyUI
@@ -56,9 +56,9 @@ So, if you find any core node missing in this document, it might be because the 
   * **Three sizes available** : 
     * **E2B (2B)** : Fast and lightweight, ideal for consumer GPUs
     * **E4B (4B)** : Balanced performance, recommended default
-    * **31B** : Best quality, requires higher VRAM
+    * **12B** : Best quality, requires higher VRAM
   * **Thinking mode** : Built-in step-by-step reasoning before generating answers
-  * **Long context** : Up to 128K tokens (E2B/E4B) and 256K tokens (31B)
+  * **Long context** : Up to 128K tokens (E2B/E4B) and 256K tokens (12B)
   * **Multilingual** : 35+ languages out of the box, pre-trained on 140+
   * **Function calling** : Native support for structured tool use and agentic workflows
   * **ComfyUI native** : loaded and run through the built-in `TextGenerate` and `CLIPLoader` nodes
@@ -166,7 +166,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/llm/gemma4/gemma4.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/llm/gemma4/gemma4)
 
-[TRELLIS.2 Image to 3D Model ComfyUI Workflow ExamplePrevious](https://docs.comfy.org/tutorials/3d/trellis2)[Qwen 3.0 ComfyUI workflow exampleNext](https://docs.comfy.org/tutorials/llm/qwen/qwen3)
+[ComfyUI Hunyuan3D-2 ExamplesPrevious](https://docs.comfy.org/tutorials/3d/hunyuan3D-2)[Qwen 3.0 ComfyUI workflow exampleNext](https://docs.comfy.org/tutorials/llm/qwen/qwen3)
 
 ⌘I
 

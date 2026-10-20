@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/CaseConverter/
 title: CaseConverter - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:34.477473+00:00
+fetched_at: 2026-10-20T12:40:28.310724+00:00
 ---
 
 # CaseConverter - ComfyUI Built-in Node Documentation - ComfyUI

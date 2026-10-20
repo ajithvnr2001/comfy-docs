@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/FluxProCannyNode/
 title: FluxProCannyNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:57.106200+00:00
+fetched_at: 2026-10-20T12:40:28.901752+00:00
 ---
 
 # FluxProCannyNode - ComfyUI Built-in Node Documentation - ComfyUI

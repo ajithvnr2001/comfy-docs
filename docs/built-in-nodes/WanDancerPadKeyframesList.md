@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/WanDancerPadKeyframesList/
 title: WanDancerPadKeyframesList - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:23.406386+00:00
+fetched_at: 2026-10-20T12:40:27.413022+00:00
 ---
 
 # WanDancerPadKeyframesList - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Video
 
 Copy pageCopy page
 
-Documentation for WanDancerPadKeyframesList node.
+This node takes a sequence of images and an optional audio track, and splits them into a specified number of padded segments.
 
 Copy pageCopy page
 

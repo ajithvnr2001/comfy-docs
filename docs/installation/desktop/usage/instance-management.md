@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/installation/desktop/usage/instance-management/
 title: Instance Management - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:35:06.253343+00:00
+fetched_at: 2026-10-20T12:40:22.792793+00:00
 ---
 
 # Instance Management - ComfyUI
@@ -272,6 +272,8 @@ Editing an Instance
   * Adjust launch arguments
   * Modify model directories
   * Update environment variables
+  * Rename the instance, from the name at the top of the **About** tab or from **Rename** in the **More** menu
+  * Change the connection address of a Remote Connection, in the **About** tab
 
 Open the **Manage** panel by right-clicking the instance card (or selecting **Manage** in its ⋮ menu).
 

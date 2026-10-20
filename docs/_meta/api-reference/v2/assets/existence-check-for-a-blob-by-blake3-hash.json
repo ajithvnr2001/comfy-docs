@@ -3,8 +3,5 @@
   "file": "api-reference/v2/assets/existence-check-for-a-blob-by-blake3-hash.md",
   "title": "Existence check for a blob by blake3 hash - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:47:14.089423+00:00",
-  "html_len": 563778,
-  "md_len": 13682,
-  "depth": 0
+  "fetched_at": "2026-10-20T12:40:26.548571+00:00"
 }

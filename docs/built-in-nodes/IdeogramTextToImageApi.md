@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/IdeogramTextToImageApi/
 title: IdeogramTextToImageApi - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:05.719545+00:00
+fetched_at: 2026-10-20T12:40:27.561236+00:00
 ---
 
 # IdeogramTextToImageApi - ComfyUI Built-in Node Documentation - ComfyUI

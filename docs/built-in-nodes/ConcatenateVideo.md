@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ConcatenateVideo/
 title: ConcatenateVideo - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:40.222610+00:00
+fetched_at: 2026-10-20T12:40:28.410190+00:00
 ---
 
 # ConcatenateVideo - ComfyUI Built-in Node Documentation - ComfyUI

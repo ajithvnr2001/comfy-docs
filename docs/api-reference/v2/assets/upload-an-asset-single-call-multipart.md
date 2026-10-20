@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/assets/upload-an-asset-single-call-multipart/
 title: Upload an asset (single-call multipart) - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:15.613036+00:00
+fetched_at: 2026-10-20T12:40:26.493608+00:00
 ---
 
 # Upload an asset (single-call multipart) - ComfyUI
@@ -159,6 +159,8 @@ cURL
 429
 
 500
+
+503
     
     
     {
@@ -193,6 +195,31 @@ cURL
       "job_id": "<string>",
       "job_metadata": {
         "client": "acme"
+      }
+    }
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
       }
     }
     
@@ -357,6 +384,8 @@ Single-call `multipart/form-data` upload. The platform streams the bytes through
 The blake3 hash is always computed server-side from the received bytes — a client-declared `expected_hash` is verified, never trusted. The uploaded asset is referenceable immediately; any content scanning runs in the background and does not block the response.
 
 ~100 MB single-request expectation for v1; chunked/resumable large uploads are a deliberate open question.
+
+On Comfy Cloud an upload fails with 422 `upload_timed_out` when no request bytes arrive for 30 seconds, or when the whole request takes longer than 10 minutes, however steadily bytes keep arriving.
 
 Copy pageCopy page
 
@@ -528,6 +557,8 @@ cURL
 429
 
 500
+
+503
     
     
     {
@@ -562,6 +593,31 @@ cURL
       "job_id": "<string>",
       "job_metadata": {
         "client": "acme"
+      }
+    }
+    
+    
+    {
+      "error": {
+        "code": "invalid_workflow",
+        "message": "Node 12 (KSampler): required input 'model' is not connected",
+        "organization_id": "org_01HXYZEXAMPLE",
+        "details": {
+          "node_errors": {
+            "12": {
+              "class_type": "SomeCustomNode",
+              "errors": [
+                {
+                  "type": "unknown_node_class",
+                  "message": "this deployment's build does not contain the node class SomeCustomNode."
+                }
+              ]
+            }
+          },
+          "unknown_node_classes": [
+            "SomeCustomNode"
+          ]
+        }
       }
     }
     
@@ -947,6 +1003,7 @@ Example:
     
     
     { "client": "acme" }
+    
 
 Was this page helpful?
 

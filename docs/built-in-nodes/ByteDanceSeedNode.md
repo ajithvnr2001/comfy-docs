@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ByteDanceSeedNode/
 title: ByteDanceSeedNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:30.462910+00:00
+fetched_at: 2026-10-20T12:40:28.976415+00:00
 ---
 
 # ByteDanceSeedNode - ComfyUI Built-in Node Documentation - ComfyUI

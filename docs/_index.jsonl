@@ -2175,3 +2175,5 @@
 {"url": "https://docs.comfy.org/tutorials/image/moss-image/moss-image/", "file": "tutorials/image/moss-image/moss-image.md", "title": "MOSS-Image in ComfyUI: Text-to-Image and Layout Workflows - ComfyUI", "method": "scrapling+scrapegraph"}
 {"url": "https://docs.comfy.org/cloud/publish-workflow/", "file": "cloud/publish-workflow.md", "title": "Publish workflows to Comfy Workflows - ComfyUI", "method": "scrapling+scrapegraph"}
 {"url": "https://docs.comfy.org/interface/layer-editor/", "file": "interface/layer-editor.md", "title": "Layer Editor (Compositor): Combine Images as Layers in ComfyUI - ComfyUI", "method": "scrapling+scrapegraph"}
+{"url": "https://docs.comfy.org/development/comfy-router/models/fal/crystal-video-upscaler/code/", "file": "development/comfy-router/models/fal/crystal-video-upscaler/code.md", "title": "Use Crystal Video Upscaler with Comfy Router - ComfyUI", "method": "scrapling+scrapegraph"}
+{"url": "https://docs.comfy.org/tutorials/image/nvidia/pid-latent-upscale/", "file": "tutorials/image/nvidia/pid-latent-upscale.md", "title": "PiD Latent Upscale ComfyUI Workflow Example - ComfyUI", "method": "scrapling+scrapegraph"}

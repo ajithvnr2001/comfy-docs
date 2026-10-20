@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/GeminiInputFiles/
 title: GeminiInputFiles - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:59.343512+00:00
+fetched_at: 2026-10-20T12:40:28.679108+00:00
 ---
 
 # GeminiInputFiles - ComfyUI Built-in Node Documentation - ComfyUI

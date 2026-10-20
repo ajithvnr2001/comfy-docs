@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ControlNetApply/
 title: ControlNetApply - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:43.366105+00:00
+fetched_at: 2026-10-20T12:40:29.118738+00:00
 ---
 
 # ControlNetApply - ComfyUI Built-in Node Documentation - ComfyUI

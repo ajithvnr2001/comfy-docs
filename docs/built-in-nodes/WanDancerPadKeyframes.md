@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/WanDancerPadKeyframes/
 title: WanDancerPadKeyframes - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:23.185913+00:00
+fetched_at: 2026-10-20T12:40:27.360069+00:00
 ---
 
 # WanDancerPadKeyframes - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Video
 
 Copy pageCopy page
 
-Documentation for WanDancerPadKeyframes node.
+This node prepares a sequence of keyframes for a specific segment of a longer video generation process.
 
 Copy pageCopy page
 

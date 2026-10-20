@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ComfyOrNode/
 title: ComfyOrNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:39.689769+00:00
+fetched_at: 2026-10-20T12:40:28.604636+00:00
 ---
 
 # ComfyOrNode - ComfyUI Built-in Node Documentation - ComfyUI

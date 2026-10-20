@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/registry/api-reference/registry/list-all-versions-of-a-node/
 title: List all versions of a node - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:35:03.516521+00:00
+fetched_at: 2026-10-20T12:40:23.316983+00:00
 ---
 
 # List all versions of a node - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/T5TokenizerOptions/
 title: T5TokenizerOptions - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:07.518428+00:00
+fetched_at: 2026-10-20T12:40:27.313130+00:00
 ---
 
 # T5TokenizerOptions - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Conditioning
 
 Copy pageCopy page
 
-Documentation for T5TokenizerOptions node.
+The T5TokenizerOptions node configures tokenizer settings for various T5 model types.
 
 Copy pageCopy page
 

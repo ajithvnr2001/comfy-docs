@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SelectVAEDevice/
 title: SelectVAEDevice - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:01.420766+00:00
+fetched_at: 2026-10-20T12:40:27.250166+00:00
 ---
 
 # SelectVAEDevice - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Multigpu
 
 Copy pageCopy page
 
-Documentation for SelectVAEDevice node.
+This node allows you to manually select which GPU device the VAE model should be placed on.
 
 Copy pageCopy page
 

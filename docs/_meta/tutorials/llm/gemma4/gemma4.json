@@ -3,8 +3,5 @@
   "file": "tutorials/llm/gemma4/gemma4.md",
   "title": "Gemma 4 ComfyUI workflow example - ComfyUI",
   "method": "scrapling+scrapegraph",
-  "fetched_at": "2026-10-17T10:51:24.416832+00:00",
-  "html_len": 487527,
-  "md_len": 7285,
-  "depth": 0
+  "fetched_at": "2026-10-20T12:40:25.203796+00:00"
 }

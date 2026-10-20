@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/StringFormat/
 title: StringFormat - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:06.088603+00:00
+fetched_at: 2026-10-20T12:40:27.279731+00:00
 ---
 
 # StringFormat - ComfyUI Built-in Node Documentation - ComfyUI
@@ -15,7 +15,7 @@ Text
 
 Copy pageCopy page
 
-Documentation for StringFormat node.
+This node formats text using Python’s string format method.
 
 Copy pageCopy page
 

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/GrokVideoNode/
 title: GrokVideoNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:02.773854+00:00
+fetched_at: 2026-10-20T12:40:27.714806+00:00
 ---
 
 # GrokVideoNode - ComfyUI Built-in Node Documentation - ComfyUI

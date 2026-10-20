@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/DifferentialDiffusion/
 title: DifferentialDiffusion - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:50.455830+00:00
+fetched_at: 2026-10-20T12:40:27.832236+00:00
 ---
 
 # DifferentialDiffusion - ComfyUI Built-in Node Documentation - ComfyUI

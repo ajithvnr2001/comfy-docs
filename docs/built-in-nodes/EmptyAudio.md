@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/EmptyAudio/
 title: EmptyAudio - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:52.425094+00:00
+fetched_at: 2026-10-20T12:40:27.938499+00:00
 ---
 
 # EmptyAudio - ComfyUI Built-in Node Documentation - ComfyUI

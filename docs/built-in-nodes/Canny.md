@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/Canny/
 title: Canny - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:34.115885+00:00
+fetched_at: 2026-10-20T12:40:28.639099+00:00
 ---
 
 # Canny - ComfyUI Built-in Node Documentation - ComfyUI

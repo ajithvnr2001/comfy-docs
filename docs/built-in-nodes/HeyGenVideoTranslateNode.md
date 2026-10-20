@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/HeyGenVideoTranslateNode/
 title: HeyGenVideoTranslateNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:04.289848+00:00
+fetched_at: 2026-10-20T12:40:27.973431+00:00
 ---
 
 # HeyGenVideoTranslateNode - ComfyUI Built-in Node Documentation - ComfyUI

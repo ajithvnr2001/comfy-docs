@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/Flux3VideoContinuationNode/
 title: Flux3VideoContinuationNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:56.140757+00:00
+fetched_at: 2026-10-20T12:40:27.875142+00:00
 ---
 
 # Flux3VideoContinuationNode - ComfyUI Built-in Node Documentation - ComfyUI
