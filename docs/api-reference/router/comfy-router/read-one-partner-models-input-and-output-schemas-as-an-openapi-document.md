@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/router/comfy-router/read-one-partner-models-input-and-output-schemas-as-an-openapi-document/
 title: Read one partner model's input and output schemas as an OpenAPI document. - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:11.375636+00:00
+fetched_at: 2026-10-21T12:51:37.482142+00:00
 ---
 
 # Read one partner model's input and output schemas as an OpenAPI document. - ComfyUI

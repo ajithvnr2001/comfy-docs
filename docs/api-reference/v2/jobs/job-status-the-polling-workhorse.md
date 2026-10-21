@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/jobs/job-status-the-polling-workhorse/
 title: Job status (the polling workhorse) - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:25.578796+00:00
+fetched_at: 2026-10-21T12:51:36.585944+00:00
 ---
 
 # Job status (the polling workhorse) - ComfyUI

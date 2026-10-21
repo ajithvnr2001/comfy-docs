@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/limitations/
 title: Comfy Router capabilities and limits - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:34:59.353274+00:00
+fetched_at: 2026-10-21T12:51:37.579377+00:00
 ---
 
 # Comfy Router capabilities and limits - ComfyUI
@@ -20,6 +20,7 @@ fetched_at: 2026-10-19T14:34:59.353274+00:00
   * No progress while a call runs
   * Comfy charges and usage
   * Router does not cover every partner operation
+    * Krea 3 reference images must be uploaded first
   * Model outputs and stored assets
   * Next
 
@@ -121,6 +122,33 @@ The response can contain provider usage or cost fields. They do not represent a 
 Router does not cover every partner operation
 
 Router runs models. File uploads, account reads, asset management, streaming, and provider job controls can require partner-proxy routes under `/proxy/…`, which sit outside Router and are not described by its contract. Router’s own surface is the [Comfy Router specification](https://docs.comfy.org/router-openapi.yaml); support varies by provider.
+
+### 
+
+​
+
+Krea 3 reference images must be uploaded first
+
+`krea/krea-3` does not accept arbitrary image links. Every entry in `image_urls` must be an `image_url` returned by `POST /proxy/krea/assets`, which is an `https://app-uploads.krea.ai/...` URL. Router checks only that the link parses as an `https` URL whose host is exactly `app-uploads.krea.ai` (no other host and no explicit port): any other link, including a public `https` URL you host yourself, is rejected with `400` `invalid_input` before the model runs. A link that passes that check but is not a live upload (expired, deleted or mistyped) still gets past it, and Router then fails to read the image’s size and answers with a `5xx` error, not a `400`, so always pass the `image_url` exactly as the upload returned it.
+
+  1. Upload each reference image as `multipart/form-data`, with the image in the form field `file` (JPEG, PNG, or WebP, up to 75 MB). Authenticate the same way you do for Router, with `X-API-Key` or `Authorization: Bearer`.
+         
+         curl -X POST https://api.comfy.org/proxy/krea/assets \
+           -H "X-API-Key: $COMFY_API_KEY" \
+           -F "file=@reference.png"
+         
+
+  2. Read `image_url` from the JSON response and pass it in `image_urls`:
+         
+         {
+           "prompt": "Place the product on a clean studio background",
+           "resolution": "1k",
+           "image_urls": ["<image_url from step 1>"]
+         }
+         
+
+
+Text-to-image calls omit `image_urls` and need no upload.
 
 ## 
 

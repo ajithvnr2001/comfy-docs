@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/jobs/request-cancellation/
 title: Request cancellation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:25.403988+00:00
+fetched_at: 2026-10-21T12:51:36.414035+00:00
 ---
 
 # Request cancellation - ComfyUI

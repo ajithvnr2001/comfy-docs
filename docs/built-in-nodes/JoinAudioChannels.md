@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/JoinAudioChannels/
 title: JoinAudioChannels - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:12.875991+00:00
+fetched_at: 2026-10-21T12:51:39.844189+00:00
 ---
 
 # JoinAudioChannels - ComfyUI Built-in Node Documentation - ComfyUI

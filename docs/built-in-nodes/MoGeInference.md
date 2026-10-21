@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MoGeInference/
 title: MoGeInference - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:34.161553+00:00
+fetched_at: 2026-10-21T12:51:38.847701+00:00
 ---
 
 # MoGeInference - ComfyUI Built-in Node Documentation - ComfyUI

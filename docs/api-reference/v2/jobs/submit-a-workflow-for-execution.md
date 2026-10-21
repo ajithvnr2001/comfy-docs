@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/jobs/submit-a-workflow-for-execution/
 title: Submit a workflow for execution - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:25.799541+00:00
+fetched_at: 2026-10-21T12:51:36.642045+00:00
 ---
 
 # Submit a workflow for execution - ComfyUI
@@ -23,7 +23,9 @@ cURL
       "workflow": {},
       "extra_data": {
         "api_key_comfy_org": "<string>",
-        "auth_token_comfy_org": "<string>"
+        "auth_token_comfy_org": "<string>",
+        "preview_method": "<string>",
+        "extra_pnginfo": {}
       },
       "metadata": {
         "client": "acme",
@@ -41,7 +43,9 @@ cURL
         "workflow": {},
         "extra_data": {
             "api_key_comfy_org": "<string>",
-            "auth_token_comfy_org": "<string>"
+            "auth_token_comfy_org": "<string>",
+            "preview_method": "<string>",
+            "extra_pnginfo": {}
         },
         "metadata": {
             "client": "acme",
@@ -63,7 +67,12 @@ cURL
       headers: {Authorization: 'Bearer <token>', 'Content-Type': 'application/json'},
       body: JSON.stringify({
         workflow: {},
-        extra_data: {api_key_comfy_org: '<string>', auth_token_comfy_org: '<string>'},
+        extra_data: {
+          api_key_comfy_org: '<string>',
+          auth_token_comfy_org: '<string>',
+          preview_method: '<string>',
+          extra_pnginfo: {}
+        },
         metadata: {client: 'acme', batch: '2026-10-05'}
       })
     };
@@ -93,7 +102,11 @@ cURL
         ],
         'extra_data' => [
             'api_key_comfy_org' => '<string>',
-            'auth_token_comfy_org' => '<string>'
+            'auth_token_comfy_org' => '<string>',
+            'preview_method' => '<string>',
+            'extra_pnginfo' => [
+                    
+            ]
         ],
         'metadata' => [
             'client' => 'acme',
@@ -131,7 +144,7 @@ cURL
     
     	url := "http://127.0.0.1:8189/api/v2/jobs"
     
-    	payload := strings.NewReader("{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\"\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}")
+    	payload := strings.NewReader("{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\",\n    \"preview_method\": \"<string>\",\n    \"extra_pnginfo\": {}\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}")
     
     	req, _ := http.NewRequest("POST", url, payload)
     
@@ -151,7 +164,7 @@ cURL
     HttpResponse<String> response = Unirest.post("http://127.0.0.1:8189/api/v2/jobs")
       .header("Authorization", "Bearer <token>")
       .header("Content-Type", "application/json")
-      .body("{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\"\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}")
+      .body("{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\",\n    \"preview_method\": \"<string>\",\n    \"extra_pnginfo\": {}\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}")
       .asString();
     
     
@@ -165,7 +178,7 @@ cURL
     request = Net::HTTP::Post.new(url)
     request["Authorization"] = 'Bearer <token>'
     request["Content-Type"] = 'application/json'
-    request.body = "{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\"\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}"
+    request.body = "{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\",\n    \"preview_method\": \"<string>\",\n    \"extra_pnginfo\": {}\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}"
     
     response = http.request(request)
     puts response.read_body
@@ -533,7 +546,9 @@ cURL
       "workflow": {},
       "extra_data": {
         "api_key_comfy_org": "<string>",
-        "auth_token_comfy_org": "<string>"
+        "auth_token_comfy_org": "<string>",
+        "preview_method": "<string>",
+        "extra_pnginfo": {}
       },
       "metadata": {
         "client": "acme",
@@ -551,7 +566,9 @@ cURL
         "workflow": {},
         "extra_data": {
             "api_key_comfy_org": "<string>",
-            "auth_token_comfy_org": "<string>"
+            "auth_token_comfy_org": "<string>",
+            "preview_method": "<string>",
+            "extra_pnginfo": {}
         },
         "metadata": {
             "client": "acme",
@@ -573,7 +590,12 @@ cURL
       headers: {Authorization: 'Bearer <token>', 'Content-Type': 'application/json'},
       body: JSON.stringify({
         workflow: {},
-        extra_data: {api_key_comfy_org: '<string>', auth_token_comfy_org: '<string>'},
+        extra_data: {
+          api_key_comfy_org: '<string>',
+          auth_token_comfy_org: '<string>',
+          preview_method: '<string>',
+          extra_pnginfo: {}
+        },
         metadata: {client: 'acme', batch: '2026-10-05'}
       })
     };
@@ -603,7 +625,11 @@ cURL
         ],
         'extra_data' => [
             'api_key_comfy_org' => '<string>',
-            'auth_token_comfy_org' => '<string>'
+            'auth_token_comfy_org' => '<string>',
+            'preview_method' => '<string>',
+            'extra_pnginfo' => [
+                    
+            ]
         ],
         'metadata' => [
             'client' => 'acme',
@@ -641,7 +667,7 @@ cURL
     
     	url := "http://127.0.0.1:8189/api/v2/jobs"
     
-    	payload := strings.NewReader("{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\"\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}")
+    	payload := strings.NewReader("{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\",\n    \"preview_method\": \"<string>\",\n    \"extra_pnginfo\": {}\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}")
     
     	req, _ := http.NewRequest("POST", url, payload)
     
@@ -661,7 +687,7 @@ cURL
     HttpResponse<String> response = Unirest.post("http://127.0.0.1:8189/api/v2/jobs")
       .header("Authorization", "Bearer <token>")
       .header("Content-Type", "application/json")
-      .body("{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\"\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}")
+      .body("{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\",\n    \"preview_method\": \"<string>\",\n    \"extra_pnginfo\": {}\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}")
       .asString();
     
     
@@ -675,7 +701,7 @@ cURL
     request = Net::HTTP::Post.new(url)
     request["Authorization"] = 'Bearer <token>'
     request["Content-Type"] = 'application/json'
-    request.body = "{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\"\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}"
+    request.body = "{\n  \"workflow\": {},\n  \"extra_data\": {\n    \"api_key_comfy_org\": \"<string>\",\n    \"auth_token_comfy_org\": \"<string>\",\n    \"preview_method\": \"<string>\",\n    \"extra_pnginfo\": {}\n  },\n  \"metadata\": {\n    \"client\": \"acme\",\n    \"batch\": \"2026-10-05\"\n  }\n}"
     
     response = http.request(request)
     puts response.read_body

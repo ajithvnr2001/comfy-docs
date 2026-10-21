@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LoadImageSetFromFolderNode/
 title: LoadImageSetFromFolderNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:23.963346+00:00
+fetched_at: 2026-10-21T12:51:39.142465+00:00
 ---
 
 # LoadImageSetFromFolderNode - ComfyUI Built-in Node Documentation - ComfyUI

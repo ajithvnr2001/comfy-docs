@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ImageCompositor/
 title: ImageCompositor - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:07.911837+00:00
+fetched_at: 2026-10-21T12:51:38.606466+00:00
 ---
 
 # ImageCompositor - ComfyUI Built-in Node Documentation - ComfyUI

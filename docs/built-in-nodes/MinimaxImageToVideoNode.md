@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MinimaxImageToVideoNode/
 title: MinimaxImageToVideoNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:34.066967+00:00
+fetched_at: 2026-10-21T12:51:38.896262+00:00
 ---
 
 # MinimaxImageToVideoNode - ComfyUI Built-in Node Documentation - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ImageQuantize/
 title: ImageQuantize - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:10.365543+00:00
+fetched_at: 2026-10-21T12:51:39.582715+00:00
 ---
 
 # ImageQuantize - ComfyUI Built-in Node Documentation - ComfyUI

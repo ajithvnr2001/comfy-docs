@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ImageCropV2/
 title: ImageCropV2 - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:08.711225+00:00
+fetched_at: 2026-10-21T12:51:38.436435+00:00
 ---
 
 # ImageCropV2 - ComfyUI Built-in Node Documentation - ComfyUI

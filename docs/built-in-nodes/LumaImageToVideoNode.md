@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LumaImageToVideoNode/
 title: LumaImageToVideoNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:27.162530+00:00
+fetched_at: 2026-10-21T12:51:39.728391+00:00
 ---
 
 # LumaImageToVideoNode - ComfyUI Built-in Node Documentation - ComfyUI

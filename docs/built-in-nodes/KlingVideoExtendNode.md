@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/KlingVideoExtendNode/
 title: KlingVideoExtendNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:16.369058+00:00
+fetched_at: 2026-10-21T12:51:39.937333+00:00
 ---
 
 # KlingVideoExtendNode - ComfyUI Built-in Node Documentation - ComfyUI

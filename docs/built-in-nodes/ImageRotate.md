@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ImageRotate/
 title: ImageRotate - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:10.801643+00:00
+fetched_at: 2026-10-21T12:51:39.692021+00:00
 ---
 
 # ImageRotate - ComfyUI Built-in Node Documentation - ComfyUI

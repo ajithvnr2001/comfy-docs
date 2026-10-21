@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/KlingOmniProEditVideoNode/
 title: KlingOmniProEditVideoNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:14.995643+00:00
+fetched_at: 2026-10-21T12:51:39.905096+00:00
 ---
 
 # KlingOmniProEditVideoNode - ComfyUI Built-in Node Documentation - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MoGePanoramaInference/
 title: MoGePanoramaInference - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:33.958216+00:00
+fetched_at: 2026-10-21T12:51:39.369720+00:00
 ---
 
 # MoGePanoramaInference - ComfyUI Built-in Node Documentation - ComfyUI

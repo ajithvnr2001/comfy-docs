@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/
 title: Comfy Router models - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:25.162408+00:00
+fetched_at: 2026-10-21T12:51:37.670160+00:00
 ---
 
 # Comfy Router models - ComfyUI
@@ -67,7 +67,7 @@ Every model below is served by the same route, `POST /v2/models/{provider}/{mode
 
 Find by output
 
-Video (70)
+Video (71)
 
   * [SwitchX](https://docs.comfy.org/development/comfy-router/models/beeble/switchx/code): `beeble/switchx`
   * [FLUX 3 Video](https://docs.comfy.org/development/comfy-router/models/black-forest-labs/flux-3-video/code): `bfl/flux-3-video`
@@ -85,6 +85,7 @@ Video (70)
   * [Seedance 1.0 Pro Fast 251015](https://docs.comfy.org/development/comfy-router/models/byteplus/seedance-1-0-pro-fast-251015/code): `byteplus/seedance-1-0-pro-fast-251015`
   * [Seedance 1.5 Pro 251215](https://docs.comfy.org/development/comfy-router/models/byteplus/seedance-1-5-pro-251215/code): `byteplus/seedance-1-5-pro-251215`
   * [Crystal Video Upscaler](https://docs.comfy.org/development/comfy-router/models/fal/crystal-video-upscaler/code): `fal/crystal-video-upscaler`
+  * [FLUX 3 Max](https://docs.comfy.org/development/comfy-router/models/fal/flux-3-max/code): `fal/flux-3-max`
   * [H3 Max Turbo](https://docs.comfy.org/development/comfy-router/models/fal/h3-max-turbo/code): `fal/h3-max-turbo`
   * [H3 Max](https://docs.comfy.org/development/comfy-router/models/fal/h3-max/code): `fal/h3-max`
   * [Higgsfield Genjutsu Motion Transfer V1.0](https://docs.comfy.org/development/comfy-router/models/higgsfield/higgsfield-genjutsu-motion-transfer-v1-0/code): `higgsfield/higgsfield-genjutsu-motion-transfer-v1.0`
@@ -142,7 +143,7 @@ Video (70)
 
 
 
-Image (88)
+Image (89)
 
   * [SwitchX](https://docs.comfy.org/development/comfy-router/models/beeble/switchx/code): `beeble/switchx`
   * [Erase V1](https://docs.comfy.org/development/comfy-router/models/black-forest-labs/erase-v1/code): `bfl/erase-v1`
@@ -168,6 +169,7 @@ Image (88)
   * [Image Edit Replace Object By Text](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-replace-object-by-text/code): `bria/image-edit-replace-object-by-text`
   * [Image Edit Reseason](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-reseason/code): `bria/image-edit-reseason`
   * [Image Edit Restore](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-restore/code): `bria/image-edit-restore`
+  * [Image](https://docs.comfy.org/development/comfy-router/models/bria/image/code): `bria/image`
   * [Seedream 4.0 250828](https://docs.comfy.org/development/comfy-router/models/byteplus/seedream-4-0-250828/code): `byteplus/seedream-4-0-250828`
   * [Seedream 4.5 251128](https://docs.comfy.org/development/comfy-router/models/byteplus/seedream-4-5-251128/code): `byteplus/seedream-4-5-251128`
   * [Seedream 5.0 260128](https://docs.comfy.org/development/comfy-router/models/byteplus/seedream-5-0-260128/code): `byteplus/seedream-5-0-260128`
@@ -235,7 +237,7 @@ Image (88)
 
 
 
-Audio (36)
+Audio (37)
 
   * [FLUX 3 Video](https://docs.comfy.org/development/comfy-router/models/black-forest-labs/flux-3-video/code): `bfl/flux-3-video`
   * [Dreamina Seedance 2.0 260128](https://docs.comfy.org/development/comfy-router/models/byteplus/dreamina-seedance-2-0-260128/code): `byteplus/dreamina-seedance-2-0-260128`
@@ -250,6 +252,7 @@ Audio (36)
   * [Eleven V3](https://docs.comfy.org/development/comfy-router/models/elevenlabs/eleven-v3/code): `elevenlabs/eleven_v3`
   * [Eleven V4 Turbo](https://docs.comfy.org/development/comfy-router/models/elevenlabs/eleven-v4-turbo/code): `elevenlabs/eleven_v4_turbo`
   * [Eleven V4](https://docs.comfy.org/development/comfy-router/models/elevenlabs/eleven-v4/code): `elevenlabs/eleven_v4`
+  * [FLUX 3 Max](https://docs.comfy.org/development/comfy-router/models/fal/flux-3-max/code): `fal/flux-3-max`
   * [H3 Max Turbo](https://docs.comfy.org/development/comfy-router/models/fal/h3-max-turbo/code): `fal/h3-max-turbo`
   * [H3 Max](https://docs.comfy.org/development/comfy-router/models/fal/h3-max/code): `fal/h3-max`
   * [Gemini Omni 1.1 Flash](https://docs.comfy.org/development/comfy-router/models/gemini-interactions/gemini-omni-1-1-flash/code): `gemini-interactions/gemini-omni-1.1-flash`
@@ -417,6 +420,7 @@ Model| ID| Input| Output
 [Image Edit Replace Object By Text](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-replace-object-by-text/code)| `bria/image-edit-replace-object-by-text`| Image, Text| Image  
 [Image Edit Reseason](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-reseason/code)| `bria/image-edit-reseason`| Image, Text| Image  
 [Image Edit Restore](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-restore/code)| `bria/image-edit-restore`| Image| Image  
+[Image](https://docs.comfy.org/development/comfy-router/models/bria/image/code)| `bria/image`| Text, Image| Image  
 [Video Edit Erase](https://docs.comfy.org/development/comfy-router/models/bria/video-edit-erase/code)| `bria/video-edit-erase`| Video| Video  
 [Video Edit Green Screen](https://docs.comfy.org/development/comfy-router/models/bria/video-edit-green-screen/code)| `bria/video-edit-green-screen`| Video| Video  
 [Video Edit Remove Background](https://docs.comfy.org/development/comfy-router/models/bria/video-edit-remove-background/code)| `bria/video-edit-remove-background`| Video| Video  
@@ -472,6 +476,7 @@ Model| ID| Input| Output
 ---|---|---|---  
 [Crystal Upscaler](https://docs.comfy.org/development/comfy-router/models/fal/crystal-upscaler/code)| `fal/crystal-upscaler`| Image| Image  
 [Crystal Video Upscaler](https://docs.comfy.org/development/comfy-router/models/fal/crystal-video-upscaler/code)| `fal/crystal-video-upscaler`| Video| Video  
+[FLUX 3 Max](https://docs.comfy.org/development/comfy-router/models/fal/flux-3-max/code)| `fal/flux-3-max`| Text, Image| Video + Audio  
 [H3 Max Turbo](https://docs.comfy.org/development/comfy-router/models/fal/h3-max-turbo/code)| `fal/h3-max-turbo`| Text, Image| Video + Audio  
 [H3 Max](https://docs.comfy.org/development/comfy-router/models/fal/h3-max/code)| `fal/h3-max`| Text, Image, Video, Audio| Video + Audio  
 [Patina](https://docs.comfy.org/development/comfy-router/models/fal/patina/code)| `fal/patina`| Image| Image  

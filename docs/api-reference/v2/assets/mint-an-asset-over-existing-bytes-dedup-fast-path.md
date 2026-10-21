@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/assets/mint-an-asset-over-existing-bytes-dedup-fast-path/
 title: Mint an asset over existing bytes (dedup fast-path) - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:26.227966+00:00
+fetched_at: 2026-10-21T12:51:37.163987+00:00
 ---
 
 # Mint an asset over existing bytes (dedup fast-path) - ComfyUI
@@ -993,7 +993,6 @@ Example:
     
     
     { "client": "acme" }
-    
 
 Was this page helpful?
 

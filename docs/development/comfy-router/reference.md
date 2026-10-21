@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/reference/
 title: Comfy Router API reference - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:54.305197+00:00
+fetched_at: 2026-10-21T12:51:37.122423+00:00
 ---
 
 # Comfy Router API reference - ComfyUI
@@ -292,7 +292,7 @@ Opt in to refusing a top-level request-body field this model’s input schema do
 
 RouterModelOutput
 
-OK - without `model_provider`, or with `model_provider` and `strict_mode=false` (the default, translated back into this model’s native contract when possible, falling back to the alternate provider’s own raw response on a translation failure - logged, never silent), the shape is this model’s own native output; with `strict_mode=true` it is the alternate provider’s response returned unchanged. For a model whose partner answers a generation directly as bytes, the body is those bytes under the partner’s own `Content-Type` rather than `application/json`; branch on the response `Content-Type` and do not assume a JSON document.Body: `RouterModelOutput` or raw bytes (`*/*`) — Headers: `X-Comfy-Request-Id`, `X-Content-Type-Options`, `X-Comfy-Router-Fallback-Provider`, `X-Comfy-Router-Dropped-Params`, `X-Comfy-Credits-Used`, `Idempotent-Replayed`, `X-Committed-Spend-Limit`, `X-Committed-Spend-Current`, `X-Committed-Spend-Remaining`
+OK - without `model_provider`, or with `model_provider` and `strict_mode=false` (the default, translated back into this model’s native contract when possible, falling back to the alternate provider’s own raw response on a translation failure - logged, never silent), the shape is this model’s own native output; with `strict_mode=true` it is the alternate provider’s response returned unchanged. For a model whose partner answers a generation directly as bytes, the body is those bytes under the partner’s own `Content-Type` rather than `application/json`; branch on the response `Content-Type` and do not assume a JSON document.Body: `RouterModelOutput` or raw bytes (`*/*`) — Headers: `X-Comfy-Request-Id`, `X-Content-Type-Options`, `X-Comfy-Router-Fallback-Provider`, `X-Comfy-Router-Provider`, `X-Comfy-Router-Dropped-Params`, `X-Comfy-Credits-Used`, `Idempotent-Replayed`, `X-Committed-Spend-Limit`, `X-Committed-Spend-Current`, `X-Committed-Spend-Remaining`
 
 ​
 
@@ -364,7 +364,7 @@ The request’s contents were rejected against the model’s schema.Body: `Route
 
 RouterErrorResponse
 
-Inspect `X-Comfy-Error-Type`: `concurrency_limit_exceeded` means reduce in-flight calls; `rate_limited` means wait for the allowance window.Body: `RouterErrorResponse` — Headers: `X-Comfy-Error-Type`, `X-Comfy-Request-Id`, `X-Committed-Spend-Limit`, `X-Committed-Spend-Current`, `X-Committed-Spend-Remaining`
+Inspect `X-Comfy-Error-Type`: `concurrency_limit_exceeded` means reduce in-flight calls; `rate_limited` means wait for the allowance window.Body: `RouterErrorResponse` — Headers: `X-Comfy-Error-Type`, `X-Comfy-Request-Id`, `X-Committed-Spend-Limit`, `X-Committed-Spend-Current`, `X-Committed-Spend-Remaining`, `X-Model-Concurrency-Limit`, `X-Model-Concurrency-Current`, `X-Model-Concurrency-Remaining`
 
 ​
 
@@ -774,7 +774,7 @@ The queued request to address - the `request_id` the submission returned in its 
 
 RouterModelOutput
 
-OK - the result stored for a request that produced one - a request that completed successfully, or a terminal one that carries both a recorded charge and a stored result - returned unchanged under the partner’s own media type, exactly as the synchronous route’s `200` returns it, and under the same provider-selection contract the submit accepted: without `model_provider`, or with `model_provider` and `strict_mode=false` (the default, translated back into this model’s native contract when possible, falling back to the alternate provider’s own raw response on a translation failure - logged, never silent), the shape is this model’s own native output; with `strict_mode=true` it is the alternate provider’s response returned unchanged. For a model whose partner answers a generation directly as bytes, the body is those bytes under the partner’s own `Content-Type` rather than `application/json`; branch on the response `Content-Type` and do not assume a JSON document.Body: `RouterModelOutput` or raw bytes (`*/*`) — Headers: `X-Comfy-Request-Id`, `X-Content-Type-Options`
+OK - the result stored for a request that produced one - a request that completed successfully, or a terminal one that carries both a recorded charge and a stored result - returned unchanged under the partner’s own media type, exactly as the synchronous route’s `200` returns it, and under the same provider-selection contract the submit accepted: without `model_provider`, or with `model_provider` and `strict_mode=false` (the default, translated back into this model’s native contract when possible, falling back to the alternate provider’s own raw response on a translation failure - logged, never silent), the shape is this model’s own native output; with `strict_mode=true` it is the alternate provider’s response returned unchanged. For a model whose partner answers a generation directly as bytes, the body is those bytes under the partner’s own `Content-Type` rather than `application/json`; branch on the response `Content-Type` and do not assume a JSON document.Body: `RouterModelOutput` or raw bytes (`*/*`) — Headers: `X-Comfy-Request-Id`, `X-Content-Type-Options`, `X-Comfy-Credits-Used`
 
 ​
 
@@ -1211,6 +1211,14 @@ Present, naming the provider, only when `fallback_provider` actually retried thi
 
 ​
 
+X-Comfy-Router-Provider
+
+string
+
+The provider of the Router leg that served this call, present on every successful run response - the model’s own provider on a native run, the alternate provider `model_provider` named, or the provider a `fallback_provider` retry landed on (which `X-Comfy-Router-Fallback-Provider` also names, only in that case) - which is the leg Router dispatched to and not necessarily the vendor that produced the output, since a proxy-level cascade inside a native leg (the `vertexai` Gemini image chain, for one) can hand the call to a different vendor that no header names.
+
+​
+
 X-Comfy-Upstream-Detail
 
 string
@@ -1256,6 +1264,30 @@ X-Content-Type-Options
 string
 
 Always `nosniff`, on every successful run of a Router model.
+
+​
+
+X-Model-Concurrency-Current
+
+integer
+
+The caller’s concurrent calls to models classed expensive, as counted by the gate that refused this call.
+
+​
+
+X-Model-Concurrency-Limit
+
+integer
+
+The most concurrent calls to models classed expensive the caller may hold at once, a quarter of the concurrent-call limit, shared with partner-node calls.
+
+​
+
+X-Model-Concurrency-Remaining
+
+integer
+
+The expensive-model calls the caller may still start; `0` on the `429`.
 
 ## 
 

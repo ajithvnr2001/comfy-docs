@@ -2,12 +2,19 @@
 url: https://docs.comfy.org/interface/shortcuts/
 title: Keyboard and Mouse Shortcuts - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:03.228573+00:00
+fetched_at: 2026-10-21T12:51:35.101561+00:00
 ---
 
 # Keyboard and Mouse Shortcuts - ComfyUI
 
 > Source: https://docs.comfy.org/interface/shortcuts/
+
+## On this page
+
+  * Find and edit a shortcut
+  * Keybinding presets
+
+
 
 ComfyUI Settings
 
@@ -15,13 +22,36 @@ ComfyUI Settings
 
 Copy pageCopy page
 
-ComfyUI keyboard and mouse shortcuts: the full default list, plus how to view and customize keybindings in the in-app settings menu.
+ComfyUI keyboard and mouse shortcuts: the full default list, plus how to rebind commands and save your own keybinding presets in Settings.
 
 Copy pageCopy page
 
 The settings described on this page are located in the **ComfyUI in-app settings menu**. You can open it by navigating to **Settings** (gear icon) or using the `Ctrl + ,` keyboard shortcut, then select the corresponding category to view and configure these options.
 
-Currently, ComfyUI supports custom keyboard shortcuts. You can set the shortcuts by clicking on `Settings (gear icon)` —> `Keybinding`. ![ComfyUI Shortcut Settings](https://mintcdn.com/dripart/7xbDXwziA_DEy9eI/images/interface/setting/keybinding.jpg?fit=max&auto=format&n=7xbDXwziA_DEy9eI&q=85&s=3b36de580ec995fdd0ec7cc64e3b670c) In the corresponding menu, you can see all the current shortcut settings for ComfyUI. Click the `edit icon` before the corresponding command to customize the shortcut. Below is the current list of shortcuts for ComfyUI, which you can customize as needed.
+ComfyUI ships with a default set of keyboard shortcuts, and every command can be rebound. Open **Settings (gear icon)** > **Keybinding** to see and change them. ![ComfyUI Shortcut Settings](https://mintcdn.com/dripart/7xbDXwziA_DEy9eI/images/interface/setting/keybinding.jpg?fit=max&auto=format&n=7xbDXwziA_DEy9eI&q=85&s=3b36de580ec995fdd0ec7cc64e3b670c)
+
+## 
+
+​
+
+Find and edit a shortcut
+
+The panel lists every command with its current keybinding. The search box at the top narrows the list, and clicking the **Command** header sorts it alphabetically. The **Source** column names the extension or custom node pack that provides a command; commands that come from ComfyUI itself leave it empty. Select the edit icon on a row to record a new key combination. A row menu can reset that command to its default or remove its keybindings. When a command has more than one keybinding, the row expands and each binding gets its own edit and delete buttons. **Reset All** at the bottom of the panel clears every customization after a confirmation prompt.
+
+## 
+
+​
+
+Keybinding presets
+
+Your edits belong to a named preset, and the preset selector at the top of the panel switches between them. The **Default Preset** holds the built-in shortcuts. Selecting it restores those shortcuts and drops the unsaved edits in your current session. Presets you saved earlier stay on disk.
+
+  * A preset name shows a `*` while it has unsaved changes. For a saved preset, select **Save Changes** to store them. The Default Preset has no Save Changes button, so its edits are saved through **Save as new preset**.
+  * The … (more) button next to the preset selector holds **Save as new preset** (hidden while the Default Preset has no edits), **Reset to default** , **Delete preset** (disabled for the Default Preset), **Import preset** , and **Export preset**.
+  * **Import preset** reads a preset file exported from ComfyUI, so a shortcut set can move between installs or be handed to another user. **Export preset** writes the current preset to a JSON file.
+  * Switching presets while there are unsaved changes prompts to save them first, or to discard them and continue.
+
+Presets are stored as JSON files in the ComfyUI user directory under `keybindings/`. Below is the current default list of shortcuts.
 
   * Windows/Linux
 

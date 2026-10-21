@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/assets/upload-an-asset-single-call-multipart/
 title: Upload an asset (single-call multipart) - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:26.493608+00:00
+fetched_at: 2026-10-21T12:51:37.260174+00:00
 ---
 
 # Upload an asset (single-call multipart) - ComfyUI
@@ -385,7 +385,7 @@ The blake3 hash is always computed server-side from the received bytes — a cli
 
 ~100 MB single-request expectation for v1; chunked/resumable large uploads are a deliberate open question.
 
-On Comfy Cloud an upload fails with 422 `upload_timed_out` when no request bytes arrive for 30 seconds, or when the whole request takes longer than 10 minutes, however steadily bytes keep arriving.
+On Comfy Cloud an upload fails with 422 `upload_timed_out` when no request bytes arrive for 30 seconds, or when the whole request takes longer than 10 minutes, however steadily bytes keep arriving. On a Developer Platform deployment the same 422 `upload_timed_out` applies when no request bytes arrive for 30 seconds, or when the whole request takes longer than 20 minutes.
 
 Copy pageCopy page
 
@@ -1003,7 +1003,6 @@ Example:
     
     
     { "client": "acme" }
-    
 
 Was this page helpful?
 

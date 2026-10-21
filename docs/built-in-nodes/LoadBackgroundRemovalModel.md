@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LoadBackgroundRemovalModel/
 title: LoadBackgroundRemovalModel - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:23.234843+00:00
+fetched_at: 2026-10-21T12:51:38.559965+00:00
 ---
 
 # LoadBackgroundRemovalModel - ComfyUI Built-in Node Documentation - ComfyUI

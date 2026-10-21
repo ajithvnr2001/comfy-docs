@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/EmptyTrellis2LatentStructure/
 title: EmptyTrellis2LatentStructure - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:54.710490+00:00
+fetched_at: 2026-10-21T12:51:38.296799+00:00
 ---
 
 # EmptyTrellis2LatentStructure - ComfyUI Built-in Node Documentation - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/MeshToFile3D/
 title: MeshToFile3D - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:31.646547+00:00
+fetched_at: 2026-10-21T12:51:39.429964+00:00
 ---
 
 # MeshToFile3D - ComfyUI Built-in Node Documentation - ComfyUI

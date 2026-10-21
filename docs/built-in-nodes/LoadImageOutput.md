@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LoadImageOutput/
 title: LoadImageOutput - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:23.447656+00:00
+fetched_at: 2026-10-21T12:51:39.067026+00:00
 ---
 
 # LoadImageOutput - ComfyUI Built-in Node Documentation - ComfyUI
