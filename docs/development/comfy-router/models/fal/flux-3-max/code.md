@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/fal/flux-3-max/code/
 title: Use FLUX 3 Max with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:35.179338+00:00
+fetched_at: 2026-10-22T12:54:49.629505+00:00
 ---
 
 # Use FLUX 3 Max with Comfy Router - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/RecraftColorRGB/
 title: RecraftColorRGB - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:47.382666+00:00
+fetched_at: 2026-10-22T12:54:51.532740+00:00
 ---
 
 # RecraftColorRGB - ComfyUI Built-in Node Documentation - ComfyUI

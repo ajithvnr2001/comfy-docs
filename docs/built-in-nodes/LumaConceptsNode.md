@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LumaConceptsNode/
 title: LumaConceptsNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:26.651157+00:00
+fetched_at: 2026-10-22T12:54:50.546880+00:00
 ---
 
 # LumaConceptsNode - ComfyUI Built-in Node Documentation - ComfyUI

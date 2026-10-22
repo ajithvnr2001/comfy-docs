@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/fal/crystal-video-upscaler/code/
 title: Use Crystal Video Upscaler with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:22.527178+00:00
+fetched_at: 2026-10-22T12:54:49.773560+00:00
 ---
 
 # Use Crystal Video Upscaler with Comfy Router - ComfyUI
@@ -362,7 +362,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/development/comfy-router/models/fal/crystal-video-upscaler/code.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/development/comfy-router/models/fal/crystal-video-upscaler/code)
 
-[Use Crystal Upscaler with Comfy RouterPrevious](https://docs.comfy.org/development/comfy-router/models/fal/crystal-upscaler/code)[Use H3 Max Turbo with Comfy RouterNext](https://docs.comfy.org/development/comfy-router/models/fal/h3-max-turbo/code)
+[Use Crystal Upscaler with Comfy RouterPrevious](https://docs.comfy.org/development/comfy-router/models/fal/crystal-upscaler/code)[Use FLUX 3 Max with Comfy RouterNext](https://docs.comfy.org/development/comfy-router/models/fal/flux-3-max/code)
 
 ⌘I
 

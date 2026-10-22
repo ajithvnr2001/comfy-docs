@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ShuffleVideoDataset/
 title: ShuffleVideoDataset - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:02.670374+00:00
+fetched_at: 2026-10-22T12:54:51.944122+00:00
 ---
 
 # ShuffleVideoDataset - ComfyUI Built-in Node Documentation - ComfyUI

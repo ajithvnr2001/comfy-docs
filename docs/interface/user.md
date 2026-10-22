@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/interface/user/
 title: Account Management - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:03.417762+00:00
+fetched_at: 2026-10-22T12:54:48.709014+00:00
 ---
 
 # Account Management - ComfyUI

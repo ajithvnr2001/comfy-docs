@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SelfAttentionGuidance/
 title: SelfAttentionGuidance - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:01.250538+00:00
+fetched_at: 2026-10-22T12:54:51.355416+00:00
 ---
 
 # SelfAttentionGuidance - ComfyUI Built-in Node Documentation - ComfyUI

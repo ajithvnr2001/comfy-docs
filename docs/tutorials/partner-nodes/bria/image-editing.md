@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/partner-nodes/bria/image-editing/
 title: Bria Eraser, Expand Image, and GenFill in ComfyUI - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:26.922587+00:00
+fetched_at: 2026-10-22T12:54:49.053183+00:00
 ---
 
 # Bria Eraser, Expand Image, and GenFill in ComfyUI - ComfyUI
@@ -203,7 +203,7 @@ Masks trigger generative replacement, not pixel retouching: the masked area mean
 
 Prompt-driven editing (no mask)
 
-The nodes below edit an image from a text instruction alone: no Painter canvas, no mask. Each node outputs the edited image plus a `structured_prompt` string that describes the edit, which you can feed into Bria FIBO Image Edit for follow-up edits. All of them cost 12.07 credits per run.
+The nodes below edit an image from a text instruction alone: no Painter canvas, no mask. Each node outputs the edited image plus a `structured_prompt` string that describes the edit, which you can feed into Bria FIBO 2.0 Image Edit for follow-up edits. All of them cost 12.07 credits per run.
 
 ### 
 
@@ -286,7 +286,7 @@ YesNo
 
 [Suggest edits](https://github.com/comfy-org/docs/edit/main/tutorials/partner-nodes/bria/image-editing.mdx)[Raise issue](https://github.com/comfy-org/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/tutorials/partner-nodes/bria/image-editing)
 
-[Bria FIBO in ComfyUI: JSON-Prompt Image Editing and OutpaintingPrevious](https://docs.comfy.org/tutorials/partner-nodes/bria/fibo)[ByteDance Seedream 5.0 Pro - Professional AI Image GenerationNext](https://docs.comfy.org/tutorials/partner-nodes/bytedance/seedream-5-pro)
+[Beeble SwitchX in ComfyUI: Relighting and Environment EditingPrevious](https://docs.comfy.org/tutorials/partner-nodes/beeble/beeble-switchx)[Bria Background Removal in ComfyUINext](https://docs.comfy.org/tutorials/partner-nodes/bria/background-removal)
 
 ⌘I
 

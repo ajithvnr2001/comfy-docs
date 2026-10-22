@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/partner-nodes/pricing/
 title: Partner Node Pricing - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:51:36.833009+00:00
+fetched_at: 2026-10-22T12:54:49.373551+00:00
 ---
 
 # Partner Node Pricing - ComfyUI
@@ -170,7 +170,8 @@ Bria Generative Fill| 9.05 / run
 Bria Eraser| 6.03 / run  
 Bria Expand Image| 6.03 / run  
 Bria Increase Resolution| 6.03 / run  
-Bria FIBO Image Edit| 8.44 / run  
+Bria FIBO 2.0 Image Edit| 12.07 / run  
+Bria FIBO 2.0 Image Generate| 12.07 / run  
 Bria Remove Image Background| 3.8 / run  
 Bria Erase by Text| 12.07 / run  
 Bria Add Object| 12.07 / run  
@@ -1322,9 +1323,9 @@ Quiver
 
 Image
 
-**arrow-1.1** models charge a fixed amount per run:
+The retired **arrow-1.1** models charged a fixed amount per run:
 
-**Deprecated** : Quiver retires the Arrow 1-series models on **October 16, 2026**. **Text to SVG** and **Image to SVG** stop working with `arrow-1.1`, `arrow-1.1-max`, and `arrow-preview` after that date; use the Arrow 2 models instead.
+**Deprecated** : Quiver retired the Arrow 1-series models on **October 16, 2026** , and the Text to SVG and Image to SVG nodes no longer list `arrow-1.1`, `arrow-1.1-max`, or `arrow-preview`. Use the Arrow 2 models instead. The pricing below is retained for reference only.
 
 model| Node| Credits / run  
 ---|---|---  

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/StabilityAudioInpaint/
 title: StabilityAudioInpaint - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:03.841580+00:00
+fetched_at: 2026-10-22T12:54:52.111191+00:00
 ---
 
 # StabilityAudioInpaint - ComfyUI Built-in Node Documentation - ComfyUI

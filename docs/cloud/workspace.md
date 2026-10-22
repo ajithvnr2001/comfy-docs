@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/cloud/workspace/
 title: Comfy Cloud workspaces: teams and members - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:35:05.796617+00:00
+fetched_at: 2026-10-22T12:54:48.913685+00:00
 ---
 
 # Comfy Cloud workspaces: teams and members - ComfyUI
@@ -159,7 +159,7 @@ Role| Can do
 **Owner**|  Invite and remove members, change roles, rename or delete the workspace, and manage the workspace plan and credits.  
 **Member**|  Run workflows in the workspace and view the member list. Cannot invite members, see pending invitations, change workspace settings, or manage billing.  
   
-Owners can change a member’s role from the Members section, which is how you promote a member to owner or demote an owner back to member. A workspace always keeps at least one owner, so the last remaining owner cannot be demoted or removed. Some messages in Comfy Cloud call the owner the workspace admin; they are the same role. Members can open **Workspace settings** and see the workspace’s plan and member list, but they cannot change anything there. When an owner removes a member, that person loses access to the workspace’s files and workflows, the seat is freed, and any workspace API keys they created stop working. Members cannot remove themselves; they leave the workspace instead.
+Owners can change a member’s role from the Members section, which is how you promote a member to owner or demote an owner back to member. A workspace always keeps at least one owner, so the last remaining owner cannot be demoted or removed. Some messages in Comfy Cloud call the owner the workspace admin; they are the same role. Members can open **Workspace settings** and see the workspace’s plan and member list, but they cannot change anything there. When an owner removes a member, that person loses access to the workspace’s files and workflows, the seat is freed, and any workspace API keys they created stop working. Members cannot remove themselves; they leave the workspace instead. Leaving is unavailable to the workspace creator, to a sole owner, and to members whose membership is managed by an organization.
 
 ## 
 
@@ -177,7 +177,7 @@ The menu in the Members section lets owners:
 
   * **Edit workspace details** : rename the workspace
   * **Delete Workspace** : available once the workspace has no active subscription. See Delete a team workspace.
-  * **Leave Workspace** : leave a team workspace. You cannot leave a workspace if you are its only owner.
+  * **Leave Workspace** : leave a team workspace. The item is disabled when you created the workspace, when you are its only owner (make another member an owner first), or when your organization manages your membership.
 
 ![The workspace menu: Edit workspace details, Delete Workspace, Leave Workspace](https://mintcdn.com/dripart/_STmcLe16Xze8EdG/images/cloud/workspace/workspace-menu.png?fit=max&auto=format&n=_STmcLe16Xze8EdG&q=85&s=44fa6637c08fc269c1fdaff7652f9862) Members see this menu too, but only the **Leave Workspace** item.
 

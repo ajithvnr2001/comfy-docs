@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SamplerSEEDS2/
 title: SamplerSEEDS2 - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:57.487764+00:00
+fetched_at: 2026-10-22T12:54:51.688883+00:00
 ---
 
 # SamplerSEEDS2 - ComfyUI Built-in Node Documentation - ComfyUI

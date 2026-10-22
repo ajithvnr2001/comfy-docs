@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LatentAdd/
 title: LatentAdd - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:19.776972+00:00
+fetched_at: 2026-10-22T12:54:50.636718+00:00
 ---
 
 # LatentAdd - ComfyUI Built-in Node Documentation - ComfyUI

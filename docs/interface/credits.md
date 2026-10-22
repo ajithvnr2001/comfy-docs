@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/interface/credits/
 title: Plan & Credits - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:35:02.563398+00:00
+fetched_at: 2026-10-22T12:54:48.864550+00:00
 ---
 
 # Plan & Credits - ComfyUI
@@ -122,6 +122,10 @@ Check the price badge on the API / Partner Node before running. Actual cost can 
 Why don't I see WeChat or Alipay payment options?
 
 Choose payment in Comfy Credits. WeChat and Alipay are only available for that currency path.
+
+Do credits come with a Cloud plan?
+
+No. Buying credits does not start a subscription and does not unlock Cloud workflows: running workflows on Cloud needs a plan. Partner Nodes in local ComfyUI and Desktop can use credits without a plan.
 
 Do credits expire?
 

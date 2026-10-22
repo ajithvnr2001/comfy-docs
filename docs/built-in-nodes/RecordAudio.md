@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/RecordAudio/
 title: RecordAudio - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:46.857901+00:00
+fetched_at: 2026-10-22T12:54:51.587118+00:00
 ---
 
 # RecordAudio - ComfyUI Built-in Node Documentation - ComfyUI

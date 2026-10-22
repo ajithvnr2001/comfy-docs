@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SAM3DBody_Render/
 title: SAM3DBody_Render - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:54.289971+00:00
+fetched_at: 2026-10-22T12:54:50.840647+00:00
 ---
 
 # SAM3DBody_Render - ComfyUI Built-in Node Documentation - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/PikaImageToVideoNode2_2/
 title: PikaImageToVideoNode2_2 - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:42.048112+00:00
+fetched_at: 2026-10-22T12:54:51.564525+00:00
 ---
 
 # PikaImageToVideoNode2_2 - ComfyUI Built-in Node Documentation - ComfyUI

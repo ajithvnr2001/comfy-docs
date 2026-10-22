@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/
 title: Comfy Router models - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:37.670160+00:00
+fetched_at: 2026-10-22T12:54:48.612319+00:00
 ---
 
 # Comfy Router models - ComfyUI
@@ -42,6 +42,7 @@ fetched_at: 2026-10-21T12:51:37.670160+00:00
   * Runway
   * Synclabs
   * Tencent
+  * Veed
   * Veo
   * Wan
   * WaveSpeed
@@ -67,7 +68,7 @@ Every model below is served by the same route, `POST /v2/models/{provider}/{mode
 
 Find by output
 
-Video (71)
+Video (77)
 
   * [SwitchX](https://docs.comfy.org/development/comfy-router/models/beeble/switchx/code): `beeble/switchx`
   * [FLUX 3 Video](https://docs.comfy.org/development/comfy-router/models/black-forest-labs/flux-3-video/code): `bfl/flux-3-video`
@@ -114,6 +115,12 @@ Video (71)
   * [Aleph 2](https://docs.comfy.org/development/comfy-router/models/runway/aleph2/code): `runway/aleph2`
   * [Gen 4 Turbo](https://docs.comfy.org/development/comfy-router/models/runway/gen4-turbo/code): `runway/gen4_turbo`
   * [Sync 3](https://docs.comfy.org/development/comfy-router/models/synclabs/sync-3/code): `synclabs/sync-3`
+  * [Clean Audio Video](https://docs.comfy.org/development/comfy-router/models/veed/clean-audio-video/code): `veed/clean-audio-video`
+  * [Fabric 1.0](https://docs.comfy.org/development/comfy-router/models/veed/fabric-1-0/code): `veed/fabric-1.0`
+  * [Lipsync 2.0](https://docs.comfy.org/development/comfy-router/models/veed/lipsync-2-0/code): `veed/lipsync-2.0`
+  * [Video Background Removal Fast](https://docs.comfy.org/development/comfy-router/models/veed/video-background-removal-fast/code): `veed/video-background-removal-fast`
+  * [Video Background Removal Green Screen](https://docs.comfy.org/development/comfy-router/models/veed/video-background-removal-green-screen/code): `veed/video-background-removal-green-screen`
+  * [Video Background Removal](https://docs.comfy.org/development/comfy-router/models/veed/video-background-removal/code): `veed/video-background-removal`
   * [Veo 3.1 Fast Generate 001](https://docs.comfy.org/development/comfy-router/models/veo/veo-3-1-fast-generate-001/code): `veo/veo-3.1-fast-generate-001`
   * [Veo 3.1 Generate 001](https://docs.comfy.org/development/comfy-router/models/veo/veo-3-1-generate-001/code): `veo/veo-3.1-generate-001`
   * [Veo 3.1 Lite Generate 001](https://docs.comfy.org/development/comfy-router/models/veo/veo-3-1-lite-generate-001/code): `veo/veo-3.1-lite-generate-001`
@@ -237,7 +244,7 @@ Image (89)
 
 
 
-Audio (37)
+Audio (41)
 
   * [FLUX 3 Video](https://docs.comfy.org/development/comfy-router/models/black-forest-labs/flux-3-video/code): `bfl/flux-3-video`
   * [Dreamina Seedance 2.0 260128](https://docs.comfy.org/development/comfy-router/models/byteplus/dreamina-seedance-2-0-260128/code): `byteplus/dreamina-seedance-2-0-260128`
@@ -264,6 +271,10 @@ Audio (37)
   * [LTX 2.5 Pro](https://docs.comfy.org/development/comfy-router/models/ltx/ltx-2-5-pro/code): `ltx/ltx-2-5-pro`
   * [MiniMax H3](https://docs.comfy.org/development/comfy-router/models/minimax/minimax-h3/code): `minimax/minimax-h3`
   * [P Video 2](https://docs.comfy.org/development/comfy-router/models/pruna/p-video-2/code): `pruna/p-video-2`
+  * [Clean Audio Video](https://docs.comfy.org/development/comfy-router/models/veed/clean-audio-video/code): `veed/clean-audio-video`
+  * [Clean Audio](https://docs.comfy.org/development/comfy-router/models/veed/clean-audio/code): `veed/clean-audio`
+  * [Fabric 1.0](https://docs.comfy.org/development/comfy-router/models/veed/fabric-1-0/code): `veed/fabric-1.0`
+  * [Lipsync 2.0](https://docs.comfy.org/development/comfy-router/models/veed/lipsync-2-0/code): `veed/lipsync-2.0`
   * [Veo 3.1 Fast Generate 001](https://docs.comfy.org/development/comfy-router/models/veo/veo-3-1-fast-generate-001/code): `veo/veo-3.1-fast-generate-001`
   * [Veo 3.1 Generate 001](https://docs.comfy.org/development/comfy-router/models/veo/veo-3-1-generate-001/code): `veo/veo-3.1-generate-001`
   * [Veo 3.1 Lite Generate 001](https://docs.comfy.org/development/comfy-router/models/veo/veo-3-1-lite-generate-001/code): `veo/veo-3.1-lite-generate-001`
@@ -798,6 +809,22 @@ Model| ID| Input| Output
 [Hunyuan 3D Smart Topology](https://docs.comfy.org/development/comfy-router/models/tencent/hunyuan-3d-smart-topology/code)| `tencent/hunyuan-3d-smart-topology`| 3D| 3D  
 [Hunyuan 3D Texture Edit](https://docs.comfy.org/development/comfy-router/models/tencent/hunyuan-3d-texture-edit/code)| `tencent/hunyuan-3d-texture-edit`| 3D, Text| 3D  
 [Hunyuan 3D Uv](https://docs.comfy.org/development/comfy-router/models/tencent/hunyuan-3d-uv/code)| `tencent/hunyuan-3d-uv`| 3D| 3D  
+  
+## 
+
+​
+
+Veed
+
+Model| ID| Input| Output  
+---|---|---|---  
+[Clean Audio Video](https://docs.comfy.org/development/comfy-router/models/veed/clean-audio-video/code)| `veed/clean-audio-video`| Video| Video + Audio  
+[Clean Audio](https://docs.comfy.org/development/comfy-router/models/veed/clean-audio/code)| `veed/clean-audio`| Audio| Audio  
+[Fabric 1.0](https://docs.comfy.org/development/comfy-router/models/veed/fabric-1-0/code)| `veed/fabric-1.0`| Image, Audio| Video + Audio  
+[Lipsync 2.0](https://docs.comfy.org/development/comfy-router/models/veed/lipsync-2-0/code)| `veed/lipsync-2.0`| Video, Audio| Video + Audio  
+[Video Background Removal Fast](https://docs.comfy.org/development/comfy-router/models/veed/video-background-removal-fast/code)| `veed/video-background-removal-fast`| Video| Video  
+[Video Background Removal Green Screen](https://docs.comfy.org/development/comfy-router/models/veed/video-background-removal-green-screen/code)| `veed/video-background-removal-green-screen`| Video| Video  
+[Video Background Removal](https://docs.comfy.org/development/comfy-router/models/veed/video-background-removal/code)| `veed/video-background-removal`| Video| Video  
   
 ## 
 

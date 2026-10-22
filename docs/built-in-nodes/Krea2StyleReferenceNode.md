@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/Krea2StyleReferenceNode/
 title: Krea2StyleReferenceNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:16.478996+00:00
+fetched_at: 2026-10-22T12:54:50.518998+00:00
 ---
 
 # Krea2StyleReferenceNode - ComfyUI Built-in Node Documentation - ComfyUI

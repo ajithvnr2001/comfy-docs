@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/audio/yue2/yue2/
 title: ComfyUI YuE2 Music Generation Guide - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:35:05.436754+00:00
+fetched_at: 2026-10-22T12:54:50.138312+00:00
 ---
 
 # ComfyUI YuE2 Music Generation Guide - ComfyUI
@@ -37,7 +37,7 @@ Generate complete songs with vocals in ComfyUI using the open-source YuE2 model:
 
 Copy pageCopy page
 
-YuE2 is an open-source music generation model from Multimodal Art Projection (m-a-p) that turns a style prompt and lyrics into a complete song with vocals and instrumental accompaniment. A 3B-parameter model, it generates full song structures with sections such as intro, verse, chorus, bridge, and outro, and supports multiple singing languages including English, Chinese, and Japanese. What sets YuE2 apart from most text-to-music systems is its editable composition step. Before generating audio, YuE2 can first write a symbolic music plan in ABC notation: a melody, optionally with chords, that you can inspect and edit. The final song is then rendered from that plan. This makes results easier to steer than one-shot audio generation, and it also powers the cover workflow below, where a reference song is transcribed into the same notation and re-sung with new style and lyrics. YuE2 is supported natively in ComfyUI. Update to the latest version of [ComfyUI](https://github.com/comfyanonymous/ComfyUI) before starting. ComfyUI v0.35.0 or later is required, and v0.35.1 or later is recommended on AMD GPUs.
+YuE2 is an open-source music generation model from Multimodal Art Projection (m-a-p) that turns a style prompt and lyrics into a complete song with vocals and instrumental accompaniment. A 3B-parameter model, it generates full song structures with sections such as intro, verse, chorus, bridge, and outro, and supports multiple singing languages including English, Chinese, and Japanese. What sets YuE2 apart from most text-to-music systems is its editable composition step. Before generating audio, YuE2 can first write a symbolic music plan in ABC notation: a melody, optionally with chords, that you can inspect and edit. The final song is then rendered from that plan. This makes results easier to steer than one-shot audio generation, and it also powers the cover workflow below, where a reference song is transcribed into the same notation and re-sung with new style and lyrics. YuE2 is supported natively in ComfyUI. Update to the latest version of [ComfyUI](https://github.com/comfyanonymous/ComfyUI) before starting. ComfyUI v0.36.0 or later is required.
 
   * Local users
 

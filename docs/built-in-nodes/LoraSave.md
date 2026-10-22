@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LoraSave/
 title: LoraSave - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:25.608217+00:00
+fetched_at: 2026-10-22T12:54:50.702284+00:00
 ---
 
 # LoraSave - ComfyUI Built-in Node Documentation - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SaveAudioAdvanced/
 title: SaveAudioAdvanced - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:58.245386+00:00
+fetched_at: 2026-10-22T12:54:51.102873+00:00
 ---
 
 # SaveAudioAdvanced - ComfyUI Built-in Node Documentation - ComfyUI

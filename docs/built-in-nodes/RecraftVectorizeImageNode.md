@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/RecraftVectorizeImageNode/
 title: RecraftVectorizeImageNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:49.234404+00:00
+fetched_at: 2026-10-22T12:54:50.966982+00:00
 ---
 
 # RecraftVectorizeImageNode - ComfyUI Built-in Node Documentation - ComfyUI

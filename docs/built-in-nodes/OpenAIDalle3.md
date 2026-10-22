@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/OpenAIDalle3/
 title: OpenAIDalle3 - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:39.477385+00:00
+fetched_at: 2026-10-22T12:54:51.456640+00:00
 ---
 
 # OpenAIDalle3 - ComfyUI Built-in Node Documentation - ComfyUI

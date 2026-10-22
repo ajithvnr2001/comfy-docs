@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/ReplaceText/
 title: ReplaceText - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:50.829062+00:00
+fetched_at: 2026-10-22T12:54:51.255860+00:00
 ---
 
 # ReplaceText - ComfyUI Built-in Node Documentation - ComfyUI

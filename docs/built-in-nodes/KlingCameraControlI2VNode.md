@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/KlingCameraControlI2VNode/
 title: KlingCameraControlI2VNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:13.758164+00:00
+fetched_at: 2026-10-22T12:54:50.608260+00:00
 ---
 
 # KlingCameraControlI2VNode - ComfyUI Built-in Node Documentation - ComfyUI

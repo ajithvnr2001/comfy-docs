@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/black-forest-labs/flux-3-video/code/
 title: Use FLUX 3 Video with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:24.928940+00:00
+fetched_at: 2026-10-22T12:54:49.923016+00:00
 ---
 
 # Use FLUX 3 Video with Comfy Router - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/reference/
 title: Comfy Router API reference - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:37.122423+00:00
+fetched_at: 2026-10-22T12:54:50.457926+00:00
 ---
 
 # Comfy Router API reference - ComfyUI

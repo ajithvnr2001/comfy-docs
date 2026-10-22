@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SolidMask/
 title: SolidMask - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:03.149810+00:00
+fetched_at: 2026-10-22T12:54:51.323949+00:00
 ---
 
 # SolidMask - ComfyUI Built-in Node Documentation - ComfyUI

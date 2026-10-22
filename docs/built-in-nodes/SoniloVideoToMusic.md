@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/SoniloVideoToMusic/
 title: SoniloVideoToMusic - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:03.037911+00:00
+fetched_at: 2026-10-22T12:54:51.789658+00:00
 ---
 
 # SoniloVideoToMusic - ComfyUI Built-in Node Documentation - ComfyUI

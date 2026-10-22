@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/limitations/
 title: Comfy Router capabilities and limits - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:37.579377+00:00
+fetched_at: 2026-10-22T12:54:49.708531+00:00
 ---
 
 # Comfy Router capabilities and limits - ComfyUI

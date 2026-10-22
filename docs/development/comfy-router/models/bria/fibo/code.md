@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/fibo/code/
 title: Use Fibo with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:35:01.579322+00:00
+fetched_at: 2026-10-22T12:54:49.545554+00:00
 ---
 
 # Use Fibo with Comfy Router - ComfyUI
@@ -280,6 +280,14 @@ structured_instruction
 string
 
 A string containing the structured edit instruction in JSON format. Use this instead of instruction for precise, programmatic control.
+
+​
+
+sync
+
+boolean
+
+Must be false or omitted. Bria’s synchronous mode (true) is refused rather than forwarded, on Comfy Router and on this operation’s own `/proxy/` route: Comfy Router fixes the return mode before dispatch and polls for the result inside the call, and the `/proxy/` route returns the request_id and status_url to poll.
 
 ​
 

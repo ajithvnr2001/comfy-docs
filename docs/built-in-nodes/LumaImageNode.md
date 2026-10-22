@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/LumaImageNode/
 title: LumaImageNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:27.408734+00:00
+fetched_at: 2026-10-22T12:54:50.789967+00:00
 ---
 
 # LumaImageNode - ComfyUI Built-in Node Documentation - ComfyUI

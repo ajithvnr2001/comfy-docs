@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/llm/gemma4/gemma4/
 title: Gemma 4 ComfyUI workflow example - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-20T12:40:25.203478+00:00
+fetched_at: 2026-10-22T12:54:49.969375+00:00
 ---
 
 # Gemma 4 ComfyUI workflow example - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/OpenAIInputFiles/
 title: OpenAIInputFiles - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:39.566448+00:00
+fetched_at: 2026-10-22T12:54:51.885104+00:00
 ---
 
 # OpenAIInputFiles - ComfyUI Built-in Node Documentation - ComfyUI

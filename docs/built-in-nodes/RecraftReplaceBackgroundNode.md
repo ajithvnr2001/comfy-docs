@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/RecraftReplaceBackgroundNode/
 title: RecraftReplaceBackgroundNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:48.181098+00:00
+fetched_at: 2026-10-22T12:54:52.028481+00:00
 ---
 
 # RecraftReplaceBackgroundNode - ComfyUI Built-in Node Documentation - ComfyUI

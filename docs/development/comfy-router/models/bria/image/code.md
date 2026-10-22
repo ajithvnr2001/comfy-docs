@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/image/code/
 title: Use Image with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:35.049747+00:00
+fetched_at: 2026-10-22T12:54:48.824892+00:00
 ---
 
 # Use Image with Comfy Router - ComfyUI
@@ -268,6 +268,14 @@ structured_prompt
 string
 
 A string containing the structured prompt in JSON format, from the result of an earlier generation. Use it with the same seed to recreate that image, or change part of it to refine the image.
+
+​
+
+sync
+
+boolean
+
+Must be false or omitted. Bria’s synchronous mode (true) is refused rather than forwarded, on Comfy Router and on this operation’s own `/proxy/` route: Comfy Router fixes the return mode before dispatch and polls for the result inside the call, and the `/proxy/` route returns the request_id and status_url to poll.
 
 ​
 

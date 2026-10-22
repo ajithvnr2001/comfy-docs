@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/changelog/
 title: Changelog - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:36.306509+00:00
+fetched_at: 2026-10-22T12:54:45.623365+00:00
 ---
 
 # Changelog - ComfyUI
@@ -11,6 +11,7 @@ fetched_at: 2026-10-21T12:51:36.306509+00:00
 
 ## On this page
 
+  * v0.42.4
   * v0.42.3
   * v0.42.2
   * v0.42.1
@@ -162,6 +163,30 @@ Copy pageCopy page
 ComfyUI changelog: the latest features, improvements, and bug fixes in each release, updated as new versions ship.
 
 Copy pageCopy page
+
+​
+
+v0.42.4
+
+October 22, 2026
+
+**Partner Node Updates**
+
+  * [**VEED Fabric 1.0**](https://github.com/Comfy-Org/ComfyUI/pull/17242): Turn a still photo and a speech track into a talking, lip-synced video
+  * [**VEED Lipsync 2.0**](https://github.com/Comfy-Org/ComfyUI/pull/17242): Re-sync a speaker’s mouth in footage you already shot to a new speech track
+  * [**VEED Remove Video Background and Clean Audio**](https://github.com/Comfy-Org/ComfyUI/pull/17242): Cut a subject out of a video with an alpha matte, and clean the speech in an audio or video soundtrack
+  * [**Mirelo SFX 2.0**](https://github.com/Comfy-Org/ComfyUI/pull/17265): Sound effects from a text prompt, or timed to the action in a video
+  * [**Krea 3 Image ultra thinking mode**](https://github.com/Comfy-Org/ComfyUI/pull/17260): A slower, higher-quality mode that generates several candidates and returns the best one
+
+**Bug Fixes**
+
+  * [**HeyGen Voice 1.0 price badge**](https://github.com/Comfy-Org/ComfyUI/pull/17257): The node now shows the current price
+
+**Improvements**
+
+  * [**Templates v0.11.94**](https://github.com/Comfy-Org/ComfyUI/pull/17268)
+
+
 
 ​
 

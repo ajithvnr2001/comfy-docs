@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/krea/krea-3/code/
 title: Use Krea 3 with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:37.759403+00:00
+fetched_at: 2026-10-22T12:54:49.841957+00:00
 ---
 
 # Use Krea 3 with Comfy Router - ComfyUI

@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/RecraftTextToImageNode/
 title: RecraftTextToImageNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:48.394256+00:00
+fetched_at: 2026-10-22T12:54:51.973519+00:00
 ---
 
 # RecraftTextToImageNode - ComfyUI Built-in Node Documentation - ComfyUI

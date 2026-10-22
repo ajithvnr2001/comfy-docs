@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/basic-concepts/models/
 title: ComfyUI Models: Files, Folders, and Loader Nodes - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:47:18.318033+00:00
+fetched_at: 2026-10-22T12:54:48.977674+00:00
 ---
 
 # ComfyUI Models: Files, Folders, and Loader Nodes - ComfyUI
