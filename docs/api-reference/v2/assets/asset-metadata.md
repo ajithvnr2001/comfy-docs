@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/assets/asset-metadata/
 title: Asset metadata - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:36.806556+00:00
+fetched_at: 2026-10-23T12:33:31.836820+00:00
 ---
 
 # Asset metadata - ComfyUI
@@ -769,6 +769,7 @@ Example:
     
     
     { "client": "acme" }
+    
 
 Was this page helpful?
 

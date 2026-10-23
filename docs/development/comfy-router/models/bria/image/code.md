@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/image/code/
 title: Use Image with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:48.824892+00:00
+fetched_at: 2026-10-23T12:33:33.912978+00:00
 ---
 
 # Use Image with Comfy Router - ComfyUI

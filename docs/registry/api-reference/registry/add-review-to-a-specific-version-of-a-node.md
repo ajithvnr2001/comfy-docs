@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/registry/api-reference/registry/add-review-to-a-specific-version-of-a-node/
 title: Add review to a specific version of a node - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:46.758436+00:00
+fetched_at: 2026-10-23T12:33:30.481931+00:00
 ---
 
 # Add review to a specific version of a node - ComfyUI

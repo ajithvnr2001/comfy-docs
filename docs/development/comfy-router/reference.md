@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/reference/
 title: Comfy Router API reference - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:50.457926+00:00
+fetched_at: 2026-10-23T12:33:32.571948+00:00
 ---
 
 # Comfy Router API reference - ComfyUI
@@ -104,6 +104,14 @@ integer
 
 Number of models to return in one page.Up to 100, Default: 20
 
+​
+
+If-None-Match
+
+string
+
+The `ETag` a caller holds from an earlier `200`.
+
 **Responses**
 
 ​
@@ -112,7 +120,15 @@ Number of models to return in one page.Up to 100, Default: 20
 
 RouterModelListResponse
 
-OK - one page of the model catalog.Body: `RouterModelListResponse` — Headers: `X-Comfy-Request-Id`
+OK - one page of the model catalog.Body: `RouterModelListResponse` — Headers: `X-Comfy-Request-Id`, `ETag`, `Cache-Control`
+
+​
+
+304
+
+no body
+
+Not Modified - the page is unchanged since the `ETag` the caller sent in `If-None-Match`.Headers: `X-Comfy-Request-Id`, `ETag`, `Cache-Control`
 
 ​
 
@@ -174,6 +190,14 @@ required
 
 Model portion of the canonical `{provider}/{model}` model ID.Type: `RouterModelSegment` — Alphanumeric slug, e.g. `claude-opus-4-6`, Up to 128 characters
 
+​
+
+If-None-Match
+
+string
+
+The `ETag` a caller holds from an earlier `200`.
+
 **Responses**
 
 ​
@@ -182,7 +206,15 @@ Model portion of the canonical `{provider}/{model}` model ID.Type: `RouterModelS
 
 RouterModelDetail
 
-OK - the model’s catalog entry.Body: `RouterModelDetail` — Headers: `X-Comfy-Request-Id`
+OK - the model’s catalog entry.Body: `RouterModelDetail` — Headers: `X-Comfy-Request-Id`, `ETag`, `Cache-Control`
+
+​
+
+304
+
+no body
+
+Not Modified - the entry is unchanged since the `ETag` the caller sent in `If-None-Match`.Headers: `X-Comfy-Request-Id`, `ETag`, `Cache-Control`
 
 ​
 
@@ -396,7 +428,7 @@ The request exceeded a deadline. Check the error type before retrying.Body: `Rou
 
 `POST /v2/models/{provider}/{model}/estimate`
 
-**Price a model call before running it, without running it.** Returns what Comfy will charge for running this body on this model, in US dollars, priced from the same rate card the charge is billed against. The body is validated against the model’s input schema first, as a default run (no `strict_mode`, no `reject_unknown_fields`) validates it, so a body that fails the model’s schema is the same `422` here as on the run; nothing is dispatched to a provider and nothing is charged. The answer is not a price lock: it is priced at the rates in force at `pricing_as_of`, and a run is charged at the rates in force when it is rated. While the feature is rolling out the route answers `403` with `error_type: not_enabled`. **Parameters**
+**Price a model call before running it, without running it.** Returns a pre-flight estimate, in US dollars, of what running this body on this model will cost, priced from the same rate card the run is billed against. It is an estimate, not the final charge: the settled charge in your workspace’s usage and billing records is what you pay. The body is validated against the model’s input schema first, as a default run (no `strict_mode`, no `reject_unknown_fields`) validates it, so a body that fails the model’s schema is the same `422` here as on the run; nothing is dispatched to a provider and nothing is charged. The answer is not a price lock: it is priced at the rates in force at `pricing_as_of`, and a run is charged at the rates in force when it is rated. While the feature is rolling out the route answers `403` with `error_type: not_enabled`. **Parameters**
 
 ​
 
@@ -1119,7 +1151,15 @@ Cache-Control
 
 string
 
-Freshness directives for the served schema document.
+Freshness directives for a catalog page or entry.Sent on: `200`, `304`
+
+​
+
+Cache-Control
+
+string
+
+Freshness directives for the served schema document.Sent on: `200`, `304`
 
 ​
 
@@ -1127,7 +1167,15 @@ ETag
 
 string
 
-Strong entity tag over the served document’s bytes, for `GET /v2/models/{provider}/{model}/openapi.json`.
+Strong entity tag over the served body’s bytes, for `GET /v2/models` and `GET /v2/models/{provider}/{model}`.Sent on: `200`, `304`
+
+​
+
+ETag
+
+string
+
+Strong entity tag over the served document’s bytes, for `GET /v2/models/{provider}/{model}/openapi.json`.Sent on: `200`, `304`
 
 ​
 
@@ -1295,12 +1343,12 @@ The expensive-model calls the caller may still start; `0` on the `429`.
 
 Pre-flight cost estimates
 
-`POST /v2/models/{provider}/{model}/estimate` prices a body without running it, and a queued submit (`POST /v2/models/{provider}/{model}/requests`) returns the same `RouterCostEstimate` as `estimate` on its `201`. Both are priced from the rate card Comfy bills the run against; a run on your own provider key is not billed by Comfy (see below). While the estimate is rolling out, the route answers `403` with `error_type: not_enabled` and the submit response omits `estimate`. The catalog still carries no prices. Read `source` before any amount. A missing figure never means free.
+`POST /v2/models/{provider}/{model}/estimate` prices a body without running it, and a queued submit (`POST /v2/models/{provider}/{model}/requests`) returns the same `RouterCostEstimate` as `estimate` on its `201`. Both are priced from the rate card Comfy bills the run against. Every figure either returns is an estimate, not the final charge: the settled charge in your workspace’s usage and billing records is final. A run on your own provider key is not billed by Comfy (see below). While the estimate is rolling out, the route answers `403` with `error_type: not_enabled` and the submit response omits `estimate`. The catalog still carries no prices. Read `source` before any amount. A missing figure never means free.
 
 `source`| Carries| How to read it  
 ---|---|---  
-`exact`| `amount`, `amount_cents`, `credits`| The charge for this body at the rates in `pricing_as_of`.  
-`estimated`| `min_amount`, `max_amount` and their `_cents` forms, no `amount`| The charge depends on a quantity the provider reports back, and the body bounds it; it is expected between the two bounds.  
+`exact`| `amount`, `amount_cents`, `credits`| An estimate equal to the charge for this body at the rates in `pricing_as_of`; the settled charge in your workspace’s usage and billing records is final.  
+`estimated`| `min_amount`, `max_amount` and their `_cents` forms, no `amount`| An estimate whose charge depends on a quantity the provider reports back, and the body bounds it; the charge is expected between the bounds, and the settled charge in your workspace’s usage and billing records is final.  
 `unknown`| `reason`, no figure| No price could be given before the run. Treat any other `source` value as `unknown`.  
   
 An `unknown` estimate’s `reason` is one of:
@@ -1310,7 +1358,7 @@ An `unknown` estimate’s `reason` is one of:
   * `byok` (queued submit only): the run uses your own provider key, so Comfy bills nothing for it.
   * `pricing_unavailable` (queued submit only): the rate card could not be read when the request was admitted. The submission is still accepted and the run is charged as usual.
 
-Where the estimate fails closed:
+The models Router cannot yet price before a run are listed in [models without a pre-flight estimate](https://docs.comfy.org/development/comfy-router/limitations#models-without-a-pre-flight-estimate). A model not listed there can still answer `unknown` for a particular body, so read `source` on every estimate. Where the estimate fails closed:
 
   * When a figure needs the rate card and the card is not loaded or is stale, `/estimate` answers `503` rather than a guess. The queued submit is never refused because of its estimate; it carries `source: unknown` with `reason: pricing_unavailable` instead. A call that cannot be priced before it runs at all (`not_quotable`), or a queued submit on your own provider key (`byok`), is answered without reading the card, so that `200` says nothing about whether the card is fresh.
   * `/estimate` validates the body against the model’s own input schema as a default run does, so a body that fails the model’s schema gets the same `422`, with the same `detail[]` shape, that the run would answer. Nothing is priced or dispatched.
@@ -1372,7 +1420,7 @@ Whether a content-policy refusal is charged for this model. Treat an unknown val
 
 RouterCostEstimate
 
-What Comfy will charge for this call, priced before dispatch from the same rate card the charge is billed against, in US dollars. `source` says how much to trust the number: `exact` carries `amount`; `estimated` carries `min_amount` and `max_amount` and no `amount`; `unknown` carries neither and a `reason`. Never read an absent `amount` as free. Not a price lock: see `pricing_as_of`. **Fields**
+A pre-flight estimate of what this call will cost, in US dollars, priced before dispatch from the same rate card the run is billed against. It is not the final charge: the settled charge in your workspace’s usage and billing records is what you pay. `X-Comfy-Credits-Used`, reported after the run, is a rounded post-hoc figure, not a receipt. `source` says how much to trust the number: `exact` carries `amount`; `estimated` carries `min_amount` and `max_amount` and no `amount`; `unknown` carries neither and a `reason`. Never read an absent `amount` as free. Not a price lock: see `pricing_as_of`. **Fields**
 
 ​
 
@@ -1382,7 +1430,7 @@ string
 
 required
 
-`exact` | `estimated` | `unknown`; read any other value as `unknown`.
+`exact` | `estimated` | `unknown`; read any other value as `unknown`. `exact` and `estimated` both label an estimate; neither is the final charge. `unknown` carries no figure.
 
 ​
 
@@ -1400,7 +1448,7 @@ amount
 
 string
 
-Dollars as a decimal string, e.g. “0.04”, with up to 8 decimals and no exponent. A chargeable sub-cent price is never rendered as “0”. Present only when `source` is `exact`.
+The estimated cost in dollars as a decimal string, e.g. “0.04”, with up to 8 decimals and no exponent. A chargeable sub-cent price is never rendered as “0”. Present only when `source` is `exact`. Not the final charge: the settled charge in your workspace’s usage and billing records is.
 
 ​
 
@@ -1408,7 +1456,7 @@ min_amount
 
 string
 
-The lower bound in dollars as a decimal string. Present only when `source` is `estimated`.
+The low end of the estimate in dollars as a decimal string. It is an estimate, not a guaranteed floor: a call can be billed less, for example when the provider returns less than the request asked for (such as no images), when the estimate is a typical price learned from past calls, or when the price does not rise steadily with the amount requested. Present only when `source` is `estimated`.
 
 ​
 
@@ -1416,7 +1464,7 @@ max_amount
 
 string
 
-The upper bound in dollars as a decimal string. Present only when `source` is `estimated`.
+The high end of the estimate in dollars as a decimal string. It is an estimate, not a guaranteed cap: a call can be billed more, for example when the provider returns more than was asked (such as more images than requested), when the estimate is learned from past calls, or when the price does not rise steadily with the amount requested. Present only when `source` is `estimated`.
 
 ​
 
@@ -1448,7 +1496,7 @@ credits
 
 number
 
-`amount` in Comfy credits using the platform conversion ($1 = 211 credits), rounded to 2 decimals - the figure `X-Comfy-Credits-Used` will carry for an `exact` quote.double
+`amount` in Comfy credits using the platform conversion ($1 = 211 credits), rounded to 2 decimals - the figure `X-Comfy-Credits-Used` is expected to carry for an `exact` quote. That header is a rounded post-hoc figure, not a receipt; the settled charge in your workspace’s usage and billing records is final.double
 
 ​
 
@@ -1478,7 +1526,7 @@ string
 
 required
 
-When the rate card this quote was priced from was fetched. The run is charged at the rates in force when it is rated, not at this instant. Whenever no rate card was read (`reason: pricing_unavailable`, `byok`, or a `not_quotable` call that cannot be priced from any card), this is when the quote was answered.date-time
+When the rate card this quote was priced from was fetched. The estimate is not a price lock: the run is charged at the rates in force when it is rated, not at this instant. Whenever no rate card was read (`reason: pricing_unavailable`, `byok`, or a `not_quotable` call that cannot be priced from any card), this is when the quote was answered.date-time
 
 ​
 
@@ -1530,7 +1578,7 @@ refusal_subject
 
 string
 
-Which input or output a content-policy refusal was about, as a Router-level closed vocabulary: `input`, `output`, `input_text`, `input_image`, `input_video`, `input_audio`, `output_text`, `output_image`, `output_video`, `output_audio`. The bare `input` / `output` values name the side when the provider did not name a modality. Present only when `error_type` is `content_policy_violation` and the provider named the refused subject with a machine-readable code; absent otherwise. Never provider text. Named today for BytePlus, Runway, BFL, Gemini, Veo, Vertex, xAI and Wan refusals; a provider whose refusal does not say which side it was about leaves it absent. It mirrors the `X-Comfy-Refusal-Subject` header.
+Which input or output a content-policy refusal was about, as a Router-level closed vocabulary: `input`, `output`, `input_text`, `input_image`, `input_video`, `input_audio`, `output_text`, `output_image`, `output_video`, `output_audio`. The bare `input` / `output` values name the side when the provider did not name a modality. Present only when `error_type` is `content_policy_violation` and the provider named the refused subject with a machine-readable code; absent otherwise. Never provider text. Named today for BytePlus, Runway, BFL, Gemini, Veo, Vertex, xAI and Wan refusals, and for the MiniMax Router’s Nano Banana legs’ Gemini refusals; a provider whose refusal does not say which side it was about leaves it absent. It mirrors the `X-Comfy-Refusal-Subject` header.
 
 ### 
 
@@ -1653,6 +1701,14 @@ RouterModelBilling
 required
 
 Per-model billing facts a caller needs before invoking - not prices. Usage and cost figures never appear here.Type: `RouterModelBilling`
+
+​
+
+schema_etag
+
+string
+
+The current strong `ETag` of this model’s `GET /v2/models/{provider}/{model}/openapi.json` document. Send it as `If-None-Match` on that read to get a `304` while the schema is unchanged, or compare it with the value seen last time to learn which models’ schemas changed without fetching every document. Absent whenever that read would not answer `200` for this caller at this moment: the schema service is not available, the model’s document cannot be rendered, or the model stopped being available to this caller while the response was being built. An absent tag is not a schema change; re-read the model’s document to learn its current tag.
 
 ### 
 
@@ -1886,7 +1942,7 @@ estimate
 
 RouterCostEstimate
 
-The pre-flight cost estimate for this request, present on a fresh admission when the cost estimate is enabled for the caller. It quotes the provider leg this request was pinned to (the queue has no fallback loop, so `fallback_provider` never changes the leg that runs). When no figure can be given it is still present, with `source: unknown`; the submission never fails because of the estimate. Omitted on an idempotent replay (`Idempotent-Replayed: true`), because the original quote is not stored. It is not a price lock: the run is charged at the rates in force when it is rated.Type: `RouterCostEstimate`
+The pre-flight cost estimate for this request, present on a fresh admission when the cost estimate is enabled for the caller. It quotes the provider leg this request was pinned to (the queue has no fallback loop, so `fallback_provider` never changes the leg that runs). When no figure can be given it is still present, with `source: unknown`; the submission never fails because of the estimate. Omitted on an idempotent replay (`Idempotent-Replayed: true`), because the original quote is not stored. It is an estimate, not the final charge, and not a price lock: the run is charged at the rates in force when it is rated, and the settled charge in your workspace’s usage and billing records is final.Type: `RouterCostEstimate`
 
 ### 
 

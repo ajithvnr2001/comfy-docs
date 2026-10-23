@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/veed/lipsync-2-0/code/
 title: Use Lipsync 2.0 with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:45.096085+00:00
+fetched_at: 2026-10-23T12:33:33.527956+00:00
 ---
 
 # Use Lipsync 2.0 with Comfy Router - ComfyUI

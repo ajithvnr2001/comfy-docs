@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/Rodin3D_Regular/
 title: Rodin3D_Regular - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:52.658222+00:00
+fetched_at: 2026-10-23T12:33:34.930346+00:00
 ---
 
 # Rodin3D_Regular - ComfyUI Built-in Node Documentation - ComfyUI

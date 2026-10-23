@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/StringConcatenate/
 title: StringConcatenate - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:06.004281+00:00
+fetched_at: 2026-10-23T12:33:35.200328+00:00
 ---
 
 # StringConcatenate - ComfyUI Built-in Node Documentation - ComfyUI

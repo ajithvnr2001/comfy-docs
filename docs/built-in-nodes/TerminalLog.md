@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/TerminalLog/
 title: TerminalLog - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:08.575340+00:00
+fetched_at: 2026-10-23T12:33:35.333409+00:00
 ---
 
 # TerminalLog - ComfyUI Built-in Node Documentation - ComfyUI

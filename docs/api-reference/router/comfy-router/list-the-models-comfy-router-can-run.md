@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/router/comfy-router/list-the-models-comfy-router-can-run/
 title: List the models Comfy Router can run. - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:37.720460+00:00
+fetched_at: 2026-10-23T12:33:33.069039+00:00
 ---
 
 # List the models Comfy Router can run. - ComfyUI
@@ -131,7 +131,8 @@ cURL
           "model": "flux-2-pro",
           "billing": {
             "charges_on_policy_rejection": "unknown"
-          }
+          },
+          "schema_etag": "\"9f2c1e0b7a4d3c6e8f5a2b1d0c9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e\""
         }
       ],
       "has_more": true,
@@ -315,7 +316,8 @@ cURL
           "model": "flux-2-pro",
           "billing": {
             "charges_on_policy_rejection": "unknown"
-          }
+          },
+          "schema_etag": "\"9f2c1e0b7a4d3c6e8f5a2b1d0c9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e\""
         }
       ],
       "has_more": true,
@@ -370,6 +372,16 @@ header
 required
 
 Bearer token authentication. Normally a Firebase or Cloud JWT. A 'comfyui-' prefixed API key is also accepted in this header: the prefix classifies the value as an API key and it is validated exactly as if it had been sent in X-API-Key.
+
+#### Headers
+
+​
+
+If-None-Match
+
+string
+
+The `ETag` a caller holds from an earlier `200`. When it matches the current page (RFC 9110 weak comparison; `*` matches any current page) the answer is a bodyless `304` carrying the same `ETag`, otherwise the full page.
 
 #### Query Parameters
 

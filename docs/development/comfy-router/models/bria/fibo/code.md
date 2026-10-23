@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/bria/fibo/code/
 title: Use Fibo with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:49.545554+00:00
+fetched_at: 2026-10-23T12:33:33.665381+00:00
 ---
 
 # Use Fibo with Comfy Router - ComfyUI

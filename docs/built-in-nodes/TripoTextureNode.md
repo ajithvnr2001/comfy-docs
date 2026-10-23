@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/TripoTextureNode/
 title: TripoTextureNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:15.360670+00:00
+fetched_at: 2026-10-23T12:33:35.121549+00:00
 ---
 
 # TripoTextureNode - ComfyUI Built-in Node Documentation - ComfyUI

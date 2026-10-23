@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/Vidu2ImageToVideoNode/
 title: Vidu2ImageToVideoNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:20.085680+00:00
+fetched_at: 2026-10-23T12:33:35.003019+00:00
 ---
 
 # Vidu2ImageToVideoNode - ComfyUI Built-in Node Documentation - ComfyUI

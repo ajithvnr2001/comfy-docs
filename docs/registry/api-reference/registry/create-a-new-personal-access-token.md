@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/registry/api-reference/registry/create-a-new-personal-access-token/
 title: Create a new personal access token - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:47.667167+00:00
+fetched_at: 2026-10-23T12:33:30.995501+00:00
 ---
 
 # Create a new personal access token - ComfyUI

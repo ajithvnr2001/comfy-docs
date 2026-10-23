@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/StabilityUpscaleCreativeNode/
 title: StabilityUpscaleCreativeNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:04.411827+00:00
+fetched_at: 2026-10-23T12:33:35.295615+00:00
 ---
 
 # StabilityUpscaleCreativeNode - ComfyUI Built-in Node Documentation - ComfyUI

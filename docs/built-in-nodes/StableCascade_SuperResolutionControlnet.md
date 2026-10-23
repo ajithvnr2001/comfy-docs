@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/StableCascade_SuperResolutionControlnet/
 title: StableCascade_SuperResolutionControlnet - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:05.052151+00:00
+fetched_at: 2026-10-23T12:33:35.248231+00:00
 ---
 
 # StableCascade_SuperResolutionControlnet - ComfyUI Built-in Node Documentation - ComfyUI

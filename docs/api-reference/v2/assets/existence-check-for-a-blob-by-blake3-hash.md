@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/assets/existence-check-for-a-blob-by-blake3-hash/
 title: Existence check for a blob by blake3 hash - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:36.751608+00:00
+fetched_at: 2026-10-23T12:33:32.048901+00:00
 ---
 
 # Existence check for a blob by blake3 hash - ComfyUI
@@ -253,7 +253,7 @@ assets
 
 Copy pageCopy page
 
-`200` if the calling account can mint from this blob, `404` otherwise. Same account-scoping as `from-hash`; lets a client decide between the dedup fast-path and a full upload before sending bytes. A refusal answers its status with no body, so a `403`’s code is not readable here.
+`200` if the calling account can mint from this blob, `404` otherwise. Same account-scoping as `from-hash`; lets a client decide between the dedup fast-path and a full upload before sending bytes. Use the `hash` an upload returned: for an image whose location metadata was removed before storage, the client’s digest of the file it sent names no stored blob. A refusal answers its status with no body, so a `403`’s code is not readable here.
 
 Copy pageCopy page
 

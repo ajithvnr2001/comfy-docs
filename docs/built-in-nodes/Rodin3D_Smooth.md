@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/Rodin3D_Smooth/
 title: Rodin3D_Smooth - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:52.996792+00:00
+fetched_at: 2026-10-23T12:33:34.906917+00:00
 ---
 
 # Rodin3D_Smooth - ComfyUI Built-in Node Documentation - ComfyUI

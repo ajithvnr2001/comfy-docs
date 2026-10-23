@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/router/comfy-router/read-the-queue-state-of-one-submitted-request/
 title: Read the queue state of one submitted request. - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:36.947768+00:00
+fetched_at: 2026-10-23T12:33:32.117882+00:00
 ---
 
 # Read the queue state of one submitted request. - ComfyUI

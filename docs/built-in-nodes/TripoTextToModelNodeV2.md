@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/TripoTextToModelNodeV2/
 title: TripoTextToModelNodeV2 - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:14.975571+00:00
+fetched_at: 2026-10-23T12:33:34.871649+00:00
 ---
 
 # TripoTextToModelNodeV2 - ComfyUI Built-in Node Documentation - ComfyUI

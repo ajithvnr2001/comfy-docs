@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/
 title: Comfy Router models - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:48.612319+00:00
+fetched_at: 2026-10-23T12:33:32.238735+00:00
 ---
 
 # Comfy Router models - ComfyUI
@@ -68,7 +68,7 @@ Every model below is served by the same route, `POST /v2/models/{provider}/{mode
 
 Find by output
 
-Video (77)
+Video (78)
 
   * [SwitchX](https://docs.comfy.org/development/comfy-router/models/beeble/switchx/code): `beeble/switchx`
   * [FLUX 3 Video](https://docs.comfy.org/development/comfy-router/models/black-forest-labs/flux-3-video/code): `bfl/flux-3-video`
@@ -103,6 +103,7 @@ Video (77)
   * [Videos Video Extend](https://docs.comfy.org/development/comfy-router/models/kling/videos-video-extend/code): `kling/videos-video-extend`
   * [LTX 2.5 Fast](https://docs.comfy.org/development/comfy-router/models/ltx/ltx-2-5-fast/code): `ltx/ltx-2-5-fast`
   * [LTX 2.5 Pro](https://docs.comfy.org/development/comfy-router/models/ltx/ltx-2-5-pro/code): `ltx/ltx-2-5-pro`
+  * [Ray 3.2](https://docs.comfy.org/development/comfy-router/models/luma_2/ray-3-2/code): `luma_2/ray-3.2`
   * [Ray 2](https://docs.comfy.org/development/comfy-router/models/luma/ray-2/code): `luma/ray-2`
   * [Ray Flash 2](https://docs.comfy.org/development/comfy-router/models/luma/ray-flash-2/code): `luma/ray-flash-2`
   * [MiniMax H3](https://docs.comfy.org/development/comfy-router/models/minimax/minimax-h3/code): `minimax/minimax-h3`
@@ -150,7 +151,7 @@ Video (77)
 
 
 
-Image (89)
+Image (92)
 
   * [SwitchX](https://docs.comfy.org/development/comfy-router/models/beeble/switchx/code): `beeble/switchx`
   * [Erase V1](https://docs.comfy.org/development/comfy-router/models/black-forest-labs/erase-v1/code): `bfl/erase-v1`
@@ -170,7 +171,10 @@ Image (89)
   * [Image Edit Expand](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-expand/code): `bria/image-edit-expand`
   * [Image Edit Gen Fill](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-gen-fill/code): `bria/image-edit-gen-fill`
   * [Image Edit Increase Resolution](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-increase-resolution/code): `bria/image-edit-increase-resolution`
+  * [Image Edit Product Holding](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-product-holding/code): `bria/image-edit-product-holding`
+  * [Image Edit Product Virtual Tryon](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-product-virtual-tryon/code): `bria/image-edit-product-virtual-tryon`
   * [Image Edit Relight](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-relight/code): `bria/image-edit-relight`
+  * [Image Edit Remove Background Guided](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-remove-background-guided/code): `bria/image-edit-remove-background-guided`
   * [Image Edit Remove Background](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-remove-background/code): `bria/image-edit-remove-background`
   * [Image Edit Replace Background](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-replace-background/code): `bria/image-edit-replace-background`
   * [Image Edit Replace Object By Text](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-replace-object-by-text/code): `bria/image-edit-replace-object-by-text`
@@ -425,7 +429,10 @@ Model| ID| Input| Output
 [Image Edit Expand](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-expand/code)| `bria/image-edit-expand`| Image, Text| Image  
 [Image Edit Gen Fill](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-gen-fill/code)| `bria/image-edit-gen-fill`| Image, Text| Image  
 [Image Edit Increase Resolution](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-increase-resolution/code)| `bria/image-edit-increase-resolution`| Image| Image  
+[Image Edit Product Holding](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-product-holding/code)| `bria/image-edit-product-holding`| Image, Text| Image  
+[Image Edit Product Virtual Tryon](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-product-virtual-tryon/code)| `bria/image-edit-product-virtual-tryon`| Image, Text| Image  
 [Image Edit Relight](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-relight/code)| `bria/image-edit-relight`| Image, Text| Image  
+[Image Edit Remove Background Guided](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-remove-background-guided/code)| `bria/image-edit-remove-background-guided`| Image, Text| Image  
 [Image Edit Remove Background](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-remove-background/code)| `bria/image-edit-remove-background`| Image| Image  
 [Image Edit Replace Background](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-replace-background/code)| `bria/image-edit-replace-background`| Image, Text| Image  
 [Image Edit Replace Object By Text](https://docs.comfy.org/development/comfy-router/models/bria/image-edit-replace-object-by-text/code)| `bria/image-edit-replace-object-by-text`| Image, Text| Image  
@@ -634,6 +641,7 @@ Luma 2
 
 Model| ID| Input| Output  
 ---|---|---|---  
+[Ray 3.2](https://docs.comfy.org/development/comfy-router/models/luma_2/ray-3-2/code)| `luma_2/ray-3.2`| Text, Image, Video| Video  
 [Uni 1 Max](https://docs.comfy.org/development/comfy-router/models/luma_2/uni-1-max/code)| `luma_2/uni-1-max`| Text, Image| Image  
 [Uni 1](https://docs.comfy.org/development/comfy-router/models/luma_2/uni-1/code)| `luma_2/uni-1`| Text, Image| Image  
   

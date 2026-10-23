@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/tutorials/partner-nodes/krea/krea-3/
 title: Krea 3 in ComfyUI: Text to Image and Image Editing - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-19T14:35:06.918787+00:00
+fetched_at: 2026-10-23T12:33:29.851699+00:00
 ---
 
 # Krea 3 in ComfyUI: Text to Image and Image Editing - ComfyUI
@@ -40,7 +40,7 @@ What Krea 3 is good at
   * **Instruction-driven edits** : write the change in plain language (“replace the green car with an orange one”) and Krea 3 returns the whole image, keeping what you did not ask to change
   * **Text to image from the same node** : leave the image inputs empty and the node generates from the prompt alone
   * **Up to 8 reference images** : connect them in the order you want to address them, then mention them in the prompt as `@Image1`, `@Image2`, and so on
-  * **Two thinking modes** : `fast` is the default and the recommended setting, while `high` plans complex edits in more detail and takes longer
+  * **Three thinking modes** : `fast` is the default and the recommended setting, `high` plans complex edits in more detail and takes longer, and `ultra` generates several candidates and returns the best one
   * **Precise edits** : turn on `precise_edit` to keep everything outside the edited area unchanged
   * **Resolution control** : 1K or 2K output, with `auto` aspect ratio following the first reference image
 
@@ -125,7 +125,7 @@ Download JSON or search “Krea 3” in Template Library
   4. Adjust `aspect_ratio` and `resolution` for the output canvas
   5. Click **Queue** and compare the input with the result
 
-**More reference images** The node accepts up to 8 images. Add them in the order you want to refer to them, then mention each one in the prompt as `@Image1`, `@Image2`, and so on.
+**More reference images** The node accepts up to 8 images. Add them in the order you want to refer to them, then mention each one in the prompt as `@Image1`, `@Image2`, and so on. For a hard edit, set `thinking_mode` to `ultra`. It generates several candidates and returns the best one, always outputs 2K, needs at least one reference image, and cannot be combined with `precise_edit`.
 
 ## 
 
@@ -139,7 +139,7 @@ The **Krea 3 Image** node (`Krea3ImageNode`) exposes the following settings:
   * `prompt`: the instruction or the scene description. Refer to references as `@Image1`, `@Image2`, and so on
   * `aspect_ratio`: `auto`, or one of `1:1`, `4:5`, `3:4`, `2:3`, `9:16`, `5:4`, `4:3`, `3:2`, `16:9`, `21:9`. `auto` follows the first reference image, or the prompt when no image is connected
   * `resolution`: `1K` or `2K` output
-  * `thinking_mode`: `fast` is recommended, `high` plans complex edits in more detail and takes longer
+  * `thinking_mode`: `fast` is recommended, `high` plans complex edits in more detail and takes longer, `ultra` generates several candidates and returns the best one. `ultra` needs at least one reference image, always outputs 2K, and cannot be combined with `precise_edit`
   * `precise_edit`: keeps everything outside the edited area unchanged. It needs at least one reference image
   * `seed`: seed for the request. Krea rewrites the prompt before generating, so the same seed does not reproduce the same image
 

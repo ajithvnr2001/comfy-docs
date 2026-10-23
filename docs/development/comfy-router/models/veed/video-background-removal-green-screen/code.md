@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/veed/video-background-removal-green-screen/code/
 title: Use Video Background Removal Green Screen with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:45.020216+00:00
+fetched_at: 2026-10-23T12:33:33.789509+00:00
 ---
 
 # Use Video Background Removal Green Screen with Comfy Router - ComfyUI

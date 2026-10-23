@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/veed/fabric-1-0/code/
 title: Use Fabric 1.0 with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:44.688576+00:00
+fetched_at: 2026-10-23T12:33:34.126216+00:00
 ---
 
 # Use Fabric 1.0 with Comfy Router - ComfyUI

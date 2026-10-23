@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/registry/api-reference/registry/claim-nodeid-into-publisherid-for-the-authenticated-publisher/
 title: Claim nodeId into publisherId for the authenticated publisher - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:47.333794+00:00
+fetched_at: 2026-10-23T12:33:34.626211+00:00
 ---
 
 # Claim nodeId into publisherId for the authenticated publisher - ComfyUI

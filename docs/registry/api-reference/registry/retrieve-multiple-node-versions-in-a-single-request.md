@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/registry/api-reference/registry/retrieve-multiple-node-versions-in-a-single-request/
 title: Retrieve multiple node versions in a single request - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:46.195022+00:00
+fetched_at: 2026-10-23T12:33:34.212694+00:00
 ---
 
 # Retrieve multiple node versions in a single request - ComfyUI

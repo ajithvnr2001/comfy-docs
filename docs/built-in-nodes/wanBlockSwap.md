@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/wanBlockSwap/
 title: wanBlockSwap - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:32.921683+00:00
+fetched_at: 2026-10-23T12:33:35.268176+00:00
 ---
 
 # wanBlockSwap - ComfyUI Built-in Node Documentation - ComfyUI

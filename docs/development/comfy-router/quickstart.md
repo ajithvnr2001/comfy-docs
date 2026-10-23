@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/quickstart/
 title: Comfy Router quickstart - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:50:53.216236+00:00
+fetched_at: 2026-10-23T12:33:33.177321+00:00
 ---
 
 # Comfy Router quickstart - ComfyUI
@@ -28,9 +28,7 @@ Generate images and videos using the latest frontier media models in minutes.
 
 Copy pageCopy page
 
-Comfy Router gives you one API for hosted image and video models at `https://api.comfy.org`. Create an API key in [your Comfy workspace](https://platform.comfy.org/profile/api-keys?onboarding=router), then call any model with the official [Python and TypeScript SDKs](https://docs.comfy.org/development/api-development/sdks) or over plain HTTP. Billing is pay per use: each request draws credits from your workspace balance, with no subscription.
-
-**Using Higgsfield?** Save your own Higgsfield key and those generations bill to your Higgsfield account instead of your Comfy credits — same endpoint, same request body. See [Higgsfield with your own key](https://docs.comfy.org/development/comfy-router/higgsfield-byok).
+Comfy Router gives you one API for hosted image and video models at `https://api.comfy.org`. Create an API key in [your Comfy workspace](https://platform.comfy.org/profile/api-keys?onboarding=router), then call any model with the official [Python and TypeScript SDKs](https://docs.comfy.org/development/api-development/sdks) or over plain HTTP. Billing is pay per use: by default each request draws credits from your workspace balance, with no subscription. See [Router pricing](https://docs.comfy.org/development/comfy-router/pricing) for rates and other billing options.
 
 **Tracking spend with LiteLLM?** Router reports a synchronous run’s USD cost in the header LiteLLM reads, so you don’t maintain a price table. See [Using Comfy Router with LiteLLM](https://docs.comfy.org/development/comfy-router/litellm).
 

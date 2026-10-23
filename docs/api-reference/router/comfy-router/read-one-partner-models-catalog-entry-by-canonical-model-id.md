@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/router/comfy-router/read-one-partner-models-catalog-entry-by-canonical-model-id/
 title: Read one partner model's catalog entry by canonical model ID. - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:37.789517+00:00
+fetched_at: 2026-10-23T12:33:32.867333+00:00
 ---
 
 # Read one partner model's catalog entry by canonical model ID. - ComfyUI
@@ -130,6 +130,7 @@ cURL
       "billing": {
         "charges_on_policy_rejection": "unknown"
       },
+      "schema_etag": "\"9f2c1e0b7a4d3c6e8f5a2b1d0c9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e\"",
       "input_schema_url": "<string>"
     }
     
@@ -316,6 +317,7 @@ cURL
       "billing": {
         "charges_on_policy_rejection": "unknown"
       },
+      "schema_etag": "\"9f2c1e0b7a4d3c6e8f5a2b1d0c9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e\"",
       "input_schema_url": "<string>"
     }
     
@@ -366,6 +368,16 @@ header
 required
 
 Bearer token authentication. Normally a Firebase or Cloud JWT. A 'comfyui-' prefixed API key is also accepted in this header: the prefix classifies the value as an API key and it is validated exactly as if it had been sent in X-API-Key.
+
+#### Headers
+
+​
+
+If-None-Match
+
+string
+
+The `ETag` a caller holds from an earlier `200`. When it matches the current entry (RFC 9110 weak comparison; `*` matches any current entry) the answer is a bodyless `304` carrying the same `ETag`, otherwise the full entry.
 
 #### Path Parameters
 
@@ -480,6 +492,18 @@ required
 Per-model billing facts a caller needs before invoking - not prices. Usage and cost figures never appear here.
 
 Show child attributes
+
+​
+
+schema_etag
+
+string
+
+The current strong `ETag` of this model's `GET /v2/models/{provider}/{model}/openapi.json` document. Send it as `If-None-Match` on that read to get a `304` while the schema is unchanged, or compare it with the value seen last time to learn which models' schemas changed without fetching every document. Absent whenever that read would not answer `200` for this caller at this moment: the schema service is not available, the model's document cannot be rendered, or the model stopped being available to this caller while the response was being built. An absent tag is not a schema change; re-read the model's document to learn its current tag.
+
+Example:
+
+`"\"9f2c1e0b7a4d3c6e8f5a2b1d0c9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e\""`
 
 ​
 

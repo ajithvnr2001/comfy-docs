@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/Veo3FirstLastFrameNode/
 title: Veo3FirstLastFrameNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:18.656191+00:00
+fetched_at: 2026-10-23T12:33:35.317611+00:00
 ---
 
 # Veo3FirstLastFrameNode - ComfyUI Built-in Node Documentation - ComfyUI

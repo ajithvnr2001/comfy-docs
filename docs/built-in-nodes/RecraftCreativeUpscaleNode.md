@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/RecraftCreativeUpscaleNode/
 title: RecraftCreativeUpscaleNode - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:48:47.900593+00:00
+fetched_at: 2026-10-23T12:33:34.845445+00:00
 ---
 
 # RecraftCreativeUpscaleNode - ComfyUI Built-in Node Documentation - ComfyUI

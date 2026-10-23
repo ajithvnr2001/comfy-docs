@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/built-in-nodes/StringSubstring/
 title: StringSubstring - ComfyUI Built-in Node Documentation - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-17T10:49:06.552503+00:00
+fetched_at: 2026-10-23T12:33:35.352295+00:00
 ---
 
 # StringSubstring - ComfyUI Built-in Node Documentation - ComfyUI

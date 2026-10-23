@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/development/comfy-router/models/veed/video-background-removal/code/
 title: Use Video Background Removal with Comfy Router - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-22T12:54:45.258559+00:00
+fetched_at: 2026-10-23T12:33:34.799244+00:00
 ---
 
 # Use Video Background Removal with Comfy Router - ComfyUI

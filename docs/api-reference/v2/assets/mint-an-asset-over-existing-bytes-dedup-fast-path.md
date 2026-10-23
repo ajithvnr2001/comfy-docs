@@ -2,7 +2,7 @@
 url: https://docs.comfy.org/api-reference/v2/assets/mint-an-asset-over-existing-bytes-dedup-fast-path/
 title: Mint an asset over existing bytes (dedup fast-path) - ComfyUI
 method: scrapling+scrapegraph
-fetched_at: 2026-10-21T12:51:37.163987+00:00
+fetched_at: 2026-10-23T12:33:32.310537+00:00
 ---
 
 # Mint an asset over existing bytes (dedup fast-path) - ComfyUI
@@ -396,6 +396,8 @@ Copy pageCopy page
 Zero-byte fast-path: mints a new asset UUID over a blob the platform already has, identified by its blake3 hash.
 
 Trust boundary: resolves only against blobs the platform itself ingested and hashed, and only those the calling account is authorized to use — the client hash is a lookup key, never an authority to register new content. A miss and “exists but not yours” are deliberately indistinguishable (`404` `blob_not_found`).
+
+The lookup key is the `hash` an upload returned, which is the hash of the stored bytes. When location metadata was removed from an image before it was stored, that differs from the client’s digest of the file it sent, and the client’s digest finds nothing.
 
 Copy pageCopy page
 
@@ -844,6 +846,8 @@ Example:
 tags
 
 string[]
+
+A create carries at most 64 tags, each a non-empty UTF-8 string of at most 256 bytes (surrounding whitespace included) with no NUL byte. A deployment adds `input` to every asset and counts it, so it takes at most 63 of the caller's own; the `model_type:` tags derived for a model asset are not counted. A tag set breaking a limit is refused with 422. Invalid UTF-8 or a lone surrogate escape (e.g. `\ud800`) inside a JSON-encoded tag is not refused: JSON decoding replaces it with U+FFFD (3 bytes each), and the 256-byte limit applies to the replaced value.
 
 ​
 
